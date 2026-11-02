@@ -1,0 +1,8 @@
+NEW WINDOWS VERIFICATION (not original Opus results)
+Build: work/src/build.ps1 -> exit 0, errors 0.
+Queue regression: work/src/test_queue.py -> 9/9 PASS.
+Offline: work/src/verify_offline.py -> 32/32 processes and JSON outputs OK.
+Answer format: 31/32 outputs have 5-6 odd digits. 71095CCA36086268 produces 4 digits; retained as a visible limitation.
+Accuracy and server acceptance: NOT VERIFIED. No trusted symbol-based labels supplied.
+Original Opus source/project/template generator/run3v.txt: NOT FOUND on this machine; remote sandbox unavailable.
+No original input files were edited or deleted while preparing this handoff.
