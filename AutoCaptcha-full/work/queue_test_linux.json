@@ -1,0 +1,102 @@
+[
+ {
+  "name": "A: solved, outbox == expected",
+  "passed": true,
+  "extra": "35919"
+ },
+ {
+  "name": "A: no BOM / no newline problems (ASCII only)",
+  "passed": true,
+  "extra": ""
+ },
+ {
+  "name": "A: inbox PNG kept",
+  "passed": true,
+  "extra": ""
+ },
+ {
+  "name": "A: solved marker",
+  "passed": true,
+  "extra": ""
+ },
+ {
+  "name": "LEGACY: processing/ recovered to inbox and solved",
+  "passed": true,
+  "extra": ""
+ },
+ {
+  "name": "L6: answerLength=6 mismatch -> failed marker, no outbox",
+  "passed": true,
+  "extra": ""
+ },
+ {
+  "name": "BAD: corrupt PNG -> failed after ~10 s (not before 8 s)",
+  "passed": true,
+  "extra": "10.3s"
+ },
+ {
+  "name": "P: partial job JSON -> not answered early, answered after complete",
+  "passed": true,
+  "extra": "early=False"
+ },
+ {
+  "name": "H: partial PNG -> then complete -> correct answer, no failed",
+  "passed": true,
+  "extra": "early=False"
+ },
+ {
+  "name": "U: first answer written (len 6)",
+  "passed": true,
+  "extra": "571719"
+ },
+ {
+  "name": "U: answerLength 6->5 -> LEN_MISMATCH logged",
+  "passed": true,
+  "extra": ""
+ },
+ {
+  "name": "U: answerLength 5->6 -> LEN khop logged",
+  "passed": true,
+  "extra": ""
+ },
+ {
+  "name": "U: outbox answer unchanged by mismatch",
+  "passed": true,
+  "extra": ""
+ },
+ {
+  "name": "duplicate worker exits 0, first still alive",
+  "passed": true,
+  "extra": ""
+ },
+ {
+  "name": "independent queue runs concurrently",
+  "passed": true,
+  "extra": ""
+ },
+ {
+  "name": "kill -9 + restart reacquires mutex (2x SAN SANG)",
+  "passed": true,
+  "extra": ""
+ },
+ {
+  "name": "restart does not re-solve already solved A",
+  "passed": true,
+  "extra": "n=1"
+ },
+ {
+  "name": "no input-injection APIs in source",
+  "passed": true,
+  "extra": "[]"
+ },
+ {
+  "name": "batch 32 via queue: outbox == one-shot answers (unsolvable lengths excluded as failed)",
+  "passed": true,
+  "extra": "[('71095CCA36086268', '5357', None)]"
+ },
+ {
+  "name": "alt files same length as primary",
+  "passed": true,
+  "extra": "[]"
+ }
+]

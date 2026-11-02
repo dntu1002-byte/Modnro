@@ -1,0 +1,4 @@
+{"hash":"064937887D4981B0","legend":"k->7 l->5 q->9 %->3 V->1","top":"% l q V q","answer":"35919","conf":"medium","note":"ky tu vang tron giong O/Q, chon q (khong co o/Q trong legend); dap an tra mau 75931 bi tu choi"}
+{"hash":"06683D7C4400ED5D","legend":"h->3 d->5 c->7 K->1 P->9","top":"c d K h P","answer":"75139","conf":"low","note":"xanh la (K?), hong (h?), trang (P?) bi xoay/che nhieu"}
+{"hash":"0760890DE5F18892","legend":"&->1 p->5 l->3 E->9 H->7","top":"p H H H &","answer":"57771","conf":"medium","note":"vang cuoi giong & (khong phai E); V8.3.1 doc E -> 57779"}
+{"hash":"233AEA7A19420FEC","legend":"u->3 n->7 #->1 F->5 D->9","top":"? ? ? ? ? D","answer":null,"conf":"low","note":"dai tren che nang; LEGEND ro: u->3, F->5 nhung V8.3.1 doc U->5, P->3 (loi legend)"}

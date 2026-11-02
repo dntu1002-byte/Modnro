@@ -1,0 +1,2148 @@
+[
+ {
+  "file": "nroport-1.4.257-21360.log",
+  "hash": "35BA9D6B23FEEDB7",
+  "publish": "2026-10-31T09:10:03.3931858Z",
+  "mvd_at_publish": null,
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-10-31T09:10:03.7357867Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:10:05.7373604Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:10:07.7422465Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:10:09.7448069Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:10:11.7455947Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:10:13.7514026Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:10:15.7531896Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:10:17.7547444Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:10:19.7585105Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:10:21.7666428Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:10:23.7720910Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:10:25.7772083Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:10:27.7795390Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:10:29.7835513Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:10:31.7879150Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:10:33.7956652Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:10:35.8012962Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:10:37.8035236Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:10:39.8061684Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:10:41.8098963Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:10:43.8129940Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:10:45.8152744Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:10:47.8202749Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:10:49.8214916Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:10:51.8286304Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:10:53.8333477Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:10:55.8348450Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:10:57.8422068Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:10:59.8443122Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:11:01.8487733Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:11:03.8543536Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:11:05.8595332Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:11:07.8633656Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:11:09.8649519Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:11:11.8696232Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:11:13.8700971Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:11:15.8728839Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:11:17.8748504Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:11:19.8806688Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:11:21.8880459Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:11:23.8924477Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:11:25.8954674Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:11:27.9047623Z",
+    "answer": "377159",
+    "kind": "answer file"
+   },
+   {
+    "ts": "2026-10-31T09:11:29.9079032Z",
+    "answer": "377159",
+    "kind": "answer file"
+   }
+  ],
+  "warnings": [],
+  "inference": "OLD_PROTOCOL_UNKNOWN"
+ },
+ {
+  "file": "nroport-1.4.258-19852.log",
+  "hash": "82143FC8B60E0826",
+  "publish": "2026-10-31T09:14:43.3390587Z",
+  "mvd_at_publish": null,
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-10-31T09:14:43.4150546Z",
+    "answer": "993987",
+    "kind": "answer file"
+   }
+  ],
+  "warnings": [],
+  "inference": "OLD_PROTOCOL_UNKNOWN"
+ },
+ {
+  "file": "nroport-1.4.258-22628.log",
+  "hash": "D4EE1D49C25ABA1F",
+  "publish": "2026-10-31T09:12:51.1476658Z",
+  "mvd_at_publish": null,
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-10-31T09:12:51.4808953Z",
+    "answer": "955371",
+    "kind": "answer file"
+   }
+  ],
+  "warnings": [],
+  "inference": "OLD_PROTOCOL_UNKNOWN"
+ },
+ {
+  "file": "nroport-1.4.259-28504.log",
+  "hash": "3CE6F705C9A0DD26",
+  "publish": "2026-10-31T09:16:28.8088921Z",
+  "mvd_at_publish": null,
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-10-31T09:16:29.7207498Z",
+    "answer": "437955",
+    "kind": "answer file"
+   }
+  ],
+  "warnings": [],
+  "inference": "OLD_PROTOCOL_UNKNOWN"
+ },
+ {
+  "file": "nroport-1.4.259-3668.log",
+  "hash": "06683D7C4400ED5D",
+  "publish": "2026-10-31T09:16:36.4880864Z",
+  "mvd_at_publish": null,
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-10-31T09:16:37.4437897Z",
+    "answer": "357119",
+    "kind": "answer file"
+   }
+  ],
+  "warnings": [],
+  "inference": "OLD_PROTOCOL_UNKNOWN"
+ },
+ {
+  "file": "nroport-1.4.260-27456.log",
+  "hash": "0760890DE5F18892",
+  "publish": "2026-10-31T09:20:34.2684926Z",
+  "mvd_at_publish": null,
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-10-31T09:20:35.1223301Z",
+    "answer": "665597",
+    "kind": "answer file"
+   }
+  ],
+  "warnings": [],
+  "inference": "OLD_PROTOCOL_UNKNOWN"
+ },
+ {
+  "file": "nroport-1.4.261-14052.log",
+  "hash": "71095CCA36086268",
+  "publish": "2026-10-31T09:23:55.0397585Z",
+  "mvd_at_publish": null,
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-10-31T09:23:57.5485761Z",
+    "answer": "734669",
+    "kind": "answer file"
+   }
+  ],
+  "warnings": [],
+  "inference": "OLD_PROTOCOL_UNKNOWN"
+ },
+ {
+  "file": "nroport-1.4.261-4508.log",
+  "hash": "B89C59238F033DC3",
+  "publish": "2026-10-31T09:27:13.7755629Z",
+  "mvd_at_publish": null,
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-10-31T09:28:21.5400411Z",
+    "answer": "911377",
+    "kind": "answer file"
+   }
+  ],
+  "warnings": [],
+  "inference": "OLD_PROTOCOL_UNKNOWN"
+ },
+ {
+  "file": "nroport-1.4.262-25348.log",
+  "hash": "625440ACA3EA988D",
+  "publish": "2026-10-31T10:16:49.5710304Z",
+  "mvd_at_publish": "911377",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-10-31T10:16:52.0735668Z",
+    "answer": "733951",
+    "kind": "answer file"
+   }
+  ],
+  "warnings": [],
+  "inference": "OLD_PROTOCOL_UNKNOWN",
+  "next_mvd_same_process": "733951",
+  "next_publish_same_process": "2026-10-31T11:18:51.8412390Z"
+ },
+ {
+  "file": "nroport-1.4.262-25348.log",
+  "hash": "4D3B17F176FBF7D7",
+  "publish": "2026-10-31T11:18:51.8412390Z",
+  "mvd_at_publish": "733951",
+  "prev_submit_in_process": "733951",
+  "submits": [
+   {
+    "ts": "2026-10-31T11:26:19.9646588Z",
+    "answer": "755193",
+    "kind": "answer file"
+   }
+  ],
+  "warnings": [],
+  "inference": "OLD_PROTOCOL_UNKNOWN",
+  "next_mvd_same_process": "755193",
+  "next_publish_same_process": "2026-10-31T11:31:34.8315395Z"
+ },
+ {
+  "file": "nroport-1.4.262-25348.log",
+  "hash": "8CA52E707D438E11",
+  "publish": "2026-10-31T11:31:34.8315395Z",
+  "mvd_at_publish": "755193",
+  "prev_submit_in_process": "755193",
+  "submits": [
+   {
+    "ts": "2026-10-31T11:31:37.3389134Z",
+    "answer": "351955",
+    "kind": "answer file"
+   }
+  ],
+  "warnings": [],
+  "inference": "OLD_PROTOCOL_UNKNOWN",
+  "next_mvd_same_process": "351955",
+  "next_publish_same_process": "2026-10-31T11:37:11.0336986Z"
+ },
+ {
+  "file": "nroport-1.4.262-25348.log",
+  "hash": "382DA88D0F735323",
+  "publish": "2026-10-31T11:37:11.0336986Z",
+  "mvd_at_publish": "351955",
+  "prev_submit_in_process": "351955",
+  "submits": [
+   {
+    "ts": "2026-10-31T11:37:13.5418075Z",
+    "answer": "995517",
+    "kind": "answer file"
+   }
+  ],
+  "warnings": [],
+  "inference": "OLD_PROTOCOL_UNKNOWN",
+  "next_mvd_same_process": "995517",
+  "next_publish_same_process": "2026-10-31T11:41:07.7650520Z"
+ },
+ {
+  "file": "nroport-1.4.262-25348.log",
+  "hash": "2C1915D587ECE2EA",
+  "publish": "2026-10-31T11:41:07.7650520Z",
+  "mvd_at_publish": "995517",
+  "prev_submit_in_process": "995517",
+  "submits": [],
+  "warnings": [],
+  "inference": "NO_AUTO_SUBMIT",
+  "next_mvd_same_process": "995517",
+  "next_publish_same_process": "2026-10-31T12:04:19.7939370Z"
+ },
+ {
+  "file": "nroport-1.4.262-25348.log",
+  "hash": "78F28A05EAED1D11",
+  "publish": "2026-10-31T12:04:19.7939370Z",
+  "mvd_at_publish": "995517",
+  "prev_submit_in_process": "995517",
+  "submits": [
+   {
+    "ts": "2026-10-31T12:04:22.3013161Z",
+    "answer": "31759",
+    "kind": "answer file"
+   }
+  ],
+  "warnings": [],
+  "inference": "OLD_PROTOCOL_UNKNOWN"
+ },
+ {
+  "file": "nroport-1.4.262-27708.log",
+  "hash": "4A51FC6575834794",
+  "publish": "2026-10-31T09:38:14.0242700Z",
+  "mvd_at_publish": "911377",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-10-31T09:38:16.5290030Z",
+    "answer": "737715",
+    "kind": "answer file"
+   }
+  ],
+  "warnings": [],
+  "inference": "OLD_PROTOCOL_UNKNOWN",
+  "next_mvd_same_process": "737715",
+  "next_publish_same_process": "2026-10-31T09:42:58.3527479Z"
+ },
+ {
+  "file": "nroport-1.4.262-27708.log",
+  "hash": "5B2513E856BDF317",
+  "publish": "2026-10-31T09:42:58.3527479Z",
+  "mvd_at_publish": "737715",
+  "prev_submit_in_process": "737715",
+  "submits": [
+   {
+    "ts": "2026-10-31T09:43:00.8600212Z",
+    "answer": "135595",
+    "kind": "answer file"
+   }
+  ],
+  "warnings": [],
+  "inference": "OLD_PROTOCOL_UNKNOWN",
+  "next_mvd_same_process": "135595",
+  "next_publish_same_process": "2026-10-31T09:47:39.9253547Z"
+ },
+ {
+  "file": "nroport-1.4.262-27708.log",
+  "hash": "A050AC80BA625E7E",
+  "publish": "2026-10-31T09:47:39.9253547Z",
+  "mvd_at_publish": "135595",
+  "prev_submit_in_process": "135595",
+  "submits": [
+   {
+    "ts": "2026-10-31T09:47:42.4341515Z",
+    "answer": "755931",
+    "kind": "answer file"
+   }
+  ],
+  "warnings": [],
+  "inference": "OLD_PROTOCOL_UNKNOWN",
+  "next_mvd_same_process": "755931",
+  "next_publish_same_process": "2026-10-31T10:36:28.4030645Z"
+ },
+ {
+  "file": "nroport-1.4.262-27708.log",
+  "hash": "4FE9EF4DD23499C7",
+  "publish": "2026-10-31T10:36:28.4030645Z",
+  "mvd_at_publish": "755931",
+  "prev_submit_in_process": "755931",
+  "submits": [],
+  "warnings": [],
+  "inference": "NO_AUTO_SUBMIT",
+  "next_mvd_same_process": "733951",
+  "next_publish_same_process": "2026-10-31T11:18:34.2414069Z"
+ },
+ {
+  "file": "nroport-1.4.262-27708.log",
+  "hash": "3A6BCE1653597781",
+  "publish": "2026-10-31T11:18:34.2414069Z",
+  "mvd_at_publish": "733951",
+  "prev_submit_in_process": "755931",
+  "submits": [
+   {
+    "ts": "2026-10-31T11:22:30.7224564Z",
+    "answer": "587133",
+    "kind": "answer file"
+   }
+  ],
+  "warnings": [],
+  "inference": "OLD_PROTOCOL_UNKNOWN",
+  "next_mvd_same_process": "351955",
+  "next_publish_same_process": "2026-10-31T11:31:57.9162450Z"
+ },
+ {
+  "file": "nroport-1.4.262-27708.log",
+  "hash": "E9CB04066B876F27",
+  "publish": "2026-10-31T11:31:57.9162450Z",
+  "mvd_at_publish": "351955",
+  "prev_submit_in_process": "587133",
+  "submits": [],
+  "warnings": [],
+  "inference": "NO_AUTO_SUBMIT",
+  "next_mvd_same_process": "995517",
+  "next_publish_same_process": "2026-10-31T11:37:41.2620562Z"
+ },
+ {
+  "file": "nroport-1.4.262-27708.log",
+  "hash": "83DC31D6898414E2",
+  "publish": "2026-10-31T11:37:41.2620562Z",
+  "mvd_at_publish": "995517",
+  "prev_submit_in_process": "587133",
+  "submits": [],
+  "warnings": [],
+  "inference": "NO_AUTO_SUBMIT"
+ },
+ {
+  "file": "nroport-1.4.263-3048.log",
+  "hash": "064937887D4981B0",
+  "publish": "2026-10-31T12:49:51.3094219Z",
+  "mvd_at_publish": "31759",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-10-31T12:49:53.8162768Z",
+    "answer": "75931",
+    "kind": "lan 1"
+   },
+   {
+    "ts": "2026-10-31T12:49:58.8185067Z",
+    "answer": "759311",
+    "kind": "lan 2"
+   }
+  ],
+  "warnings": [
+   "đã gửi 2 đáp án cho 064937887D4981B0, panel vẫn mở - dừng tự gửi để tránh khóa."
+  ],
+  "inference": "FIRST_REJECTED"
+ },
+ {
+  "file": "nroport-1.4.263-5144.log",
+  "hash": "9BC81C31E0A8907F",
+  "publish": "2026-10-31T12:56:22.2408843Z",
+  "mvd_at_publish": "759311",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-10-31T12:56:24.7479554Z",
+    "answer": "73915",
+    "kind": "lan 1"
+   },
+   {
+    "ts": "2026-10-31T12:56:29.7529949Z",
+    "answer": "773915",
+    "kind": "lan 2"
+   }
+  ],
+  "warnings": [
+   "đã gửi 2 đáp án cho 9BC81C31E0A8907F, panel vẫn mở - dừng tự gửi để tránh khóa."
+  ],
+  "inference": "FIRST_REJECTED",
+  "next_mvd_same_process": "773915",
+  "next_publish_same_process": "2026-10-31T13:04:49.2786494Z"
+ },
+ {
+  "file": "nroport-1.4.263-5144.log",
+  "hash": "58EECCFC239586FD",
+  "publish": "2026-10-31T13:04:49.2786494Z",
+  "mvd_at_publish": "773915",
+  "prev_submit_in_process": "773915",
+  "submits": [
+   {
+    "ts": "2026-10-31T13:04:51.7858528Z",
+    "answer": "75391",
+    "kind": "lan 1"
+   },
+   {
+    "ts": "2026-10-31T13:04:56.7928525Z",
+    "answer": "753391",
+    "kind": "lan 2"
+   }
+  ],
+  "warnings": [
+   "đã gửi 2 đáp án cho 58EECCFC239586FD, panel vẫn mở - dừng tự gửi để tránh khóa."
+  ],
+  "inference": "FIRST_REJECTED",
+  "next_mvd_same_process": "753391",
+  "next_publish_same_process": "2026-10-31T13:08:16.1460724Z"
+ },
+ {
+  "file": "nroport-1.4.263-5144.log",
+  "hash": "FBC83B9FA176E3F0",
+  "publish": "2026-10-31T13:08:16.1460724Z",
+  "mvd_at_publish": "753391",
+  "prev_submit_in_process": "753391",
+  "submits": [
+   {
+    "ts": "2026-10-31T13:08:18.6478280Z",
+    "answer": "57193",
+    "kind": "lan 1"
+   },
+   {
+    "ts": "2026-10-31T13:08:23.6548713Z",
+    "answer": "577193",
+    "kind": "lan 2"
+   }
+  ],
+  "warnings": [
+   "đã gửi 2 đáp án cho FBC83B9FA176E3F0, panel vẫn mở - dừng tự gửi để tránh khóa."
+  ],
+  "inference": "FIRST_REJECTED",
+  "next_mvd_same_process": "577193",
+  "next_publish_same_process": "2026-10-31T13:14:18.9193525Z"
+ },
+ {
+  "file": "nroport-1.4.263-5144.log",
+  "hash": "F139E30763B42BE4",
+  "publish": "2026-10-31T13:14:18.9193525Z",
+  "mvd_at_publish": "577193",
+  "prev_submit_in_process": "577193",
+  "submits": [
+   {
+    "ts": "2026-10-31T13:14:21.4217195Z",
+    "answer": "93517",
+    "kind": "lan 1"
+   },
+   {
+    "ts": "2026-10-31T13:14:26.4246015Z",
+    "answer": "935517",
+    "kind": "lan 2"
+   }
+  ],
+  "warnings": [
+   "đã gửi 2 đáp án cho F139E30763B42BE4, panel vẫn mở - dừng tự gửi để tránh khóa."
+  ],
+  "inference": "FIRST_REJECTED",
+  "next_mvd_same_process": "935517",
+  "next_publish_same_process": "2026-10-31T13:17:11.7838526Z"
+ },
+ {
+  "file": "nroport-1.4.263-5144.log",
+  "hash": "A6A21D431DFD8016",
+  "publish": "2026-10-31T13:17:11.7838526Z",
+  "mvd_at_publish": "935517",
+  "prev_submit_in_process": "935517",
+  "submits": [
+   {
+    "ts": "2026-10-31T13:17:14.2856304Z",
+    "answer": "35719",
+    "kind": "lan 1"
+   },
+   {
+    "ts": "2026-10-31T13:17:19.2870137Z",
+    "answer": "355719",
+    "kind": "lan 2"
+   }
+  ],
+  "warnings": [
+   "đã gửi 2 đáp án cho A6A21D431DFD8016, panel vẫn mở - dừng tự gửi để tránh khóa."
+  ],
+  "inference": "FIRST_REJECTED"
+ },
+ {
+  "file": "nroport-1.4.265-21852.log",
+  "hash": "290B690468814790",
+  "publish": "2026-10-31T14:30:47.3705547Z",
+  "mvd_at_publish": "355719",
+  "prev_submit_in_process": null,
+  "submits": [],
+  "warnings": [
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "20s chưa có đáp án cho 290B690468814790 - panel vẫn mở, cần nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay."
+  ],
+  "inference": "NO_AUTO_SUBMIT"
+ },
+ {
+  "file": "nroport-1.4.265-22124.log",
+  "hash": "B59DF4E4877A5FF6",
+  "publish": "2026-10-31T14:34:34.8125254Z",
+  "mvd_at_publish": "355719",
+  "prev_submit_in_process": null,
+  "submits": [],
+  "warnings": [
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "20s chưa có đáp án cho B59DF4E4877A5FF6 - panel vẫn mở, cần nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay."
+  ],
+  "inference": "NO_AUTO_SUBMIT"
+ },
+ {
+  "file": "nroport-1.4.265-3188.log",
+  "hash": "E29687E7FFC25C33",
+  "publish": "2026-10-31T18:31:11.5937707Z",
+  "mvd_at_publish": "355719",
+  "prev_submit_in_process": null,
+  "submits": [],
+  "warnings": [
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "20s chưa có đáp án cho E29687E7FFC25C33 - panel vẫn mở, cần nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay."
+  ],
+  "inference": "NO_AUTO_SUBMIT"
+ },
+ {
+  "file": "nroport-1.4.265-6044.log",
+  "hash": "233AEA7A19420FEC",
+  "publish": "2026-10-31T18:41:54.2187098Z",
+  "mvd_at_publish": "355719",
+  "prev_submit_in_process": null,
+  "submits": [],
+  "warnings": [
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "20s chưa có đáp án cho 233AEA7A19420FEC - panel vẫn mở, cần nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay."
+  ],
+  "inference": "NO_AUTO_SUBMIT"
+ },
+ {
+  "file": "nroport-1.4.265-7420.log",
+  "hash": "BAB943E053D41402",
+  "publish": "2026-10-31T13:48:14.2745253Z",
+  "mvd_at_publish": "355719",
+  "prev_submit_in_process": null,
+  "submits": [],
+  "warnings": [
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "20s chưa có đáp án cho BAB943E053D41402 - panel vẫn mở, cần nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay."
+  ],
+  "inference": "NO_AUTO_SUBMIT"
+ },
+ {
+  "file": "nroport-1.4.284-5864.log",
+  "hash": "58B23F1F43CB0276",
+  "publish": "2026-11-01T05:07:08.4795835Z",
+  "mvd_at_publish": "951515",
+  "prev_submit_in_process": null,
+  "submits": [],
+  "warnings": [
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "20s chưa có đáp án cho 58B23F1F43CB0276 - panel vẫn mở, cần nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay."
+  ],
+  "inference": "NO_AUTO_SUBMIT"
+ },
+ {
+  "file": "nroport-1.4.285-4560.log",
+  "hash": "DD13F637588672E1",
+  "publish": "2026-11-01T05:11:42.2267764Z",
+  "mvd_at_publish": "951515",
+  "prev_submit_in_process": null,
+  "submits": [],
+  "warnings": [
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "20s chưa có đáp án cho DD13F637588672E1 - panel vẫn mở, cần nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay."
+  ],
+  "inference": "NO_AUTO_SUBMIT"
+ },
+ {
+  "file": "nroport-1.4.286-20624.log",
+  "hash": "CD379023AAECF4F5",
+  "publish": "2026-11-01T05:20:37.6003003Z",
+  "mvd_at_publish": "951515",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T05:20:40.1053153Z",
+    "answer": "77537",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.286-29676.log",
+  "hash": "CCB335382904559E",
+  "publish": "2026-11-01T05:17:13.1880461Z",
+  "mvd_at_publish": "951515",
+  "prev_submit_in_process": null,
+  "submits": [],
+  "warnings": [
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "20s chưa có đáp án cho CCB335382904559E - panel vẫn mở, cần nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay."
+  ],
+  "inference": "NO_AUTO_SUBMIT"
+ },
+ {
+  "file": "nroport-1.4.287-21512.log",
+  "hash": "CC58B575258E6D54",
+  "publish": "2026-11-01T05:26:17.2704330Z",
+  "mvd_at_publish": "77537",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T05:26:19.7800072Z",
+    "answer": "955539",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.290-11980.log",
+  "hash": "88F719957E3D2859",
+  "publish": "2026-11-01T06:19:52.7933568Z",
+  "mvd_at_publish": "175139",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T06:19:55.3000151Z",
+    "answer": "117751",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.290-21868.log",
+  "hash": "980C09526E338129",
+  "publish": "2026-11-01T06:00:57.8224860Z",
+  "mvd_at_publish": "9773",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T06:01:00.3309894Z",
+    "answer": "917197",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.290-25088.log",
+  "hash": "6EDB1D88C2F30E76",
+  "publish": "2026-11-01T06:00:59.9184789Z",
+  "mvd_at_publish": "9773",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T06:01:02.4218850Z",
+    "answer": "17953",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.290-25840.log",
+  "hash": "7CB0F5F0F930218A",
+  "publish": "2026-11-01T06:16:43.5963932Z",
+  "mvd_at_publish": "55711",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T06:16:46.1081538Z",
+    "answer": "175139",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.290-26260.log",
+  "hash": "4B060F3EC09B727E",
+  "publish": "2026-11-01T05:51:59.3142983Z",
+  "mvd_at_publish": "955539",
+  "prev_submit_in_process": null,
+  "submits": [],
+  "warnings": [
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "20s chưa có đáp án cho 4B060F3EC09B727E - panel vẫn mở, cần nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay."
+  ],
+  "inference": "NO_AUTO_SUBMIT"
+ },
+ {
+  "file": "nroport-1.4.290-30044.log",
+  "hash": "580FE1A8A74C3B46",
+  "publish": "2026-11-01T06:19:50.8214240Z",
+  "mvd_at_publish": "175139",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T06:19:53.3275457Z",
+    "answer": "915995",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.290-8184.log",
+  "hash": "600FAF48EA83A6CB",
+  "publish": "2026-11-01T06:05:58.5936433Z",
+  "mvd_at_publish": "17953",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T06:06:01.1000090Z",
+    "answer": "55711",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.290-8520.log",
+  "hash": "557DA948AF62FE85",
+  "publish": "2026-11-01T05:48:37.3240544Z",
+  "mvd_at_publish": "955539",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T05:50:32.4111800Z",
+    "answer": "9773",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "20s chưa có đáp án cho 557DA948AF62FE85 - panel vẫn mở, cần nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay."
+  ],
+  "inference": "LATE_SUBMIT_CHECK_SKIPPED"
+ },
+ {
+  "file": "nroport-1.4.291-24376.log",
+  "hash": "C4D29A1526737B06",
+  "publish": "2026-11-01T06:51:07.3779510Z",
+  "mvd_at_publish": "37111",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T06:51:09.8830336Z",
+    "answer": "93911",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.291-24744.log",
+  "hash": "1779B7C5E219FED4",
+  "publish": "2026-11-01T06:31:46.0279608Z",
+  "mvd_at_publish": "139371",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T06:31:48.5373063Z",
+    "answer": "37111",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.291-3792.log",
+  "hash": "A743190CC7D09F07",
+  "publish": "2026-11-01T06:26:29.5477247Z",
+  "mvd_at_publish": "117751",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T06:26:32.0579038Z",
+    "answer": "139371",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.296-19280.log",
+  "hash": "C6CD4785AEFBC36C",
+  "publish": "2026-11-01T08:09:47.7693958Z",
+  "mvd_at_publish": "93911",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T08:09:50.2768778Z",
+    "answer": "75319",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.296-25384.log",
+  "hash": "9E9D00466EDFCB93",
+  "publish": "2026-11-01T08:10:43.0026947Z",
+  "mvd_at_publish": "75319",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T08:10:45.5063924Z",
+    "answer": "53179",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.297-21332.log",
+  "hash": "D6B5B6530A827CA5",
+  "publish": "2026-11-01T08:14:22.9988462Z",
+  "mvd_at_publish": "37195",
+  "prev_submit_in_process": null,
+  "submits": [],
+  "warnings": [
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "20s chưa có đáp án cho D6B5B6530A827CA5 - panel vẫn mở, cần nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay."
+  ],
+  "inference": "NO_AUTO_SUBMIT"
+ },
+ {
+  "file": "nroport-1.4.297-27616.log",
+  "hash": "BF359EF02739E093",
+  "publish": "2026-11-01T08:13:08.7760034Z",
+  "mvd_at_publish": "53179",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T08:13:11.2835437Z",
+    "answer": "37195",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.297-30336.log",
+  "hash": "7038ABB25E68183E",
+  "publish": "2026-11-01T08:15:57.1741768Z",
+  "mvd_at_publish": "37195",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T08:15:59.6793413Z",
+    "answer": "93751",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.298-18784.log",
+  "hash": "84865F1C86E373DA",
+  "publish": "2026-11-01T08:44:23.5256028Z",
+  "mvd_at_publish": "93751",
+  "prev_submit_in_process": null,
+  "submits": [],
+  "warnings": [
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "20s chưa có đáp án cho 84865F1C86E373DA - panel vẫn mở, cần nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay."
+  ],
+  "inference": "NO_AUTO_SUBMIT"
+ },
+ {
+  "file": "nroport-1.4.298-29048.log",
+  "hash": "FB5D3B206757542A",
+  "publish": "2026-11-01T08:29:57.1254198Z",
+  "mvd_at_publish": "75319",
+  "prev_submit_in_process": null,
+  "submits": [],
+  "warnings": [
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "20s chưa có đáp án cho FB5D3B206757542A - panel vẫn mở, cần nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay."
+  ],
+  "inference": "NO_AUTO_SUBMIT"
+ },
+ {
+  "file": "nroport-1.4.298-3468.log",
+  "hash": "ECBD8B9658D6B346",
+  "publish": "2026-11-01T08:19:41.2768154Z",
+  "mvd_at_publish": "93751",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T08:19:43.7841751Z",
+    "answer": "75319",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.299-16480.log",
+  "hash": "E8BE07AB0E0EAA23",
+  "publish": "2026-11-01T08:59:09.9136437Z",
+  "mvd_at_publish": "75319",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T08:59:12.4267417Z",
+    "answer": "11593",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.299-28944.log",
+  "hash": "A3AFDCC98EBC49AD",
+  "publish": "2026-11-01T09:00:03.2569861Z",
+  "mvd_at_publish": "11593",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T09:00:05.7659196Z",
+    "answer": "51937",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.300-21456.log",
+  "hash": "8BD1B4D8FCB9D492",
+  "publish": "2026-11-01T09:04:35.5038848Z",
+  "mvd_at_publish": "51937",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T09:04:38.0213052Z",
+    "answer": "31597",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.301-23596.log",
+  "hash": "59FCAD78ACD21526",
+  "publish": "2026-11-01T09:23:49.5864019Z",
+  "mvd_at_publish": "975971",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T09:23:52.1012334Z",
+    "answer": "99133",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.301-27944.log",
+  "hash": "35A9E14A1EF4C092",
+  "publish": "2026-11-01T09:24:33.8096548Z",
+  "mvd_at_publish": "99133",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T09:24:36.3237580Z",
+    "answer": "397715",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.301-29560.log",
+  "hash": "835AE944215B5E2E",
+  "publish": "2026-11-01T09:34:27.0503983Z",
+  "mvd_at_publish": "397715",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T09:34:29.5593654Z",
+    "answer": "79717",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.301-29568.log",
+  "hash": "5A1412BEAED93312",
+  "publish": "2026-11-01T09:09:14.0059218Z",
+  "mvd_at_publish": "31597",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T09:09:16.5182611Z",
+    "answer": "975971",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.302-25364.log",
+  "hash": "14AE75B4C5E3D605",
+  "publish": "2026-11-01T09:38:16.8645506Z",
+  "mvd_at_publish": "79717",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T09:38:19.3699529Z",
+    "answer": "393111",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.311-33744.log",
+  "hash": "A5834717E5D8AEA3",
+  "publish": "2026-11-01T12:10:09.6413634Z",
+  "mvd_at_publish": "393111",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T12:10:12.1603792Z",
+    "answer": "939937",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.312-27380.log",
+  "hash": "A1EC9461FF543071",
+  "publish": "2026-11-01T12:12:45.8975141Z",
+  "mvd_at_publish": "939937",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T12:12:48.4131672Z",
+    "answer": "99933",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.313-11464.log",
+  "hash": "23B37C8EF8F772E3",
+  "publish": "2026-11-01T14:39:53.3892339Z",
+  "mvd_at_publish": "55159",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T14:39:55.8914962Z",
+    "answer": "13377",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.313-13516.log",
+  "hash": "541DF4546D42BABB",
+  "publish": "2026-11-01T19:04:09.3264988Z",
+  "mvd_at_publish": "13377",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T19:04:11.8405491Z",
+    "answer": "99119",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.313-27684.log",
+  "hash": "815D5E9ED00D25BF",
+  "publish": "2026-11-01T14:34:53.9784441Z",
+  "mvd_at_publish": "55795",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T14:34:56.4877838Z",
+    "answer": "55159",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.313-33552.log",
+  "hash": "9ABC91E26F432F93",
+  "publish": "2026-11-01T12:35:57.9998308Z",
+  "mvd_at_publish": "99933",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T12:36:00.5037002Z",
+    "answer": "13791",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.313-34348.log",
+  "hash": "61F19A21C05E0616",
+  "publish": "2026-11-01T14:02:38.8294462Z",
+  "mvd_at_publish": "13791",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T14:02:41.3326659Z",
+    "answer": "55795",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.313-4932.log",
+  "hash": "64704A83D9EA3520",
+  "publish": "2026-11-01T18:39:30.6917921Z",
+  "mvd_at_publish": "13377",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T18:39:33.2011675Z",
+    "answer": "57115",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.313-9920.log",
+  "hash": "335640C78BA6D8E2",
+  "publish": "2026-11-01T18:32:50.3533847Z",
+  "mvd_at_publish": "13377",
+  "prev_submit_in_process": null,
+  "submits": [],
+  "warnings": [
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "20s chưa có đáp án cho 335640C78BA6D8E2 - panel vẫn mở, cần nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.",
+   "12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay."
+  ],
+  "inference": "NO_AUTO_SUBMIT"
+ },
+ {
+  "file": "nroport-1.4.314-15772.log",
+  "hash": "7B465EFF2AD22518",
+  "publish": "2026-11-01T20:03:23.2613707Z",
+  "mvd_at_publish": "731375",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T20:03:25.7704389Z",
+    "answer": "911591",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.314-17972.log",
+  "hash": "9BFBDC2775A40937",
+  "publish": "2026-11-01T19:35:37.6642863Z",
+  "mvd_at_publish": "399351",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T19:35:40.1777610Z",
+    "answer": "51999",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.314-27096.log",
+  "hash": "4B1B22A4116D66DF",
+  "publish": "2026-11-01T19:34:49.1869836Z",
+  "mvd_at_publish": "79937",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T19:34:51.6905992Z",
+    "answer": "399351",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.314-27752.log",
+  "hash": "59D8816A7716CC8F",
+  "publish": "2026-11-01T19:20:50.1090953Z",
+  "mvd_at_publish": "395991",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T19:20:52.6160152Z",
+    "answer": "79937",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.314-28668.log",
+  "hash": "362D1D1240D4FB22",
+  "publish": "2026-11-01T19:35:41.8345263Z",
+  "mvd_at_publish": "399351",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T19:35:44.3452590Z",
+    "answer": "11173",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.314-32548.log",
+  "hash": "661147937CFCD9C8",
+  "publish": "2026-11-01T19:34:48.3907898Z",
+  "mvd_at_publish": "79937",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T19:34:50.8974624Z",
+    "answer": "53951",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.314-34612.log",
+  "hash": "1A3BD5B5643688ED",
+  "publish": "2026-11-01T20:03:18.8502668Z",
+  "mvd_at_publish": "731375",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T20:03:21.3672854Z",
+    "answer": "13595",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.314-35572.log",
+  "hash": "F9661360CE7F4549",
+  "publish": "2026-11-01T19:36:32.1946507Z",
+  "mvd_at_publish": "11173",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T19:36:34.6994816Z",
+    "answer": "731375",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ },
+ {
+  "file": "nroport-1.4.314-36564.log",
+  "hash": "115B3CB2779ECA4C",
+  "publish": "2026-11-01T19:20:37.2455439Z",
+  "mvd_at_publish": "99119",
+  "prev_submit_in_process": null,
+  "submits": [
+   {
+    "ts": "2026-11-01T19:20:39.7606082Z",
+    "answer": "395991",
+    "kind": "lan 1"
+   }
+  ],
+  "warnings": [],
+  "inference": "FIRST_LIKELY_ACCEPTED"
+ }
+]

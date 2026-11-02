@@ -1,0 +1,277 @@
+        // ===================== WORKER V8.3.2 (queue-only) =====================
+        // - Giu nguyen PNG trong inbox/ (khong move/delete); trang thai luu bang marker solved/<sha>.txt, failed/<sha>.txt
+        // - Doc jobs/<sha>.json chiu loi (file dang ghi do / bi khoa) va theo doi answerLength thay doi
+        // - Ghi outbox/<sha>.alt.txt (dap an du phong cung do dai) truoc outbox/<sha>.txt
+        public const string WorkerVersion = "V8.3.2";
+        private const double PngSettleMs = 150;      // cho plugin ghi xong PNG
+        private const double JobWaitMs = 1500;       // cho toi da job JSON hop le truoc khi giai voi len=0
+        private const double DecodeRetrySec = 10;    // PNG hong: thu lai toi da 10 s roi danh dau failed
+        private const double WatchLenSec = 120;      // theo doi answerLength sau khi da tra loi
+
+        private sealed class JobInfo
+        {
+            public bool Exists;
+            public bool Complete;
+            public int AnswerLength;
+            public DateTime WriteUtc;
+        }
+
+        private sealed class WorkItem
+        {
+            public string Sha;
+            public DateTime FirstSeenUtc;
+            public DateTime AnsweredUtc;
+            public DateTime JobWriteUtc;
+            public string Primary;
+            public string Alt;
+            public string Written;
+            public int LenUsed;
+            public bool Answered;
+            public bool Closed;
+        }
+
+        private static bool ValidAnswer(string answer, int expectedLength)
+        {
+            if (string.IsNullOrEmpty(answer) || (answer.Length != 5 && answer.Length != 6)) return false;
+            if (expectedLength > 0 && answer.Length != expectedLength) return false;
+            foreach (char c in answer) if ("13579".IndexOf(c) < 0) return false;
+            return true;
+        }
+
+        private static string ReadSharedText(string path)
+        {
+            using (FileStream fs = new FileStream(path, FileMode.Open, FileAccess.Read, FileShare.ReadWrite | FileShare.Delete))
+            using (StreamReader sr = new StreamReader(fs, Encoding.UTF8, true))
+                return sr.ReadToEnd();
+        }
+
+        // Complete=false nghia la file chua co / dang ghi do / bi khoa -> goi lai sau.
+        private static JobInfo ReadJob(string jobsDir, string sha)
+        {
+            JobInfo ji = new JobInfo();
+            string job = Path.Combine(jobsDir, sha + ".json");
+            if (!File.Exists(job)) return ji;
+            ji.Exists = true;
+            string json;
+            try
+            {
+                ji.WriteUtc = File.GetLastWriteTimeUtc(job);
+                json = ReadSharedText(job).Trim();
+            }
+            catch (IOException) { return ji; }
+            catch (UnauthorizedAccessException) { return ji; }
+            if (json.Length < 2 || json[0] != '{' || json[json.Length - 1] != '}') return ji;
+            int depth = 0; bool inStr = false; bool esc = false;
+            foreach (char c in json)
+            {
+                if (inStr) { if (esc) esc = false; else if (c == '\\') esc = true; else if (c == '"') inStr = false; continue; }
+                if (c == '"') inStr = true; else if (c == '{') depth++; else if (c == '}') depth--;
+            }
+            if (depth != 0 || inStr) return ji;
+            ji.Complete = true;
+            System.Text.RegularExpressions.Match m = System.Text.RegularExpressions.Regex.Match(json, "\"answerLength\"\\s*:\\s*\"?(\\d+)\"?");
+            int len;
+            if (m.Success && int.TryParse(m.Groups[1].Value, out len) && (len == 5 || len == 6)) ji.AnswerLength = len;
+            return ji;
+        }
+
+        private static void WriteAnswer(string path, string answer)
+        {
+            string temp = path + ".tmp";
+            File.WriteAllText(temp, answer, new UTF8Encoding(false));
+            if (File.Exists(path)) File.Replace(temp, path, null);
+            else File.Move(temp, path);
+        }
+
+        private static string PickForLength(WorkItem w, int len)
+        {
+            if (len <= 0) return w.Primary;
+            if (w.Primary != null && w.Primary.Length == len) return w.Primary;
+            if (w.Alt != null && w.Alt.Length == len) return w.Alt;
+            return null;
+        }
+
+        private static void WriteMarker(string dir, string sha, string text)
+        {
+            WriteAnswer(Path.Combine(dir, sha + ".txt"), text);
+        }
+
+        private static void RecoverLegacyProcessing(string processingDir, string inboxDir, string logPath)
+        {
+            if (!Directory.Exists(processingDir)) return;
+            foreach (string p in Directory.GetFiles(processingDir, "*.png"))
+            {
+                try
+                {
+                    string dst = Path.Combine(inboxDir, Path.GetFileName(p));
+                    if (!File.Exists(dst)) File.Copy(p, dst, false);
+                    File.Delete(p);
+                    AppendLog(logPath, "RECOVER " + Path.GetFileName(p) + " processing -> inbox");
+                }
+                catch (Exception ex) { AppendLog(logPath, "RECOVER_ERROR " + p + " | " + ex.Message); }
+            }
+        }
+
+        // Tra ve true neu da xu ly xong (tra loi hoac danh dau failed); false = thu lai vong sau.
+        private static bool TrySolve(WorkItem w, string inboxDir, string jobsDir, string outboxDir, string solvedDir, string failedDir, string queueDir, string logPath)
+        {
+            string png = Path.Combine(inboxDir, w.Sha + ".png");
+            DateTime now = DateTime.UtcNow;
+            if ((now - File.GetLastWriteTimeUtc(png)).TotalMilliseconds < PngSettleMs) return false;
+            JobInfo job = ReadJob(jobsDir, w.Sha);
+            if (!job.Complete && (now - w.FirstSeenUtc).TotalMilliseconds < JobWaitMs) return false;
+            byte[] bytes;
+            try { bytes = File.ReadAllBytes(png); }
+            catch (IOException) { return false; }
+            Stopwatch sw = Stopwatch.StartNew();
+            string fallback = null, debug = null, answer = null;
+            Exception solveError = null;
+            try { answer = SolveImageBytes(bytes, out fallback, out debug); }
+            catch (Exception ex) { solveError = ex; }
+            sw.Stop();
+            if (solveError != null)
+            {
+                if ((now - w.FirstSeenUtc).TotalSeconds < DecodeRetrySec) return false; // PNG co the dang ghi do
+                File.Copy(png, Path.Combine(failedDir, w.Sha + ".png"), true);
+                WriteMarker(failedDir, w.Sha, "error=" + solveError.GetType().Name + ": " + solveError.Message);
+                AppendLog(logPath, "FAIL " + w.Sha + " | " + solveError.GetType().Name + ": " + solveError.Message);
+                w.Closed = true;
+                return true;
+            }
+            w.Primary = answer;
+            w.Alt = (fallback != null && fallback != answer && ValidAnswer(fallback, 0)) ? fallback : null;
+            int expected = job.AnswerLength;
+            string chosen = PickForLength(w, expected);
+            if (!ValidAnswer(chosen, expected))
+            {
+                File.Copy(png, Path.Combine(failedDir, w.Sha + ".png"), true);
+                WriteMarker(failedDir, w.Sha, "invalid answer=" + answer + " alt=" + (w.Alt ?? "none") + " expected=" + expected + " | " + debug);
+                AppendLog(logPath, "FAIL " + w.Sha + " | Invalid answer/length: " + answer + " alt=" + (w.Alt ?? "none") + " expected=" + expected + " | " + debug);
+                w.Closed = true;
+                return true;
+            }
+            string other = (chosen == w.Primary) ? w.Alt : w.Primary;
+            // .alt.txt truoc: plugin chi doc no sau lan gui 1 + 5 s, va doi hoi cung do dai.
+            string altPath = Path.Combine(outboxDir, w.Sha + ".alt.txt");
+            if (other != null && other.Length == chosen.Length && ValidAnswer(other, expected)) WriteAnswer(altPath, other);
+            WriteAnswer(Path.Combine(outboxDir, w.Sha + ".txt"), chosen);
+            WriteMarker(solvedDir, w.Sha, "answer=" + chosen + " alt=" + (other ?? "none") + " len=" + expected + " utc=" + now.ToString("o"));
+            try { File.Copy(png, Path.Combine(queueDir, "last_solved.png"), true); } catch (IOException) { }
+            w.Written = chosen; w.LenUsed = expected; w.Answered = true; w.AnsweredUtc = now; w.JobWriteUtc = job.WriteUtc;
+            AppendLog(logPath, "SOLVED " + w.Sha + " -> " + chosen + " alt=" + (other ?? "none") + " len=" + expected + " (" + sw.ElapsedMilliseconds + "ms) | input=native_queue | " + debug);
+            return true;
+        }
+
+        // answerLength co the duoc plugin cap nhat sau khi worker da tra loi.
+        private static void WatchLength(WorkItem w, string jobsDir, string outboxDir, string solvedDir, string logPath)
+        {
+            DateTime now = DateTime.UtcNow;
+            if ((now - w.AnsweredUtc).TotalSeconds > WatchLenSec) { w.Closed = true; return; }
+            string job = Path.Combine(jobsDir, w.Sha + ".json");
+            DateTime wt;
+            try { if (!File.Exists(job)) return; wt = File.GetLastWriteTimeUtc(job); }
+            catch (IOException) { return; }
+            if (wt == w.JobWriteUtc) return;
+            JobInfo ji = ReadJob(jobsDir, w.Sha);
+            if (!ji.Complete) return; // dang ghi do -> vong sau
+            w.JobWriteUtc = ji.WriteUtc;
+            if (ji.AnswerLength <= 0 || ji.AnswerLength == w.LenUsed) return;
+            int newLen = ji.AnswerLength;
+            w.LenUsed = newLen;
+            string txt = Path.Combine(outboxDir, w.Sha + ".txt");
+            string alt = Path.Combine(outboxDir, w.Sha + ".alt.txt");
+            if (w.Written != null && w.Written.Length == newLen) { AppendLog(logPath, "LEN " + w.Sha + " answerLength=" + newLen + " khop dap an hien tai"); return; }
+            string pick = PickForLength(w, newLen);
+            if (pick == null)
+            {
+                AppendLog(logPath, "LEN_MISMATCH " + w.Sha + " answerLength=" + newLen + " nhung dap an=" + w.Primary + " alt=" + (w.Alt ?? "none") + " -> plugin se cho nhap tay");
+                return;
+            }
+            if (!File.Exists(txt))
+            {
+                AppendLog(logPath, "LEN " + w.Sha + " answerLength=" + newLen + " nhung plugin da lay .txt; khong ghi lai");
+                return;
+            }
+            if (File.Exists(alt)) { try { File.Delete(alt); } catch (IOException) { } }
+            WriteAnswer(txt, pick);
+            w.Written = pick;
+            WriteMarker(solvedDir, w.Sha, "answer=" + pick + " len=" + newLen + " rewritten utc=" + now.ToString("o"));
+            AppendLog(logPath, "REWRITE " + w.Sha + " answerLength=" + newLen + " -> " + pick);
+        }
+
+        public static void RunWatchLoop(string queueDir)
+        {
+            queueDir = Path.GetFullPath(queueDir).TrimEnd(Path.DirectorySeparatorChar);
+            Directory.CreateDirectory(queueDir);
+            string logPath = Path.Combine(queueDir, "solver.log");
+            string mutexId;
+            using (System.Security.Cryptography.SHA256 hash = System.Security.Cryptography.SHA256.Create())
+                mutexId = BitConverter.ToString(hash.ComputeHash(Encoding.UTF8.GetBytes(queueDir.ToUpperInvariant()))).Replace("-", "").Substring(0, 32);
+            bool ownsMutex = false;
+            using (Mutex gate = new Mutex(false, @"Local\NroAutoCaptchaQueue_" + mutexId))
+            {
+                try
+                {
+                    try { ownsMutex = gate.WaitOne(0); }
+                    catch (AbandonedMutexException) { ownsMutex = true; }
+                    if (!ownsMutex) return;
+                    string inboxDir = Path.Combine(queueDir, "inbox");
+                    string jobsDir = Path.Combine(queueDir, "jobs");
+                    string outboxDir = Path.Combine(queueDir, "outbox");
+                    string solvedDir = Path.Combine(queueDir, "solved");
+                    string failedDir = Path.Combine(queueDir, "failed");
+                    foreach (string dir in new string[] { inboxDir, jobsDir, outboxDir, solvedDir, failedDir })
+                        Directory.CreateDirectory(dir);
+                    RecoverLegacyProcessing(Path.Combine(queueDir, "processing"), inboxDir, logPath);
+                    InitBanks();
+                    AppendLog(logPath, "SAN SANG " + WorkerVersion + " | mode=native_queue | keep_inbox=true | alt=true | " + queueDir);
+                    Dictionary<string, WorkItem> items = new Dictionary<string, WorkItem>(StringComparer.OrdinalIgnoreCase);
+                    HashSet<string> done = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+                    while (true)
+                    {
+                        try
+                        {
+                            foreach (string input in Directory.GetFiles(inboxDir, "*.png"))
+                            {
+                                string sha = Path.GetFileNameWithoutExtension(input);
+                                if (done.Contains(sha)) continue;
+                                WorkItem w;
+                                if (!items.TryGetValue(sha, out w))
+                                {
+                                    if (File.Exists(Path.Combine(solvedDir, sha + ".txt")) || File.Exists(Path.Combine(failedDir, sha + ".txt")))
+                                    { done.Add(sha); continue; }
+                                    w = new WorkItem(); w.Sha = sha; w.FirstSeenUtc = DateTime.UtcNow;
+                                    items[sha] = w;
+                                }
+                                if (w.Answered || w.Closed) continue;
+                                try { TrySolve(w, inboxDir, jobsDir, outboxDir, solvedDir, failedDir, queueDir, logPath); }
+                                catch (IOException ex) { AppendLog(logPath, "RETRY " + sha + " | " + ex.Message); }
+                                catch (Exception ex)
+                                {
+                                    AppendLog(logPath, "FAIL " + sha + " | " + ex.GetType().Name + ": " + ex.Message);
+                                    try { WriteMarker(failedDir, sha, "error=" + ex.GetType().Name + ": " + ex.Message); } catch (Exception) { }
+                                    w.Closed = true;
+                                }
+                            }
+                            List<string> finished = new List<string>();
+                            foreach (KeyValuePair<string, WorkItem> kv in items)
+                            {
+                                WorkItem w = kv.Value;
+                                if (w.Answered && !w.Closed)
+                                {
+                                    try { WatchLength(w, jobsDir, outboxDir, solvedDir, logPath); }
+                                    catch (Exception ex) { AppendLog(logPath, "WATCH_ERROR " + w.Sha + " | " + ex.Message); }
+                                }
+                                if (w.Closed) finished.Add(kv.Key);
+                            }
+                            foreach (string k in finished) { items.Remove(k); done.Add(k); }
+                        }
+                        catch (Exception ex) { AppendLog(logPath, "QUEUE_ERROR: " + ex.Message); }
+                        Thread.Sleep(50);
+                    }
+                }
+                catch (Exception ex) { AppendLog(logPath, "WORKER_ERROR: " + ex.Message); throw; }
+                finally { if (ownsMutex) gate.ReleaseMutex(); }
+            }
+        }
+

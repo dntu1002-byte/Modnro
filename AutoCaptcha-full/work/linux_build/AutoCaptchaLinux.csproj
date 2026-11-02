@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Build kiểm thử offline trên Linux (.NET 8). Không thay thế build.ps1 (.NET Framework) trên Windows. -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <LangVersion>5</LangVersion>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <AssemblyName>AutoCaptcha</AssemblyName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <NoWarn>CS0168;CS0219;CS0162;CS0414</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../src/CaptchaQueue.cs" />
+  </ItemGroup>
+</Project>

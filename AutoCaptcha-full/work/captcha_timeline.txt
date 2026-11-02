@@ -1,0 +1,1006 @@
+2026-10-31T09:10:03.3931858Z [Info] [CaptchaQueue] publish 35BA9D6B23FEEDB7 5720B -> inbox/35BA9D6B23FEEDB7.png
+2026-10-31T09:10:03.4041587Z [Info] [CaptchaCapture] saved image=20261031-091003-394-35BA9D6B23FE.png format=PNG size=256x256 bytes=5720 submitted=False
+2026-10-31T09:10:03.7357867Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:10:05.7373604Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:10:07.7422465Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:10:09.7448069Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:10:11.7455947Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:10:13.7514026Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:10:15.7531896Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:10:17.7547444Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:10:19.7585105Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:10:21.7666428Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:10:23.7720910Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:10:25.7772083Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:10:27.7795390Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:10:29.7835513Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:10:31.7879150Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:10:33.7956652Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:10:35.8012962Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:10:37.8035236Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:10:39.8061684Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:10:41.8098963Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:10:43.8129940Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:10:45.8152744Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:10:47.8202749Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:10:49.8214916Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:10:51.8286304Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:10:53.8333477Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:10:55.8348450Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:10:57.8422068Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:10:59.8443122Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:11:01.8487733Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:11:03.8543536Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:11:05.8595332Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:11:07.8633656Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:11:09.8649519Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:11:11.8696232Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:11:13.8700971Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:11:15.8728839Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:11:17.8748504Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:11:19.8806688Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:11:21.8880459Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:11:23.8924477Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:11:25.8954674Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:11:27.9047623Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:11:29.9079032Z [Info] [CaptchaQueue] submit 377159 (answer file)
+2026-10-31T09:12:51.1476658Z [Info] [CaptchaQueue] publish D4EE1D49C25ABA1F 5682B -> inbox/D4EE1D49C25ABA1F.png
+2026-10-31T09:12:51.4808953Z [Info] [CaptchaQueue] submit 955371 (answer file)
+2026-10-31T09:14:43.3390587Z [Info] [CaptchaQueue] publish 82143FC8B60E0826 6004B -> inbox/82143FC8B60E0826.png
+2026-10-31T09:14:43.3507814Z [Info] [CaptchaCapture] saved image=20261031-091443-340-82143FC8B60E.png format=PNG size=256x256 bytes=6004 submitted=False
+2026-10-31T09:14:43.4150546Z [Info] [CaptchaQueue] submit 993987 (answer file)
+2026-10-31T09:16:28.8088921Z [Info] [CaptchaQueue] publish 3CE6F705C9A0DD26 5725B -> inbox/3CE6F705C9A0DD26.png
+2026-10-31T09:16:29.7207498Z [Info] [CaptchaQueue] submit 437955 (answer file)
+2026-10-31T09:16:36.4880864Z [Info] [CaptchaQueue] publish 06683D7C4400ED5D 5872B -> inbox/06683D7C4400ED5D.png
+2026-10-31T09:16:37.4437897Z [Info] [CaptchaQueue] submit 357119 (answer file)
+2026-10-31T09:20:34.2684926Z [Info] [CaptchaQueue] publish 0760890DE5F18892 5737B -> inbox/0760890DE5F18892.png
+2026-10-31T09:20:35.1223301Z [Info] [CaptchaQueue] submit 665597 (answer file)
+2026-10-31T09:23:55.0397585Z [Info] [CaptchaQueue] publish 71095CCA36086268 5782B -> inbox/71095CCA36086268.png
+2026-10-31T09:23:57.5485761Z [Info] [CaptchaQueue] submit 734669 (answer file)
+2026-10-31T09:27:13.7755629Z [Info] [CaptchaQueue] publish B89C59238F033DC3 6011B -> inbox/B89C59238F033DC3.png
+2026-10-31T09:28:21.5400411Z [Info] [CaptchaQueue] submit 911377 (answer file)
+2026-10-31T09:38:14.0242482Z [Info] [CaptchaQueue] field mvd='911377' mve='911377' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T09:38:14.0242700Z [Info] [CaptchaQueue] publish 4A51FC6575834794 5919B -> inbox/4A51FC6575834794.png
+2026-10-31T09:38:16.5290030Z [Info] [CaptchaQueue] submit 737715 (answer file)
+2026-10-31T09:42:58.3527033Z [Info] [CaptchaQueue] field mvd='737715' mve='737715' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T09:42:58.3527479Z [Info] [CaptchaQueue] publish 5B2513E856BDF317 5648B -> inbox/5B2513E856BDF317.png
+2026-10-31T09:42:58.3628332Z [Info] [CaptchaCapture] saved image=20261031-094258-353-5B2513E856BD.png format=PNG size=256x256 bytes=5648 submitted=False
+2026-10-31T09:43:00.8600212Z [Info] [CaptchaQueue] submit 135595 (answer file)
+2026-10-31T09:47:39.9253333Z [Info] [CaptchaQueue] field mvd='135595' mve='135595' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T09:47:39.9253547Z [Info] [CaptchaQueue] publish A050AC80BA625E7E 5658B -> inbox/A050AC80BA625E7E.png
+2026-10-31T09:47:39.9668729Z [Info] [CaptchaCapture] saved image=20261031-094739-926-A050AC80BA62.png format=PNG size=256x256 bytes=5658 submitted=False
+2026-10-31T09:47:42.4341515Z [Info] [CaptchaQueue] submit 755931 (answer file)
+2026-10-31T10:16:49.5710139Z [Info] [CaptchaQueue] field mvd='911377' mve='911377' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T10:16:49.5710304Z [Info] [CaptchaQueue] publish 625440ACA3EA988D 6112B -> inbox/625440ACA3EA988D.png
+2026-10-31T10:16:49.5799632Z [Info] [CaptchaCapture] saved image=20261031-101649-572-625440ACA3EA.png format=PNG size=256x256 bytes=6112 submitted=False
+2026-10-31T10:16:52.0735668Z [Info] [CaptchaQueue] submit 733951 (answer file)
+2026-10-31T10:36:28.4030481Z [Info] [CaptchaQueue] field mvd='755931' mve='755931' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T10:36:28.4030645Z [Info] [CaptchaQueue] publish 4FE9EF4DD23499C7 6137B -> inbox/4FE9EF4DD23499C7.png
+2026-10-31T10:36:28.4125543Z [Info] [CaptchaCapture] saved image=20261031-103628-403-4FE9EF4DD234.png format=PNG size=256x256 bytes=6137 submitted=False
+2026-10-31T11:18:34.2410140Z [Info] [CaptchaQueue] field mvd='733951' mve='733951' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T11:18:34.2414069Z [Info] [CaptchaQueue] publish 3A6BCE1653597781 6004B -> inbox/3A6BCE1653597781.png
+2026-10-31T11:18:35.4038398Z [Info] [CaptchaCapture] saved image=20261031-111834-258-3A6BCE165359.png format=PNG size=256x256 bytes=6004 submitted=False
+2026-10-31T11:18:51.8411734Z [Info] [CaptchaQueue] field mvd='733951' mve='733951' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T11:18:51.8412390Z [Info] [CaptchaQueue] publish 4D3B17F176FBF7D7 5921B -> inbox/4D3B17F176FBF7D7.png
+2026-10-31T11:18:52.0610225Z [Info] [CaptchaCapture] saved image=20261031-111851-845-4D3B17F176FB.png format=PNG size=256x256 bytes=5921 submitted=False
+2026-10-31T11:22:30.7224564Z [Info] [CaptchaQueue] submit 587133 (answer file)
+2026-10-31T11:26:19.9646588Z [Info] [CaptchaQueue] submit 755193 (answer file)
+2026-10-31T11:31:34.8315253Z [Info] [CaptchaQueue] field mvd='755193' mve='755193' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T11:31:34.8315395Z [Info] [CaptchaQueue] publish 8CA52E707D438E11 5883B -> inbox/8CA52E707D438E11.png
+2026-10-31T11:31:34.8414402Z [Info] [CaptchaCapture] saved image=20261031-113134-831-8CA52E707D43.png format=PNG size=256x256 bytes=5883 submitted=False
+2026-10-31T11:31:37.3389134Z [Info] [CaptchaQueue] submit 351955 (answer file)
+2026-10-31T11:31:57.9162291Z [Info] [CaptchaQueue] field mvd='351955' mve='351955' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T11:31:57.9162450Z [Info] [CaptchaQueue] publish E9CB04066B876F27 5930B -> inbox/E9CB04066B876F27.png
+2026-10-31T11:31:57.9251596Z [Info] [CaptchaCapture] saved image=20261031-113157-916-E9CB04066B87.png format=PNG size=256x256 bytes=5930 submitted=False
+2026-10-31T11:37:11.0336806Z [Info] [CaptchaQueue] field mvd='351955' mve='351955' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T11:37:11.0336986Z [Info] [CaptchaQueue] publish 382DA88D0F735323 6193B -> inbox/382DA88D0F735323.png
+2026-10-31T11:37:11.0380745Z [Info] [CaptchaCapture] saved image=20261031-113711-034-382DA88D0F73.png format=PNG size=256x256 bytes=6193 submitted=False
+2026-10-31T11:37:13.5418075Z [Info] [CaptchaQueue] submit 995517 (answer file)
+2026-10-31T11:37:41.2620339Z [Info] [CaptchaQueue] field mvd='995517' mve='995517' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T11:37:41.2620562Z [Info] [CaptchaQueue] publish 83DC31D6898414E2 5966B -> inbox/83DC31D6898414E2.png
+2026-10-31T11:37:41.2691285Z [Info] [CaptchaCapture] saved image=20261031-113741-262-83DC31D68984.png format=PNG size=256x256 bytes=5966 submitted=False
+2026-10-31T11:41:07.7650396Z [Info] [CaptchaQueue] field mvd='995517' mve='995517' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T11:41:07.7650520Z [Info] [CaptchaQueue] publish 2C1915D587ECE2EA 5656B -> inbox/2C1915D587ECE2EA.png
+2026-10-31T11:41:07.7725699Z [Info] [CaptchaCapture] saved image=20261031-114107-765-2C1915D587EC.png format=PNG size=256x256 bytes=5656 submitted=False
+2026-10-31T12:04:19.7939246Z [Info] [CaptchaQueue] field mvd='995517' mve='995517' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T12:04:19.7939370Z [Info] [CaptchaQueue] publish 78F28A05EAED1D11 6149B -> inbox/78F28A05EAED1D11.png
+2026-10-31T12:04:19.8013563Z [Info] [CaptchaCapture] saved image=20261031-120419-794-78F28A05EAED.png format=PNG size=256x256 bytes=6149 submitted=False
+2026-10-31T12:04:22.3013161Z [Info] [CaptchaQueue] submit 31759 (answer file)
+2026-10-31T12:49:51.3093895Z [Info] [CaptchaQueue] field mvd='31759' mve='31759' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T12:49:51.3094219Z [Info] [CaptchaQueue] publish 064937887D4981B0 5456B -> inbox/064937887D4981B0.png
+2026-10-31T12:49:51.3183773Z [Info] [CaptchaCapture] saved image=20261031-124951-311-064937887D49.png format=PNG size=256x256 bytes=5456 submitted=False
+2026-10-31T12:49:53.8162768Z [Info] [CaptchaQueue] submit 75931 (lan 1)
+2026-10-31T12:49:58.8175105Z [Info] [CaptchaQueue] thử lại với đáp án dự phòng 759311 (đáp án đầu 75931 chưa đóng panel).
+2026-10-31T12:49:58.8185067Z [Info] [CaptchaQueue] submit 759311 (lan 2)
+2026-10-31T12:49:58.8256817Z [Warning] [CaptchaQueue] đã gửi 2 đáp án cho 064937887D4981B0, panel vẫn mở - dừng tự gửi để tránh khóa.
+2026-10-31T12:56:22.2408382Z [Info] [CaptchaQueue] field mvd='759311' mve='759311' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T12:56:22.2408843Z [Info] [CaptchaQueue] publish 9BC81C31E0A8907F 5711B -> inbox/9BC81C31E0A8907F.png
+2026-10-31T12:56:22.2539163Z [Info] [CaptchaCapture] saved image=20261031-125622-242-9BC81C31E0A8.png format=PNG size=256x256 bytes=5711 submitted=False
+2026-10-31T12:56:24.7479554Z [Info] [CaptchaQueue] submit 73915 (lan 1)
+2026-10-31T12:56:29.7499303Z [Info] [CaptchaQueue] thử lại với đáp án dự phòng 773915 (đáp án đầu 73915 chưa đóng panel).
+2026-10-31T12:56:29.7529949Z [Info] [CaptchaQueue] submit 773915 (lan 2)
+2026-10-31T12:56:29.7592995Z [Warning] [CaptchaQueue] đã gửi 2 đáp án cho 9BC81C31E0A8907F, panel vẫn mở - dừng tự gửi để tránh khóa.
+2026-10-31T13:04:49.2785763Z [Info] [CaptchaQueue] field mvd='773915' mve='773915' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T13:04:49.2786494Z [Info] [CaptchaQueue] publish 58EECCFC239586FD 6070B -> inbox/58EECCFC239586FD.png
+2026-10-31T13:04:49.2857340Z [Info] [CaptchaCapture] saved image=20261031-130449-279-58EECCFC2395.png format=PNG size=256x256 bytes=6070 submitted=False
+2026-10-31T13:04:51.7858528Z [Info] [CaptchaQueue] submit 75391 (lan 1)
+2026-10-31T13:04:56.7923358Z [Info] [CaptchaQueue] thử lại với đáp án dự phòng 753391 (đáp án đầu 75391 chưa đóng panel).
+2026-10-31T13:04:56.7928525Z [Info] [CaptchaQueue] submit 753391 (lan 2)
+2026-10-31T13:04:56.8005783Z [Warning] [CaptchaQueue] đã gửi 2 đáp án cho 58EECCFC239586FD, panel vẫn mở - dừng tự gửi để tránh khóa.
+2026-10-31T13:08:16.1460569Z [Info] [CaptchaQueue] field mvd='753391' mve='753391' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T13:08:16.1460724Z [Info] [CaptchaQueue] publish FBC83B9FA176E3F0 6082B -> inbox/FBC83B9FA176E3F0.png
+2026-10-31T13:08:16.1553542Z [Info] [CaptchaCapture] saved image=20261031-130816-146-FBC83B9FA176.png format=PNG size=256x256 bytes=6082 submitted=False
+2026-10-31T13:08:18.6478280Z [Info] [CaptchaQueue] submit 57193 (lan 1)
+2026-10-31T13:08:23.6534616Z [Info] [CaptchaQueue] thử lại với đáp án dự phòng 577193 (đáp án đầu 57193 chưa đóng panel).
+2026-10-31T13:08:23.6548713Z [Info] [CaptchaQueue] submit 577193 (lan 2)
+2026-10-31T13:08:23.6607190Z [Warning] [CaptchaQueue] đã gửi 2 đáp án cho FBC83B9FA176E3F0, panel vẫn mở - dừng tự gửi để tránh khóa.
+2026-10-31T13:14:18.9193293Z [Info] [CaptchaQueue] field mvd='577193' mve='577193' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T13:14:18.9193525Z [Info] [CaptchaQueue] publish F139E30763B42BE4 5858B -> inbox/F139E30763B42BE4.png
+2026-10-31T13:14:18.9275592Z [Info] [CaptchaCapture] saved image=20261031-131418-920-F139E30763B4.png format=PNG size=256x256 bytes=5858 submitted=False
+2026-10-31T13:14:21.4217195Z [Info] [CaptchaQueue] submit 93517 (lan 1)
+2026-10-31T13:14:26.4231445Z [Info] [CaptchaQueue] thử lại với đáp án dự phòng 935517 (đáp án đầu 93517 chưa đóng panel).
+2026-10-31T13:14:26.4246015Z [Info] [CaptchaQueue] submit 935517 (lan 2)
+2026-10-31T13:14:26.4314600Z [Warning] [CaptchaQueue] đã gửi 2 đáp án cho F139E30763B42BE4, panel vẫn mở - dừng tự gửi để tránh khóa.
+2026-10-31T13:17:11.7838383Z [Info] [CaptchaQueue] field mvd='935517' mve='935517' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T13:17:11.7838526Z [Info] [CaptchaQueue] publish A6A21D431DFD8016 6164B -> inbox/A6A21D431DFD8016.png
+2026-10-31T13:17:11.7912483Z [Info] [CaptchaCapture] saved image=20261031-131711-784-A6A21D431DFD.png format=PNG size=256x256 bytes=6164 submitted=False
+2026-10-31T13:17:14.2856304Z [Info] [CaptchaQueue] submit 35719 (lan 1)
+2026-10-31T13:17:19.2863179Z [Info] [CaptchaQueue] thử lại với đáp án dự phòng 355719 (đáp án đầu 35719 chưa đóng panel).
+2026-10-31T13:17:19.2870137Z [Info] [CaptchaQueue] submit 355719 (lan 2)
+2026-10-31T13:17:19.2944508Z [Warning] [CaptchaQueue] đã gửi 2 đáp án cho A6A21D431DFD8016, panel vẫn mở - dừng tự gửi để tránh khóa.
+2026-10-31T13:48:10.4001503Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-10-31T13:48:14.2745083Z [Info] [CaptchaQueue] field mvd='355719' mve='355719' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T13:48:14.2745253Z [Info] [CaptchaQueue] publish BAB943E053D41402 6107B -> inbox/BAB943E053D41402.png
+2026-10-31T13:48:22.4077820Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T13:48:34.2702284Z [Warning] [CaptchaQueue] 20s chưa có đáp án cho BAB943E053D41402 - panel vẫn mở, cần nhập tay.
+2026-10-31T13:48:34.7952613Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T13:48:47.5574371Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T13:48:59.6419333Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T13:49:11.8109779Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T13:49:24.2941573Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T13:51:03.5703769Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T13:51:15.9314700Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T13:51:28.1544532Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T13:51:41.4970965Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T13:51:53.5695943Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T13:53:07.7821848Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T13:54:09.2196444Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T13:54:21.2319445Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T13:54:33.4269744Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T13:54:45.4776379Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T13:55:59.3697457Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T13:56:11.3974843Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T13:56:26.0095199Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T13:56:41.4220844Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T13:56:58.0510331Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T13:57:10.7048813Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T13:57:22.7955206Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T13:57:37.6508772Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T13:57:49.9085426Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:30:47.3705268Z [Info] [CaptchaQueue] field mvd='355719' mve='355719' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T14:30:47.3705547Z [Info] [CaptchaQueue] publish 290B690468814790 6153B -> inbox/290B690468814790.png
+2026-10-31T14:30:47.3729988Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-10-31T14:30:47.3917438Z [Info] [CaptchaCapture] saved image=20261031-143047-372-290B69046881.png format=PNG size=256x256 bytes=6153 submitted=False
+2026-10-31T14:30:59.3742287Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:31:07.3675329Z [Warning] [CaptchaQueue] 20s chưa có đáp án cho 290B690468814790 - panel vẫn mở, cần nhập tay.
+2026-10-31T14:31:11.5792386Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:31:23.5978576Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:31:36.6344926Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:31:48.6637977Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:32:00.6876568Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:32:12.8970632Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:32:25.2492920Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:32:37.3767772Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:32:49.8768368Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:33:02.0661357Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:33:14.1667528Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:33:26.2201552Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:33:39.0707644Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:33:51.0770722Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:34:03.1280092Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:34:15.1931323Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:34:27.3749076Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:34:34.8125086Z [Info] [CaptchaQueue] field mvd='355719' mve='355719' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T14:34:34.8125254Z [Info] [CaptchaQueue] publish B59DF4E4877A5FF6 5984B -> inbox/B59DF4E4877A5FF6.png
+2026-10-31T14:34:34.8143664Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-10-31T14:34:34.8225310Z [Info] [CaptchaCapture] saved image=20261031-143434-814-B59DF4E4877A.png format=PNG size=256x256 bytes=5984 submitted=False
+2026-10-31T14:34:39.3982326Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:34:46.8218981Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:34:51.7535220Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:34:54.8124514Z [Warning] [CaptchaQueue] 20s chưa có đáp án cho B59DF4E4877A5FF6 - panel vẫn mở, cần nhập tay.
+2026-10-31T14:34:58.9317431Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:35:03.7987253Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:35:11.0072073Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:35:16.0759857Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:35:23.0374673Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:35:29.1747217Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:35:36.7271332Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:35:41.1804707Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:35:48.8221086Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:35:53.5090064Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:36:00.8329056Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:36:05.7224642Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:36:12.9417895Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:36:17.9195283Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:36:25.0441877Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:36:30.9406828Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:36:37.1670019Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:36:43.0382373Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:36:51.0204713Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:36:55.1577242Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:37:03.0541392Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:37:07.2117348Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:37:15.1639639Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:37:21.7489359Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:37:27.2582550Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:37:33.9137754Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:37:41.5907963Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:37:46.3150457Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:37:53.6518835Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:37:58.3874207Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:38:07.2673015Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:38:13.9002238Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:38:19.3591269Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:38:25.9902250Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:38:31.4362111Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:38:40.0690145Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:38:43.4440582Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:38:53.0922778Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:38:55.4901404Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:39:05.2135617Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:39:07.5603831Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:39:17.8944941Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:39:20.1954933Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:39:30.1877817Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:39:32.2526761Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:39:42.3127492Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:39:45.2787462Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:39:56.3741604Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:39:57.3305805Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:40:08.4931067Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:40:09.4054390Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:40:21.6513086Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:40:22.4984190Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:40:33.7806628Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:40:34.5108016Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:40:46.1481439Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:40:46.5141237Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:40:59.0061866Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:40:59.0098488Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:41:11.0639106Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:41:11.0777379Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:41:23.1309054Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:41:23.1986694Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:41:35.1413964Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:41:35.4844160Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:41:47.1489899Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:41:47.5737433Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:42:00.4261112Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:42:00.8493977Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:42:12.7076570Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:42:13.4827474Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:42:24.7185327Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:42:25.5523076Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:42:36.8507327Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:42:39.9388651Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:42:49.0724532Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:42:51.9616911Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:43:01.0823344Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:43:04.1343376Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:43:13.2814580Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:43:16.4615576Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:43:25.4115545Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:43:28.5572629Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:43:37.4657218Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:43:41.7936226Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:43:51.6703074Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:43:54.0582017Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:44:03.6753792Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:44:06.1461603Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:44:15.8099657Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:44:18.3456915Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:44:28.0832611Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:44:30.7001707Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:44:40.1951991Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:44:44.1135681Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:44:56.1166316Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:45:08.2382971Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:45:20.3390662Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:45:32.6522897Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:45:44.9532541Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:45:54.4328658Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:45:56.9813612Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:46:06.5577841Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:46:09.4704086Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:46:19.4389739Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:46:21.6407781Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:46:32.4944051Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:46:34.2488829Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:46:44.6027718Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:46:46.4684291Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:46:56.6375724Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:46:59.9157544Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:47:09.8495088Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:47:12.0930894Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:47:21.8974248Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:47:24.1370249Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:47:33.9031830Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:47:36.8215132Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:47:45.9394742Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:47:49.0115064Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:47:58.0360510Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T14:48:10.0427005Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:31:11.5937414Z [Info] [CaptchaQueue] field mvd='355719' mve='355719' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T18:31:11.5937707Z [Info] [CaptchaQueue] publish E29687E7FFC25C33 5711B -> inbox/E29687E7FFC25C33.png
+2026-10-31T18:31:11.5973575Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-10-31T18:31:11.6359505Z [Info] [CaptchaCapture] saved image=20261031-183111-596-E29687E7FFC2.png format=PNG size=256x256 bytes=5711 submitted=False
+2026-10-31T18:31:23.5994636Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:31:31.5879929Z [Warning] [CaptchaQueue] 20s chưa có đáp án cho E29687E7FFC25C33 - panel vẫn mở, cần nhập tay.
+2026-10-31T18:31:35.8368612Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:31:47.9314956Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:31:59.9377969Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:32:13.2512945Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:32:25.6360282Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:32:38.0222891Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:32:50.1121727Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:33:02.7506449Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:33:17.0156283Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:33:29.2868520Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:33:41.4157692Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:33:53.8511871Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:34:06.0572216Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:34:18.1818892Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:34:30.3215415Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:34:42.4157261Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:34:56.7444089Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:35:08.7684092Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:35:20.8261004Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:35:32.9520272Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:35:45.0677902Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:35:57.1393915Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:36:09.1792149Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:36:21.3689230Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:36:33.5513833Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:36:46.0147501Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:36:58.4893478Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:37:10.5874770Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:37:22.7330821Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:37:35.2133872Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:37:47.3335762Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:37:59.5225168Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:38:11.5244567Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:38:23.5614434Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:38:36.1539745Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:38:48.2716024Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:39:00.4129975Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:39:12.4570832Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:39:24.4755165Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:39:36.4771602Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:39:48.8099248Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:40:00.8873517Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:40:12.9807205Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:40:25.0132203Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:40:37.3652108Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:40:50.3544140Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:41:02.4934336Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:41:14.7361481Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:41:26.8697710Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:41:38.9111988Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:41:51.1914363Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:41:54.2186821Z [Info] [CaptchaQueue] field mvd='355719' mve='355719' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T18:41:54.2187098Z [Info] [CaptchaQueue] publish 233AEA7A19420FEC 6098B -> inbox/233AEA7A19420FEC.png
+2026-10-31T18:41:54.2209802Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-10-31T18:41:54.2359597Z [Info] [CaptchaCapture] saved image=20261031-184154-220-233AEA7A1942.png format=PNG size=256x256 bytes=6098 submitted=False
+2026-10-31T18:42:03.9848270Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:42:06.2300453Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:42:14.2180472Z [Warning] [CaptchaQueue] 20s chưa có đáp án cho 233AEA7A19420FEC - panel vẫn mở, cần nhập tay.
+2026-10-31T18:42:16.1423984Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:42:19.1355592Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:42:28.1868688Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:42:31.8903056Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:42:40.2079423Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:42:44.2908053Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:42:52.3223151Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:42:56.7087805Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:43:06.1818616Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:43:08.8803520Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:43:18.2219526Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:43:20.9551133Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:43:30.4108910Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:43:33.0429370Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:43:42.4533953Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:43:45.3435315Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:43:54.4760268Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:43:57.8440259Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:44:06.6425569Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:44:10.0952414Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:44:18.7240588Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:44:22.4164757Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:44:30.7961932Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:44:34.5862146Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:44:42.9129175Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:44:46.9071939Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:44:55.3421478Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:44:59.0143344Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:45:07.5196385Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:45:11.1480585Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:45:19.5354140Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:45:23.2051866Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:45:31.5444649Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:45:35.3740755Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:45:43.6563947Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:45:48.1124982Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:45:55.9134787Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:46:00.1234293Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:46:08.4230494Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:46:12.6875374Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:46:20.5023946Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:46:25.0818125Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:46:32.9703199Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:46:37.2104589Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:46:46.0996920Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:46:49.9826045Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:46:58.3249181Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:47:02.2281870Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:47:10.4062572Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:47:15.8696406Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:47:22.5013714Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:47:28.0938578Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:47:34.8564855Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:47:40.1081144Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:47:47.0110177Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:47:52.5946034Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:47:59.0994953Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:48:04.9752897Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:48:11.1826208Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:48:17.3529075Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:48:23.4449292Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:48:29.4250114Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:48:35.4870901Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:48:41.6350909Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:48:47.5284472Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:48:53.6540379Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:48:59.5582179Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:49:06.1282374Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:49:11.6403650Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:49:18.6174214Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:49:23.6999184Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:49:30.7306255Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:49:35.9870807Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:49:42.8431947Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:49:48.2069832Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:49:54.9667041Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:50:00.3879700Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:50:07.2122275Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:50:12.4618421Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:50:19.2977330Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-10-31T18:50:24.7262815Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:07:04.1399490Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T05:07:08.4795685Z [Info] [CaptchaQueue] field mvd='951515' mve='951515' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T05:07:08.4795835Z [Info] [CaptchaQueue] publish 58B23F1F43CB0276 5871B -> inbox/58B23F1F43CB0276.png
+2026-11-01T05:07:16.1453161Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:07:28.4837149Z [Warning] [CaptchaQueue] 20s chưa có đáp án cho 58B23F1F43CB0276 - panel vẫn mở, cần nhập tay.
+2026-11-01T05:07:29.1730236Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:08:16.8063335Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:08:28.8312863Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:08:40.9347035Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:08:53.0633260Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:09:09.1748407Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:09:21.5397114Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:09:33.8312840Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:09:46.3897004Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:09:58.4168776Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:10:10.5931041Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:10:22.8959598Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:10:34.8977903Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:10:47.0423946Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:10:59.1142866Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:11:38.3278710Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T05:11:42.2267589Z [Info] [CaptchaQueue] field mvd='951515' mve='951515' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T05:11:42.2267764Z [Info] [CaptchaQueue] publish DD13F637588672E1 6023B -> inbox/DD13F637588672E1.png
+2026-11-01T05:11:50.3342606Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:12:02.2238154Z [Warning] [CaptchaQueue] 20s chưa có đáp án cho DD13F637588672E1 - panel vẫn mở, cần nhập tay.
+2026-11-01T05:12:02.8824597Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:12:15.4159305Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:12:28.5286287Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:12:40.5940786Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:13:19.0889736Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:13:31.1406797Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:13:43.2805889Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:13:55.7961471Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:14:07.9750557Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:14:20.6157563Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:14:32.6816247Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:14:45.1326697Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:14:57.5860785Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:15:10.3065120Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:15:22.3736826Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:15:34.6527721Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:15:46.8152147Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:15:58.9157608Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:16:11.3568973Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:16:23.8299839Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:17:09.0653448Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T05:17:13.1880268Z [Info] [CaptchaQueue] field mvd='951515' mve='951515' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T05:17:13.1880461Z [Info] [CaptchaQueue] publish CCB335382904559E 5850B -> inbox/CCB335382904559E.png
+2026-11-01T05:17:21.0719170Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:17:33.1344494Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:17:33.1927753Z [Warning] [CaptchaQueue] 20s chưa có đáp án cho CCB335382904559E - panel vẫn mở, cần nhập tay.
+2026-11-01T05:17:45.1871785Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:17:57.4044462Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:18:09.4198269Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:18:49.1913312Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:19:01.2582427Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:19:13.4824729Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:19:25.5802154Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:19:37.7820154Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:19:50.0746963Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:20:33.1740811Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T05:20:37.6002807Z [Info] [CaptchaQueue] field mvd='951515' mve='951515' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T05:20:37.6003003Z [Info] [CaptchaQueue] publish CD379023AAECF4F5 5635B -> inbox/CD379023AAECF4F5.png
+2026-11-01T05:20:40.1053153Z [Info] [CaptchaQueue] submit 77537 (lan 1)
+2026-11-01T05:26:12.8361289Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T05:26:17.2704201Z [Info] [CaptchaQueue] field mvd='77537' mve='77537' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T05:26:17.2704330Z [Info] [CaptchaQueue] publish CC58B575258E6D54 5894B -> inbox/CC58B575258E6D54.png
+2026-11-01T05:26:19.7800072Z [Info] [CaptchaQueue] submit 955539 (lan 1)
+2026-11-01T05:48:32.5447632Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T05:48:37.3240373Z [Info] [CaptchaQueue] field mvd='955539' mve='955539' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T05:48:37.3240544Z [Info] [CaptchaQueue] publish 557DA948AF62FE85 5814B -> inbox/557DA948AF62FE85.png
+2026-11-01T05:48:44.5530098Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:48:56.6439595Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:48:57.3277616Z [Warning] [CaptchaQueue] 20s chưa có đáp án cho 557DA948AF62FE85 - panel vẫn mở, cần nhập tay.
+2026-11-01T05:49:08.7763839Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:49:20.8113804Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:49:33.1978566Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:49:45.7390556Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:49:58.1333274Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:50:10.4583975Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:50:23.2959995Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:50:32.4111800Z [Info] [CaptchaQueue] submit 9773 (lan 1)
+2026-11-01T05:51:59.3142852Z [Info] [CaptchaQueue] field mvd='955539' mve='955539' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T05:51:59.3142983Z [Info] [CaptchaQueue] publish 4B060F3EC09B727E 5730B -> inbox/4B060F3EC09B727E.png
+2026-11-01T05:51:59.3157474Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T05:51:59.3317621Z [Info] [CaptchaCapture] saved image=20261101-055159-315-4B060F3EC09B.png format=PNG size=256x256 bytes=5730 submitted=False
+2026-11-01T05:52:11.3159038Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:52:19.3173263Z [Warning] [CaptchaQueue] 20s chưa có đáp án cho 4B060F3EC09B727E - panel vẫn mở, cần nhập tay.
+2026-11-01T05:52:23.3200490Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:52:35.5699143Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:52:47.7159018Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:53:00.1010672Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:53:12.1421844Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:53:24.3785338Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:53:36.4637490Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:53:48.4942225Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:54:00.5707746Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:54:12.7050852Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:54:24.7891486Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:54:36.9811276Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:54:49.0561755Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:55:01.2171885Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:55:13.9537959Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:55:26.2493348Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:55:38.4369899Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:55:50.4720077Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:56:02.6519025Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:56:14.6665912Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:56:26.6755751Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:56:38.7496686Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:56:50.7575371Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:57:02.8242804Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:57:15.0430509Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:57:27.3523586Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:57:39.5566813Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:57:51.8513878Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:58:03.9339709Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:58:16.1108540Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:58:28.2754939Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:58:40.5374635Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:58:52.6439314Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:59:04.6910243Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:59:17.0561057Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:59:29.3298101Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:59:41.4875489Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:59:53.5257944Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T06:00:05.6272367Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T06:00:17.7542249Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T06:00:53.5239773Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T06:00:54.4956400Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T06:00:57.8224693Z [Info] [CaptchaQueue] field mvd='9773' mve='9773' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T06:00:57.8224860Z [Info] [CaptchaQueue] publish 980C09526E338129 5827B -> inbox/980C09526E338129.png
+2026-11-01T06:00:59.9184637Z [Info] [CaptchaQueue] field mvd='9773' mve='9773' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T06:00:59.9184789Z [Info] [CaptchaQueue] publish 6EDB1D88C2F30E76 6165B -> inbox/6EDB1D88C2F30E76.png
+2026-11-01T06:01:00.3309894Z [Info] [CaptchaQueue] submit 917197 (lan 1)
+2026-11-01T06:01:02.4218850Z [Info] [CaptchaQueue] submit 17953 (lan 1)
+2026-11-01T06:05:54.5010275Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T06:05:58.5936272Z [Info] [CaptchaQueue] field mvd='17953' mve='17953' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T06:05:58.5936433Z [Info] [CaptchaQueue] publish 600FAF48EA83A6CB 5993B -> inbox/600FAF48EA83A6CB.png
+2026-11-01T06:06:01.1000090Z [Info] [CaptchaQueue] submit 55711 (lan 1)
+2026-11-01T06:16:39.2414030Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T06:16:43.5963786Z [Info] [CaptchaQueue] field mvd='55711' mve='55711' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T06:16:43.5963932Z [Info] [CaptchaQueue] publish 7CB0F5F0F930218A 5652B -> inbox/7CB0F5F0F930218A.png
+2026-11-01T06:16:46.1081538Z [Info] [CaptchaQueue] submit 175139 (lan 1)
+2026-11-01T06:19:46.5759591Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T06:19:48.1454646Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T06:19:50.8214083Z [Info] [CaptchaQueue] field mvd='175139' mve='175139' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T06:19:50.8214240Z [Info] [CaptchaQueue] publish 580FE1A8A74C3B46 5716B -> inbox/580FE1A8A74C3B46.png
+2026-11-01T06:19:52.7933417Z [Info] [CaptchaQueue] field mvd='175139' mve='175139' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T06:19:52.7933568Z [Info] [CaptchaQueue] publish 88F719957E3D2859 5985B -> inbox/88F719957E3D2859.png
+2026-11-01T06:19:53.3275457Z [Info] [CaptchaQueue] submit 915995 (lan 1)
+2026-11-01T06:19:55.3000151Z [Info] [CaptchaQueue] submit 117751 (lan 1)
+2026-11-01T06:26:25.3738245Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T06:26:29.5477030Z [Info] [CaptchaQueue] field mvd='117751' mve='117751' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T06:26:29.5477247Z [Info] [CaptchaQueue] publish A743190CC7D09F07 5911B -> inbox/A743190CC7D09F07.png
+2026-11-01T06:26:32.0579038Z [Info] [CaptchaQueue] submit 139371 (lan 1)
+2026-11-01T06:31:41.7947534Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T06:31:46.0279452Z [Info] [CaptchaQueue] field mvd='139371' mve='139371' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T06:31:46.0279608Z [Info] [CaptchaQueue] publish 1779B7C5E219FED4 6129B -> inbox/1779B7C5E219FED4.png
+2026-11-01T06:31:48.5373063Z [Info] [CaptchaQueue] submit 37111 (lan 1)
+2026-11-01T06:51:03.2397361Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T06:51:07.3779259Z [Info] [CaptchaQueue] field mvd='37111' mve='37111' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T06:51:07.3779510Z [Info] [CaptchaQueue] publish C4D29A1526737B06 6172B -> inbox/C4D29A1526737B06.png
+2026-11-01T06:51:09.8830336Z [Info] [CaptchaQueue] submit 93911 (lan 1)
+2026-11-01T08:09:47.7693672Z [Info] [CaptchaQueue] field mvd='93911' mve='93911' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T08:09:47.7693958Z [Info] [CaptchaQueue] publish C6CD4785AEFBC36C 5828B -> inbox/C6CD4785AEFBC36C.png
+2026-11-01T08:09:47.7734534Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T08:09:47.7901756Z [Info] [CaptchaCapture] saved image=20261101-080947-772-C6CD4785AEFB.png format=PNG size=256x256 bytes=5828 submitted=False
+2026-11-01T08:09:50.2768778Z [Info] [CaptchaQueue] submit 75319 (lan 1)
+2026-11-01T08:10:37.0970297Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T08:10:43.0026822Z [Info] [CaptchaQueue] field mvd='75319' mve='75319' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T08:10:43.0026947Z [Info] [CaptchaQueue] publish 9E9D00466EDFCB93 5602B -> inbox/9E9D00466EDFCB93.png
+2026-11-01T08:10:45.5063924Z [Info] [CaptchaQueue] submit 53179 (lan 1)
+2026-11-01T08:13:04.7019540Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T08:13:08.7759725Z [Info] [CaptchaQueue] field mvd='53179' mve='53179' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T08:13:08.7760034Z [Info] [CaptchaQueue] publish BF359EF02739E093 5762B -> inbox/BF359EF02739E093.png
+2026-11-01T08:13:11.2835437Z [Info] [CaptchaQueue] submit 37195 (lan 1)
+2026-11-01T08:14:18.7645191Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T08:14:22.9988327Z [Info] [CaptchaQueue] field mvd='37195' mve='37195' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T08:14:22.9988462Z [Info] [CaptchaQueue] publish D6B5B6530A827CA5 5904B -> inbox/D6B5B6530A827CA5.png
+2026-11-01T08:14:30.7950370Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:14:42.8669565Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:14:43.0006391Z [Warning] [CaptchaQueue] 20s chưa có đáp án cho D6B5B6530A827CA5 - panel vẫn mở, cần nhập tay.
+2026-11-01T08:14:55.5119081Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:15:08.3125240Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:15:51.9987999Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T08:15:57.1741686Z [Info] [CaptchaQueue] field mvd='37195' mve='37195' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T08:15:57.1741768Z [Info] [CaptchaQueue] publish 7038ABB25E68183E 5881B -> inbox/7038ABB25E68183E.png
+2026-11-01T08:15:59.6793413Z [Info] [CaptchaQueue] submit 93751 (lan 1)
+2026-11-01T08:19:35.9969793Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T08:19:41.2768039Z [Info] [CaptchaQueue] field mvd='93751' mve='93751' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T08:19:41.2768154Z [Info] [CaptchaQueue] publish ECBD8B9658D6B346 5672B -> inbox/ECBD8B9658D6B346.png
+2026-11-01T08:19:43.7841751Z [Info] [CaptchaQueue] submit 75319 (lan 1)
+2026-11-01T08:29:52.2560887Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T08:29:57.1253985Z [Info] [CaptchaQueue] field mvd='75319' mve='75319' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T08:29:57.1254198Z [Info] [CaptchaQueue] publish FB5D3B206757542A 5924B -> inbox/FB5D3B206757542A.png
+2026-11-01T08:30:04.2868578Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:30:16.4624213Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:30:17.1291993Z [Warning] [CaptchaQueue] 20s chưa có đáp án cho FB5D3B206757542A - panel vẫn mở, cần nhập tay.
+2026-11-01T08:30:28.5666850Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:30:40.5833413Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:30:52.9937338Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:31:05.7974366Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:31:18.6027413Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:31:31.3624085Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:31:44.0033329Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:31:56.4772186Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:32:08.6305874Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:32:20.8671989Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:32:33.0349796Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:32:45.0998531Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:32:57.3395292Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:33:12.0508663Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:33:24.5651703Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:33:37.0576400Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:33:49.1967724Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:34:01.3946022Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:34:13.5981245Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:34:25.6381248Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:34:37.8466307Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:34:50.2473980Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:35:02.2599014Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:35:14.5463441Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:35:27.0322493Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:35:39.7501703Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:35:52.4904466Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:36:04.5957315Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:36:17.2459445Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:36:29.3239228Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:36:41.5725730Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:36:53.6127120Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:37:05.6728191Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:37:18.3808303Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:37:30.4199424Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:37:42.4327516Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:37:54.7619964Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:38:06.8540916Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:38:18.9944612Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:38:31.0023041Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:38:43.4201858Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:38:55.5923552Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:39:07.8480326Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:39:19.8946491Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:39:32.1620995Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:39:44.5253792Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:39:56.5346358Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:40:08.9894887Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:40:21.0839689Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:40:33.8504536Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:40:46.0811362Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:40:58.2693122Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:41:10.7174498Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:41:22.7422046Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:41:34.7851071Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:41:46.9688398Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:41:59.3124977Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:42:11.3353320Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:42:23.3783874Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:42:35.8168065Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:42:47.8990990Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:43:00.1347725Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:43:12.2048776Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:43:24.5152697Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:43:36.6356000Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:43:49.1419652Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:44:01.5364259Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:44:13.9041726Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:44:23.5255952Z [Info] [CaptchaQueue] field mvd='93751' mve='93751' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T08:44:23.5256028Z [Info] [CaptchaQueue] publish 84865F1C86E373DA 5670B -> inbox/84865F1C86E373DA.png
+2026-11-01T08:44:23.5268871Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T08:44:23.5410162Z [Info] [CaptchaCapture] saved image=20261101-084423-526-84865F1C86E3.png format=PNG size=256x256 bytes=5670 submitted=False
+2026-11-01T08:44:26.5449404Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:44:35.5309232Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:44:38.8525480Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:44:43.5347179Z [Warning] [CaptchaQueue] 20s chưa có đáp án cho 84865F1C86E373DA - panel vẫn mở, cần nhập tay.
+2026-11-01T08:44:48.0195922Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:44:51.0312606Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:45:00.5374742Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:45:03.1064074Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:45:12.7307277Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:45:15.4008506Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:45:24.7321232Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:45:27.5404809Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:45:37.0327089Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:45:39.6653446Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:45:49.0789418Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:45:52.0289322Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:46:01.1907311Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:46:04.2065398Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:46:13.4437691Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:46:16.3989027Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:46:25.5996159Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:46:28.5853949Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:46:37.6495315Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:46:49.4626227Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:46:52.5212802Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:47:01.6987305Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:47:04.6284841Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:47:13.7650951Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:47:16.6496242Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:47:26.0236442Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:47:28.7054551Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:47:38.0495751Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:47:40.7158653Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:47:50.3385432Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:47:53.1042222Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:48:02.6857840Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:48:05.1097918Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:48:14.7088162Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:48:17.2689325Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:48:27.1219910Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:48:29.8059751Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:48:39.3081986Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:48:41.9047595Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:48:51.6299788Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:48:54.8046447Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:49:04.4909284Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:49:06.8611516Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:49:17.0446259Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:49:26.6161126Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:49:29.0461288Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:49:38.6375441Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:49:41.0676036Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:49:50.9025164Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:49:53.2758430Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:50:02.9801278Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:50:12.3040903Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:50:15.4515023Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:50:24.5395417Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:50:27.5074248Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:50:36.6848724Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:50:39.5309358Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:50:48.9629954Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:50:51.7212017Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:51:01.0192285Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:51:13.0901315Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:51:25.4040875Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:51:37.9087447Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:51:50.0151652Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:52:02.1388600Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:52:14.5782447Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:52:17.1614297Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:52:27.2224647Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:52:29.2039331Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:52:39.2401131Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:52:41.5497503Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:52:53.5996038Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:53:05.7417880Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:53:17.9458908Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:53:21.4816678Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:53:29.9875799Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:53:33.4922728Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:53:42.1788508Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:53:45.7517904Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:53:58.7046598Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:54:10.8051132Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:54:23.1085236Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:54:29.1280059Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:55:01.4680119Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:55:13.4787043Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:55:25.6080619Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:55:37.6543481Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:55:42.8281103Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:55:49.8487261Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:55:54.9510146Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:56:02.0557788Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:56:07.2964342Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:56:14.4288183Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:56:19.5930302Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:56:26.4371764Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:56:31.8671713Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:56:38.4876174Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:56:44.1684951Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:56:50.4927980Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:56:56.3556172Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:57:03.0354943Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:57:08.4101540Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:57:15.4430803Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:57:21.0562315Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:57:27.4846285Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:57:33.2523904Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:57:39.7482515Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:57:45.5770071Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:57:51.9039316Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:57:58.1057850Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:58:04.0435490Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:58:10.1150139Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:58:16.6355569Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:58:22.2035756Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:58:29.0790431Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:58:41.6825475Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:58:53.9999589Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:59:05.3668871Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T08:59:06.5790454Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:59:09.9136303Z [Info] [CaptchaQueue] field mvd='75319' mve='75319' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T08:59:09.9136437Z [Info] [CaptchaQueue] publish E8BE07AB0E0EAA23 5896B -> inbox/E8BE07AB0E0EAA23.png
+2026-11-01T08:59:12.4267417Z [Info] [CaptchaQueue] submit 11593 (lan 1)
+2026-11-01T08:59:18.8337064Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T08:59:58.9636683Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T09:00:03.2569765Z [Info] [CaptchaQueue] field mvd='11593' mve='11593' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T09:00:03.2569861Z [Info] [CaptchaQueue] publish A3AFDCC98EBC49AD 5941B -> inbox/A3AFDCC98EBC49AD.png
+2026-11-01T09:00:05.7659196Z [Info] [CaptchaQueue] submit 51937 (lan 1)
+2026-11-01T09:04:31.5442242Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T09:04:35.5038742Z [Info] [CaptchaQueue] field mvd='51937' mve='51937' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T09:04:35.5038848Z [Info] [CaptchaQueue] publish 8BD1B4D8FCB9D492 5827B -> inbox/8BD1B4D8FCB9D492.png
+2026-11-01T09:04:38.0213052Z [Info] [CaptchaQueue] submit 31597 (lan 1)
+2026-11-01T09:09:09.7395151Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T09:09:14.0059137Z [Info] [CaptchaQueue] field mvd='31597' mve='31597' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T09:09:14.0059218Z [Info] [CaptchaQueue] publish 5A1412BEAED93312 6055B -> inbox/5A1412BEAED93312.png
+2026-11-01T09:09:16.5182611Z [Info] [CaptchaQueue] submit 975971 (lan 1)
+2026-11-01T09:23:45.2089445Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T09:23:49.5863886Z [Info] [CaptchaQueue] field mvd='975971' mve='975971' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T09:23:49.5864019Z [Info] [CaptchaQueue] publish 59FCAD78ACD21526 5915B -> inbox/59FCAD78ACD21526.png
+2026-11-01T09:23:52.1012334Z [Info] [CaptchaQueue] submit 99133 (lan 1)
+2026-11-01T09:24:29.7365988Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T09:24:33.8096450Z [Info] [CaptchaQueue] field mvd='99133' mve='99133' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T09:24:33.8096548Z [Info] [CaptchaQueue] publish 35A9E14A1EF4C092 5907B -> inbox/35A9E14A1EF4C092.png
+2026-11-01T09:24:36.3237580Z [Info] [CaptchaQueue] submit 397715 (lan 1)
+2026-11-01T09:34:22.5752372Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T09:34:27.0503777Z [Info] [CaptchaQueue] field mvd='397715' mve='397715' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T09:34:27.0503983Z [Info] [CaptchaQueue] publish 835AE944215B5E2E 5725B -> inbox/835AE944215B5E2E.png
+2026-11-01T09:34:29.5593654Z [Info] [CaptchaQueue] submit 79717 (lan 1)
+2026-11-01T09:38:16.8645388Z [Info] [CaptchaQueue] field mvd='79717' mve='79717' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T09:38:16.8645506Z [Info] [CaptchaQueue] publish 14AE75B4C5E3D605 6167B -> inbox/14AE75B4C5E3D605.png
+2026-11-01T09:38:16.8662235Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T09:38:16.8753474Z [Info] [CaptchaCapture] saved image=20261101-093816-865-14AE75B4C5E3.png format=PNG size=256x256 bytes=6167 submitted=False
+2026-11-01T09:38:19.3699529Z [Info] [CaptchaQueue] submit 393111 (lan 1)
+2026-11-01T12:10:09.6413408Z [Info] [CaptchaQueue] field mvd='393111' mve='393111' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T12:10:09.6413634Z [Info] [CaptchaQueue] publish A5834717E5D8AEA3 5658B -> inbox/A5834717E5D8AEA3.png
+2026-11-01T12:10:09.6441086Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T12:10:09.6633097Z [Info] [CaptchaCapture] saved image=20261101-121009-643-A5834717E5D8.png format=PNG size=256x256 bytes=5658 submitted=False
+2026-11-01T12:10:12.1603792Z [Info] [CaptchaQueue] submit 939937 (lan 1)
+2026-11-01T12:12:41.6742669Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T12:12:45.8974989Z [Info] [CaptchaQueue] field mvd='939937' mve='939937' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T12:12:45.8975141Z [Info] [CaptchaQueue] publish A1EC9461FF543071 5442B -> inbox/A1EC9461FF543071.png
+2026-11-01T12:12:48.4131672Z [Info] [CaptchaQueue] submit 99933 (lan 1)
+2026-11-01T12:35:53.7284881Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T12:35:57.9998206Z [Info] [CaptchaQueue] field mvd='99933' mve='99933' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T12:35:57.9998308Z [Info] [CaptchaQueue] publish 9ABC91E26F432F93 5602B -> inbox/9ABC91E26F432F93.png
+2026-11-01T12:36:00.5037002Z [Info] [CaptchaQueue] submit 13791 (lan 1)
+2026-11-01T14:02:38.8294275Z [Info] [CaptchaQueue] field mvd='13791' mve='13791' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T14:02:38.8294462Z [Info] [CaptchaQueue] publish 61F19A21C05E0616 6096B -> inbox/61F19A21C05E0616.png
+2026-11-01T14:02:38.8324360Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T14:02:38.8463069Z [Info] [CaptchaCapture] saved image=20261101-140238-832-61F19A21C05E.png format=PNG size=256x256 bytes=6096 submitted=False
+2026-11-01T14:02:41.3326659Z [Info] [CaptchaQueue] submit 55795 (lan 1)
+2026-11-01T14:34:49.7227249Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T14:34:53.9784307Z [Info] [CaptchaQueue] field mvd='55795' mve='55795' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T14:34:53.9784441Z [Info] [CaptchaQueue] publish 815D5E9ED00D25BF 5909B -> inbox/815D5E9ED00D25BF.png
+2026-11-01T14:34:56.4877838Z [Info] [CaptchaQueue] submit 55159 (lan 1)
+2026-11-01T14:39:53.3892168Z [Info] [CaptchaQueue] field mvd='55159' mve='55159' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T14:39:53.3892339Z [Info] [CaptchaQueue] publish 23B37C8EF8F772E3 5783B -> inbox/23B37C8EF8F772E3.png
+2026-11-01T14:39:53.3914860Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T14:39:53.4129791Z [Info] [CaptchaCapture] saved image=20261101-143953-391-23B37C8EF8F7.png format=PNG size=256x256 bytes=5783 submitted=False
+2026-11-01T14:39:55.8914962Z [Info] [CaptchaQueue] submit 13377 (lan 1)
+2026-11-01T18:32:46.0739075Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T18:32:50.3533669Z [Info] [CaptchaQueue] field mvd='13377' mve='13377' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T18:32:50.3533847Z [Info] [CaptchaQueue] publish 335640C78BA6D8E2 6070B -> inbox/335640C78BA6D8E2.png
+2026-11-01T18:32:58.0797455Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T18:33:10.0983285Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T18:33:10.3485067Z [Warning] [CaptchaQueue] 20s chưa có đáp án cho 335640C78BA6D8E2 - panel vẫn mở, cần nhập tay.
+2026-11-01T18:33:22.2188406Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T18:33:34.3513835Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T18:33:46.5045845Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T18:34:03.6179403Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T18:34:15.6990303Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T18:34:28.0793840Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T18:34:40.5175125Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T18:34:55.1525742Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T18:35:07.6599764Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T18:35:19.6652267Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T18:35:31.7334272Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T18:36:38.1716632Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T18:36:50.2519597Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T18:37:07.6788312Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T18:37:19.6906245Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T18:37:32.1511754Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T18:37:46.3950253Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T18:37:58.4531431Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T18:38:10.4809901Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T18:38:22.5066459Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T18:38:34.5405336Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T18:38:46.6002099Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T18:39:25.6260439Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T18:39:30.6917828Z [Info] [CaptchaQueue] field mvd='13377' mve='13377' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T18:39:30.6917921Z [Info] [CaptchaQueue] publish 64704A83D9EA3520 5917B -> inbox/64704A83D9EA3520.png
+2026-11-01T18:39:33.2011675Z [Info] [CaptchaQueue] submit 57115 (lan 1)
+2026-11-01T19:04:09.3264815Z [Info] [CaptchaQueue] field mvd='13377' mve='13377' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T19:04:09.3264988Z [Info] [CaptchaQueue] publish 541DF4546D42BABB 6039B -> inbox/541DF4546D42BABB.png
+2026-11-01T19:04:09.3292269Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T19:04:09.3477772Z [Info] [CaptchaCapture] saved image=20261101-190409-328-541DF4546D42.png format=PNG size=256x256 bytes=6039 submitted=False
+2026-11-01T19:04:11.8405491Z [Info] [CaptchaQueue] submit 99119 (lan 1)
+2026-11-01T19:19:53.5621394Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T19:19:53.8120825Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T19:20:32.6875750Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T19:20:37.2455334Z [Info] [CaptchaQueue] field mvd='99119' mve='99119' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T19:20:37.2455439Z [Info] [CaptchaQueue] publish 115B3CB2779ECA4C 5854B -> inbox/115B3CB2779ECA4C.png
+2026-11-01T19:20:39.7606082Z [Info] [CaptchaQueue] submit 395991 (lan 1)
+2026-11-01T19:20:45.6858707Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T19:20:50.1090839Z [Info] [CaptchaQueue] field mvd='395991' mve='395991' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T19:20:50.1090953Z [Info] [CaptchaQueue] publish 59D8816A7716CC8F 5966B -> inbox/59D8816A7716CC8F.png
+2026-11-01T19:20:52.6160152Z [Info] [CaptchaQueue] submit 79937 (lan 1)
+2026-11-01T19:34:43.7526154Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T19:34:44.7050425Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T19:34:48.3907812Z [Info] [CaptchaQueue] field mvd='79937' mve='79937' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T19:34:48.3907898Z [Info] [CaptchaQueue] publish 661147937CFCD9C8 5470B -> inbox/661147937CFCD9C8.png
+2026-11-01T19:34:49.1869739Z [Info] [CaptchaQueue] field mvd='79937' mve='79937' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T19:34:49.1869836Z [Info] [CaptchaQueue] publish 4B1B22A4116D66DF 6004B -> inbox/4B1B22A4116D66DF.png
+2026-11-01T19:34:50.8974624Z [Info] [CaptchaQueue] submit 53951 (lan 1)
+2026-11-01T19:34:51.6905992Z [Info] [CaptchaQueue] submit 399351 (lan 1)
+2026-11-01T19:35:33.1416753Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T19:35:37.4335590Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T19:35:37.6642753Z [Info] [CaptchaQueue] field mvd='399351' mve='399351' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T19:35:37.6642863Z [Info] [CaptchaQueue] publish 9BFBDC2775A40937 5820B -> inbox/9BFBDC2775A40937.png
+2026-11-01T19:35:40.1777610Z [Info] [CaptchaQueue] submit 51999 (lan 1)
+2026-11-01T19:35:41.8345064Z [Info] [CaptchaQueue] field mvd='399351' mve='399351' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T19:35:41.8345263Z [Info] [CaptchaQueue] publish 362D1D1240D4FB22 6025B -> inbox/362D1D1240D4FB22.png
+2026-11-01T19:35:44.3452590Z [Info] [CaptchaQueue] submit 11173 (lan 1)
+2026-11-01T19:36:27.8102438Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T19:36:32.1946336Z [Info] [CaptchaQueue] field mvd='11173' mve='11173' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T19:36:32.1946507Z [Info] [CaptchaQueue] publish F9661360CE7F4549 5566B -> inbox/F9661360CE7F4549.png
+2026-11-01T19:36:34.6994816Z [Info] [CaptchaQueue] submit 731375 (lan 1)
+2026-11-01T20:03:13.7039341Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T20:03:18.8502564Z [Info] [CaptchaQueue] field mvd='731375' mve='731375' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T20:03:18.8502668Z [Info] [CaptchaQueue] publish 1A3BD5B5643688ED 5986B -> inbox/1A3BD5B5643688ED.png
+2026-11-01T20:03:19.0605828Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T20:03:21.3672854Z [Info] [CaptchaQueue] submit 13595 (lan 1)
+2026-11-01T20:03:23.2613586Z [Info] [CaptchaQueue] field mvd='731375' mve='731375' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T20:03:23.2613707Z [Info] [CaptchaQueue] publish 7B465EFF2AD22518 6080B -> inbox/7B465EFF2AD22518.png
+2026-11-01T20:03:25.7704389Z [Info] [CaptchaQueue] submit 911591 (lan 1)

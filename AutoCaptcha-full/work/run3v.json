@@ -1,0 +1,395 @@
+{
+  "origin": "NEW WINDOWS RUN; NOT THE LOST OPUS run3v.txt",
+  "time_asia_saigon": "2026-11-02T18:54:10.323525+07:00",
+  "ground_truth": null,
+  "accuracy": "NOT MEASURED: no trusted symbol-based labels supplied",
+  "images": 32,
+  "processes_ok": 32,
+  "format_valid": 31,
+  "results": [
+    {
+      "file": "064937887D4981B0.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\064937887D4981B0.png",
+        "time_ms": 90,
+        "answer": "35919",
+        "details": "top_chars=%LQVQ | sym_map={K->7, L->5, Q->9, %->3, V->1} | fallback=37919"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "06683D7C4400ED5D.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\06683D7C4400ED5D.png",
+        "time_ms": 104,
+        "answer": "75139",
+        "details": "top_chars=CDKHP | sym_map={H->3, D->5, C->7, K->1, P->9} | fallback=75939"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "0760890DE5F18892.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\0760890DE5F18892.png",
+        "time_ms": 101,
+        "answer": "57779",
+        "details": "top_chars=PHHHE | sym_map={&->1, P->5, L->3, E->9, H->7} | fallback=57771"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "233AEA7A19420FEC.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\233AEA7A19420FEC.png",
+        "time_ms": 95,
+        "answer": "571719",
+        "details": "top_chars=UN#N#D | sym_map={U->5, N->7, #->1, P->3, D->9} | fallback=771719"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "290B690468814790.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\290B690468814790.png",
+        "time_ms": 94,
+        "answer": "379993",
+        "details": "top_chars=B$###B | sym_map={M->5, %->1, #->9, $->7, B->3} | fallback=379997"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "2C1915D587ECE2EA.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\2C1915D587ECE2EA.png",
+        "time_ms": 101,
+        "answer": "11317",
+        "details": "top_chars=FFVFE | sym_map={E->7, V->3, N->5, F->1, G->9} | fallback=11377"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "35BA9D6B23FEEDB7.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\35BA9D6B23FEEDB7.png",
+        "time_ms": 125,
+        "answer": "51535",
+        "details": "top_chars=ANARA | sym_map={R->3, P->7, N->1, A->5, S->9} | fallback=51575"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "382DA88D0F735323.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\382DA88D0F735323.png",
+        "time_ms": 145,
+        "answer": "757537",
+        "details": "top_chars=B$B$%B | sym_map={C->9, $->5, %->3, L->1, B->7} | fallback=757137"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "3A6BCE1653597781.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\3A6BCE1653597781.png",
+        "time_ms": 115,
+        "answer": "75393",
+        "details": "top_chars=&%W$W | sym_map={%->5, $->9, &->7, B->1, W->3} | fallback=75395"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "3CE6F705C9A0DD26.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\3CE6F705C9A0DD26.png",
+        "time_ms": 112,
+        "answer": "117739",
+        "details": "top_chars=HHZZBV | sym_map={H->1, B->3, Z->7, V->9, A->5} | fallback=117719"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "4A51FC6575834794.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\4A51FC6575834794.png",
+        "time_ms": 150,
+        "answer": "53535",
+        "details": "top_chars=F$F$F | sym_map={P->9, $->3, O->7, @->1, F->5} | fallback=93535"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "4D3B17F176FBF7D7.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\4D3B17F176FBF7D7.png",
+        "time_ms": 124,
+        "answer": "955991",
+        "details": "top_chars=BNNBB% | sym_map={&->7, N->5, %->1, B->9, E->3} | fallback=955999"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "4FE9EF4DD23499C7.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\4FE9EF4DD23499C7.png",
+        "time_ms": 90,
+        "answer": "999937",
+        "details": "top_chars=VVVVSK | sym_map={&->5, N->1, K->7, V->9, S->3} | fallback=979937"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "58EECCFC239586FD.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\58EECCFC239586FD.png",
+        "time_ms": 86,
+        "answer": "339193",
+        "details": "top_chars=XXDHDX | sym_map={U->7, M->5, X->3, D->9, H->1} | fallback=333193"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "5B2513E856BDF317.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\5B2513E856BDF317.png",
+        "time_ms": 85,
+        "answer": "37751",
+        "details": "top_chars=NHHCT | sym_map={T->1, N->3, C->5, M->9, H->7} | fallback=37951"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "625440ACA3EA988D.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\625440ACA3EA988D.png",
+        "time_ms": 100,
+        "answer": "537377",
+        "details": "top_chars=Z$A$AA | sym_map={A->7, $->3, P->9, Z->5, &->1} | fallback=537317"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "71095CCA36086268.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\71095CCA36086268.png",
+        "time_ms": 141,
+        "answer": "5357",
+        "details": "top_chars=ACA# | sym_map={#->7, C->3, J->1, A->5, E->9} | fallback=5355"
+      },
+      "format_valid": false,
+      "error": ""
+    },
+    {
+      "file": "78F28A05EAED1D11.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\78F28A05EAED1D11.png",
+        "time_ms": 149,
+        "answer": "311115",
+        "details": "top_chars=VHHHHQ | sym_map={V->3, H->1, M->7, Q->5, L->9} | fallback=311113"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "82143FC8B60E0826.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\82143FC8B60E0826.png",
+        "time_ms": 86,
+        "answer": "71771",
+        "details": "top_chars=XSXXS | sym_map={S->1, O->3, U->9, L->5, X->7} | fallback=71711"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "83DC31D6898414E2.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\83DC31D6898414E2.png",
+        "time_ms": 94,
+        "answer": "397399",
+        "details": "top_chars=TPWTPP | sym_map={S->1, T->3, &->5, W->7, P->9} | fallback=399399"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "8CA52E707D438E11.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\8CA52E707D438E11.png",
+        "time_ms": 124,
+        "answer": "999931",
+        "details": "top_chars=NNNNDW | sym_map={D->3, U->5, W->1, N->9, L->7} | fallback=999131"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "9BC81C31E0A8907F.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\9BC81C31E0A8907F.png",
+        "time_ms": 143,
+        "answer": "95139",
+        "details": "top_chars=P&ZSP | sym_map={N->7, S->3, P->9, Z->1, &->5} | fallback=75139"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "A050AC80BA625E7E.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\A050AC80BA625E7E.png",
+        "time_ms": 110,
+        "answer": "31553",
+        "details": "top_chars=APVVA | sym_map={Z->7, V->5, F->9, A->3, P->1} | fallback=31551"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "A6A21D431DFD8016.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\A6A21D431DFD8016.png",
+        "time_ms": 88,
+        "answer": "335731",
+        "details": "top_chars=##%K#L | sym_map={#->3, %->5, K->7, L->1, W->9} | fallback=335931"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "B59DF4E4877A5FF6.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\B59DF4E4877A5FF6.png",
+        "time_ms": 89,
+        "answer": "19193",
+        "details": "top_chars=BTBT# | sym_map={V->7, T->9, #->3, P->5, B->1} | fallback=11193"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "B89C59238F033DC3.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\B89C59238F033DC3.png",
+        "time_ms": 106,
+        "answer": "33317",
+        "details": "top_chars=NNNTK | sym_map={L->5, X->9, T->1, N->3, K->7} | fallback=33377"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "BAB943E053D41402.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\BAB943E053D41402.png",
+        "time_ms": 85,
+        "answer": "571999",
+        "details": "top_chars=CHSZZZ | sym_map={S->1, H->7, @->3, C->5, Z->9} | fallback=571993"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "D4EE1D49C25ABA1F.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\D4EE1D49C25ABA1F.png",
+        "time_ms": 82,
+        "answer": "159791",
+        "details": "top_chars=BPHAHB | sym_map={H->9, P->5, S->3, A->7, B->1} | fallback=159711"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "E29687E7FFC25C33.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\E29687E7FFC25C33.png",
+        "time_ms": 82,
+        "answer": "53133",
+        "details": "top_chars=D$V$$ | sym_map={C->7, D->5, V->1, $->3, N->9} | fallback=53113"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "E9CB04066B876F27.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\E9CB04066B876F27.png",
+        "time_ms": 85,
+        "answer": "77953",
+        "details": "top_chars=ZZPVW | sym_map={V->5, Z->7, U->1, W->3, P->9} | fallback=97953"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "F139E30763B42BE4.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\F139E30763B42BE4.png",
+        "time_ms": 135,
+        "answer": "335399",
+        "details": "top_chars=WWCWOO | sym_map={O->9, W->3, C->5, #->1, U->7} | fallback=315399"
+      },
+      "format_valid": true,
+      "error": ""
+    },
+    {
+      "file": "FBC83B9FA176E3F0.png",
+      "exit_code": 0,
+      "parsed": {
+        "file": "C:\\Users\\Tuchuai\\Downloads\\AutoCaptcha-Handoff-Recreated-20261102\\work\\img\\FBC83B9FA176E3F0.png",
+        "time_ms": 140,
+        "answer": "775913",
+        "details": "top_chars=HHMN%O | sym_map={M->5, H->7, %->1, N->9, O->3} | fallback=775113"
+      },
+      "format_valid": true,
+      "error": ""
+    }
+  ]
+}
