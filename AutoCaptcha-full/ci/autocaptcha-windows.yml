@@ -1,0 +1,71 @@
+name: AutoCaptcha Windows build + test
+
+on:
+  push:
+    branches: ['claude/**']
+    paths: ['AutoCaptcha-full/work/src/CaptchaQueue.cs', '.github/workflows/autocaptcha-windows.yml']
+  pull_request:
+    paths: ['AutoCaptcha-full/work/src/CaptchaQueue.cs', '.github/workflows/autocaptcha-windows.yml']
+  workflow_dispatch:
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Build giống hệt lệnh người dùng Windows: csc.exe có sẵn trong .NET Framework, không cần cài thêm gì.
+      - name: Build AutoCaptcha.exe bằng csc.exe (.NET Framework 4.x)
+        shell: pwsh
+        run: |
+          $csc = Join-Path $env:WINDIR 'Microsoft.NET\Framework64\v4.0.30319\csc.exe'
+          New-Item -ItemType Directory -Force out | Out-Null
+          & $csc /nologo /optimize+ /target:exe "/out:$PWD\out\AutoCaptcha.exe" AutoCaptcha-full\work\src\CaptchaQueue.cs
+          if ($LASTEXITCODE -ne 0) { throw "csc exit $LASTEXITCODE" }
+          Get-Item out\AutoCaptcha.exe | Format-List Name,Length
+          (Get-FileHash out\AutoCaptcha.exe -Algorithm SHA256).Hash | Tee-Object out\AutoCaptcha.exe.sha256
+
+      # 32 ảnh one-shot: so với kết quả Linux/.NET 8 (không phải đáp án chuẩn, chỉ kiểm hai nền tảng cùng ra một kết quả)
+      - name: Chạy 32 ảnh offline và so với bản Linux
+        shell: pwsh
+        run: |
+          $linux = Get-Content AutoCaptcha-full\work\run_linux.json -Raw | ConvertFrom-Json
+          $same = 0; $total = 0; $bad = @()
+          foreach ($img in Get-ChildItem AutoCaptcha-full\work\img\*.png) {
+            $h = $img.BaseName
+            $o = & out\AutoCaptcha.exe $img.FullName | ConvertFrom-Json
+            $total++
+            if ($o.answer -eq $linux.$h.answer) { $same++ } else { $bad += "$h win=$($o.answer) linux=$($linux.$h.answer)" }
+          }
+          "Windows == Linux: $same / $total"
+          $bad
+          if ($same -ne $total) { Write-Warning "Windows và Linux KHÔNG trùng hoàn toàn" }
+
+      # Chạy worker thật bằng --queue: plugin ghi PNG vào inbox -> worker ghi outbox/<hash>.txt
+      - name: Smoke test hàng đợi (không cần Python)
+        shell: pwsh
+        run: |
+          $q = Join-Path $env:RUNNER_TEMP 'q'
+          foreach ($d in 'inbox','jobs','outbox') { New-Item -ItemType Directory -Force (Join-Path $q $d) | Out-Null }
+          $img = 'AutoCaptcha-full\work\img\064937887D4981B0.png'
+          $expected = (& out\AutoCaptcha.exe $img | ConvertFrom-Json).answer
+          $p = Start-Process out\AutoCaptcha.exe -ArgumentList '--queue', $q -PassThru -WindowStyle Hidden
+          Copy-Item $img (Join-Path $q 'inbox\AAAA000000000001.png')
+          $out = Join-Path $q 'outbox\AAAA000000000001.txt'
+          $deadline = (Get-Date).AddSeconds(20)
+          while (-not (Test-Path $out) -and (Get-Date) -lt $deadline) { Start-Sleep -Milliseconds 100 }
+          $got = if (Test-Path $out) { (Get-Content $out -Raw).Trim() } else { '<không có file>' }
+          Stop-Process -Id $p.Id -Force
+          "expected=$expected got=$got inbox_kept=$(Test-Path (Join-Path $q 'inbox\AAAA000000000001.png'))"
+          Get-Content (Join-Path $q 'solver.log') -ErrorAction SilentlyContinue | Select-Object -First 5
+          if ($got -ne $expected) { throw 'queue smoke test FAILED' }
+
+      - name: Chấm trên tập đáp án chuẩn (nếu đã có ảnh)
+        shell: pwsh
+        run: |
+          python AutoCaptcha-full\work\scripts\score_truth.py out\AutoCaptcha.exe
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: AutoCaptcha-exe-windows
+          path: out/

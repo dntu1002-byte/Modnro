@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""Kiểm thử worker V8.3.2 (queue-only) trên Linux bằng AutoCaptcha --queue <dir>.
+"""Kiểm thử worker V8.3.2/V8.3.3 (queue-only) trên Linux bằng AutoCaptcha --queue <dir>.
 Ghi: work/queue_test_linux.json, work/queue_test_linux_solver.log. Đây là test OFFLINE, không phải test trong game."""
 import json, os, shutil, subprocess, time, uuid, re, pathlib, signal
 W = pathlib.Path(__file__).resolve().parent.parent
 EXE = W / 'linux_build/out/AutoCaptcha'
-ENV = dict(os.environ, DOTNET_ROOT='/data/.dotnet', PATH='/data/.dotnet:' + os.environ['PATH'])
+ENV = dict(os.environ)
+if os.path.isdir('/data/.dotnet'):
+    ENV.update(DOTNET_ROOT='/data/.dotnet', PATH='/data/.dotnet:' + os.environ['PATH'])
 IMG = W / 'img'
 base = json.load(open(W / 'run_linux.json'))
 A = '064937887D4981B0'      # 35919 (5 so)
