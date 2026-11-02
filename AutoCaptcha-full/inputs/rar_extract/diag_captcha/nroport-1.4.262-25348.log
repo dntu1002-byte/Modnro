@@ -1,0 +1,24 @@
+2026-10-31T09:37:48.4409956Z [Info] [CaptchaQueue] hooked em.bbo (ghi nhan mau captcha khi nguoi dung gui).
+2026-10-31T10:16:49.5710139Z [Info] [CaptchaQueue] field mvd='911377' mve='911377' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T10:16:49.5710304Z [Info] [CaptchaQueue] publish 625440ACA3EA988D 6112B -> inbox/625440ACA3EA988D.png
+2026-10-31T10:16:49.5799632Z [Info] [CaptchaCapture] saved image=20261031-101649-572-625440ACA3EA.png format=PNG size=256x256 bytes=6112 submitted=False
+2026-10-31T10:16:52.0735668Z [Info] [CaptchaQueue] submit 733951 (answer file)
+2026-10-31T11:18:51.8411734Z [Info] [CaptchaQueue] field mvd='733951' mve='733951' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T11:18:51.8412390Z [Info] [CaptchaQueue] publish 4D3B17F176FBF7D7 5921B -> inbox/4D3B17F176FBF7D7.png
+2026-10-31T11:18:52.0610225Z [Info] [CaptchaCapture] saved image=20261031-111851-845-4D3B17F176FB.png format=PNG size=256x256 bytes=5921 submitted=False
+2026-10-31T11:26:19.9646588Z [Info] [CaptchaQueue] submit 755193 (answer file)
+2026-10-31T11:31:34.8315253Z [Info] [CaptchaQueue] field mvd='755193' mve='755193' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T11:31:34.8315395Z [Info] [CaptchaQueue] publish 8CA52E707D438E11 5883B -> inbox/8CA52E707D438E11.png
+2026-10-31T11:31:34.8414402Z [Info] [CaptchaCapture] saved image=20261031-113134-831-8CA52E707D43.png format=PNG size=256x256 bytes=5883 submitted=False
+2026-10-31T11:31:37.3389134Z [Info] [CaptchaQueue] submit 351955 (answer file)
+2026-10-31T11:37:11.0336806Z [Info] [CaptchaQueue] field mvd='351955' mve='351955' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T11:37:11.0336986Z [Info] [CaptchaQueue] publish 382DA88D0F735323 6193B -> inbox/382DA88D0F735323.png
+2026-10-31T11:37:11.0380745Z [Info] [CaptchaCapture] saved image=20261031-113711-034-382DA88D0F73.png format=PNG size=256x256 bytes=6193 submitted=False
+2026-10-31T11:37:13.5418075Z [Info] [CaptchaQueue] submit 995517 (answer file)
+2026-10-31T11:41:07.7650396Z [Info] [CaptchaQueue] field mvd='995517' mve='995517' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T11:41:07.7650520Z [Info] [CaptchaQueue] publish 2C1915D587ECE2EA 5656B -> inbox/2C1915D587ECE2EA.png
+2026-10-31T11:41:07.7725699Z [Info] [CaptchaCapture] saved image=20261031-114107-765-2C1915D587EC.png format=PNG size=256x256 bytes=5656 submitted=False
+2026-10-31T12:04:19.7939246Z [Info] [CaptchaQueue] field mvd='995517' mve='995517' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T12:04:19.7939370Z [Info] [CaptchaQueue] publish 78F28A05EAED1D11 6149B -> inbox/78F28A05EAED1D11.png
+2026-10-31T12:04:19.8013563Z [Info] [CaptchaCapture] saved image=20261031-120419-794-78F28A05EAED.png format=PNG size=256x256 bytes=6149 submitted=False
+2026-10-31T12:04:22.3013161Z [Info] [CaptchaQueue] submit 31759 (answer file)

@@ -1,0 +1,4 @@
+2026-10-31T09:11:49.4681996Z [Info] [CaptchaQueue] hooked em.bbo (ghi nhan mau captcha khi nguoi dung gui).
+2026-10-31T09:14:43.3390587Z [Info] [CaptchaQueue] publish 82143FC8B60E0826 6004B -> inbox/82143FC8B60E0826.png
+2026-10-31T09:14:43.3507814Z [Info] [CaptchaCapture] saved image=20261031-091443-340-82143FC8B60E.png format=PNG size=256x256 bytes=6004 submitted=False
+2026-10-31T09:14:43.4150546Z [Info] [CaptchaQueue] submit 993987 (answer file)

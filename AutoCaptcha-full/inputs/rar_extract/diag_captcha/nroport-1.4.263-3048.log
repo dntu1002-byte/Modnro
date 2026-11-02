@@ -1,0 +1,8 @@
+2026-10-31T12:11:02.0216153Z [Info] [CaptchaQueue] hooked em.bbo (ghi nhan mau captcha khi nguoi dung gui).
+2026-10-31T12:49:51.3093895Z [Info] [CaptchaQueue] field mvd='31759' mve='31759' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T12:49:51.3094219Z [Info] [CaptchaQueue] publish 064937887D4981B0 5456B -> inbox/064937887D4981B0.png
+2026-10-31T12:49:51.3183773Z [Info] [CaptchaCapture] saved image=20261031-124951-311-064937887D49.png format=PNG size=256x256 bytes=5456 submitted=False
+2026-10-31T12:49:53.8162768Z [Info] [CaptchaQueue] submit 75931 (lan 1)
+2026-10-31T12:49:58.8175105Z [Info] [CaptchaQueue] thử lại với đáp án dự phòng 759311 (đáp án đầu 75931 chưa đóng panel).
+2026-10-31T12:49:58.8185067Z [Info] [CaptchaQueue] submit 759311 (lan 2)
+2026-10-31T12:49:58.8256817Z [Warning] [CaptchaQueue] đã gửi 2 đáp án cho 064937887D4981B0, panel vẫn mở - dừng tự gửi để tránh khóa.

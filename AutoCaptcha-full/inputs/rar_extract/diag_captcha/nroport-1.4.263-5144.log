@@ -1,0 +1,36 @@
+2026-10-31T12:07:00.8915469Z [Info] [CaptchaQueue] hooked em.bbo (ghi nhan mau captcha khi nguoi dung gui).
+2026-10-31T12:56:22.2408382Z [Info] [CaptchaQueue] field mvd='759311' mve='759311' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T12:56:22.2408843Z [Info] [CaptchaQueue] publish 9BC81C31E0A8907F 5711B -> inbox/9BC81C31E0A8907F.png
+2026-10-31T12:56:22.2539163Z [Info] [CaptchaCapture] saved image=20261031-125622-242-9BC81C31E0A8.png format=PNG size=256x256 bytes=5711 submitted=False
+2026-10-31T12:56:24.7479554Z [Info] [CaptchaQueue] submit 73915 (lan 1)
+2026-10-31T12:56:29.7499303Z [Info] [CaptchaQueue] thử lại với đáp án dự phòng 773915 (đáp án đầu 73915 chưa đóng panel).
+2026-10-31T12:56:29.7529949Z [Info] [CaptchaQueue] submit 773915 (lan 2)
+2026-10-31T12:56:29.7592995Z [Warning] [CaptchaQueue] đã gửi 2 đáp án cho 9BC81C31E0A8907F, panel vẫn mở - dừng tự gửi để tránh khóa.
+2026-10-31T13:04:49.2785763Z [Info] [CaptchaQueue] field mvd='773915' mve='773915' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T13:04:49.2786494Z [Info] [CaptchaQueue] publish 58EECCFC239586FD 6070B -> inbox/58EECCFC239586FD.png
+2026-10-31T13:04:49.2857340Z [Info] [CaptchaCapture] saved image=20261031-130449-279-58EECCFC2395.png format=PNG size=256x256 bytes=6070 submitted=False
+2026-10-31T13:04:51.7858528Z [Info] [CaptchaQueue] submit 75391 (lan 1)
+2026-10-31T13:04:56.7923358Z [Info] [CaptchaQueue] thử lại với đáp án dự phòng 753391 (đáp án đầu 75391 chưa đóng panel).
+2026-10-31T13:04:56.7928525Z [Info] [CaptchaQueue] submit 753391 (lan 2)
+2026-10-31T13:04:56.8005783Z [Warning] [CaptchaQueue] đã gửi 2 đáp án cho 58EECCFC239586FD, panel vẫn mở - dừng tự gửi để tránh khóa.
+2026-10-31T13:08:16.1460569Z [Info] [CaptchaQueue] field mvd='753391' mve='753391' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T13:08:16.1460724Z [Info] [CaptchaQueue] publish FBC83B9FA176E3F0 6082B -> inbox/FBC83B9FA176E3F0.png
+2026-10-31T13:08:16.1553542Z [Info] [CaptchaCapture] saved image=20261031-130816-146-FBC83B9FA176.png format=PNG size=256x256 bytes=6082 submitted=False
+2026-10-31T13:08:18.6478280Z [Info] [CaptchaQueue] submit 57193 (lan 1)
+2026-10-31T13:08:23.6534616Z [Info] [CaptchaQueue] thử lại với đáp án dự phòng 577193 (đáp án đầu 57193 chưa đóng panel).
+2026-10-31T13:08:23.6548713Z [Info] [CaptchaQueue] submit 577193 (lan 2)
+2026-10-31T13:08:23.6607190Z [Warning] [CaptchaQueue] đã gửi 2 đáp án cho FBC83B9FA176E3F0, panel vẫn mở - dừng tự gửi để tránh khóa.
+2026-10-31T13:14:18.9193293Z [Info] [CaptchaQueue] field mvd='577193' mve='577193' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T13:14:18.9193525Z [Info] [CaptchaQueue] publish F139E30763B42BE4 5858B -> inbox/F139E30763B42BE4.png
+2026-10-31T13:14:18.9275592Z [Info] [CaptchaCapture] saved image=20261031-131418-920-F139E30763B4.png format=PNG size=256x256 bytes=5858 submitted=False
+2026-10-31T13:14:21.4217195Z [Info] [CaptchaQueue] submit 93517 (lan 1)
+2026-10-31T13:14:26.4231445Z [Info] [CaptchaQueue] thử lại với đáp án dự phòng 935517 (đáp án đầu 93517 chưa đóng panel).
+2026-10-31T13:14:26.4246015Z [Info] [CaptchaQueue] submit 935517 (lan 2)
+2026-10-31T13:14:26.4314600Z [Warning] [CaptchaQueue] đã gửi 2 đáp án cho F139E30763B42BE4, panel vẫn mở - dừng tự gửi để tránh khóa.
+2026-10-31T13:17:11.7838383Z [Info] [CaptchaQueue] field mvd='935517' mve='935517' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-10-31T13:17:11.7838526Z [Info] [CaptchaQueue] publish A6A21D431DFD8016 6164B -> inbox/A6A21D431DFD8016.png
+2026-10-31T13:17:11.7912483Z [Info] [CaptchaCapture] saved image=20261031-131711-784-A6A21D431DFD.png format=PNG size=256x256 bytes=6164 submitted=False
+2026-10-31T13:17:14.2856304Z [Info] [CaptchaQueue] submit 35719 (lan 1)
+2026-10-31T13:17:19.2863179Z [Info] [CaptchaQueue] thử lại với đáp án dự phòng 355719 (đáp án đầu 35719 chưa đóng panel).
+2026-10-31T13:17:19.2870137Z [Info] [CaptchaQueue] submit 355719 (lan 2)
+2026-10-31T13:17:19.2944508Z [Warning] [CaptchaQueue] đã gửi 2 đáp án cho A6A21D431DFD8016, panel vẫn mở - dừng tự gửi để tránh khóa.
