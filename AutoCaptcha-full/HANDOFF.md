@@ -1,5 +1,20 @@
 # HANDOFF — AutoCaptcha
 
+## PHIÊN 3b — V8.3.4: ảnh thật đầu tiên có đáp án chuẩn (`work/truth/img/last_solved.png`, hash 7B465EFF2AD22518)
+Người dùng xác nhận đáp án đúng = **131391** (legend đọc bằng mắt: v→7, l→1, x→5, E→3, C→9; dải trên l E l E C l). Đã thêm vào `work/truth/real_truth.jsonl` (id `user01`).
+
+| Phiên bản | Đáp án chính | `.alt.txt` | Legend |
+|---|---|---|---|
+| bộ giải Python cũ (log 02/11 03:03) | 911591 | — | sai 2/5 ký hiệu (E→1, U→3) |
+| V8.3.2 / V8.3.3 | 937399 | 937393 | sai 1/5 (`l` đọc thành `N`) |
+| V8.3.4 | 111391 | **131391 (đúng)** | đúng 5/5 |
+
+- Nguyên nhân `l→N`: đường kẻ vàng/đen vẽ ĐÈ lên đầu thân chữ `l` trắng (cùng cột, 7 hàng bị mất) → thân còn 12 hàng nên luật "thân hẹp" (`h>=14`) không kích hoạt, và dấu `-` của mũi tên không bị cắt.
+- Sửa (V8.3.4): lượt phụ nối nét dọc bị đường kẻ KHÁC MÀU che (`FillUnderOtherLines`, khe ≤ 3 hàng); kết quả lượt phụ CHỈ được dùng để cứu ô mà luật thân hẹp nhận ra `L` (điểm đúng 0.92). Thử dùng lượt nối cho mọi ô làm 7/157 ký hiệu cũ sai thêm → không dùng.
+- Không đổi gì ở 32 ảnh cũ: đáp án 32/32 trùng V8.3.3, legend vẫn 135/157 đúng tên; test hàng đợi 20/20.
+- Còn sai: đáp án CHÍNH 111391 ≠ 131391 (ký tự thứ 2: `E` màu hồng bị đọc thành `L`; dải trên đọc LLLECL, đúng là LELECL). Đáp án THAY THẾ (`.alt.txt`) đúng, nên plugin sẽ đúng ở lần gửi thứ 2 — **chưa thử trong game**; nếu server tính số lần sai thì điều này có rủi ro.
+- Cỡ mẫu = 1 ảnh có đáp án chuẩn; không suy ra tỷ lệ đúng. 11 đề Real còn lại vẫn thiếu PNG.
+
 ## PHIÊN 3 (Claude, sandbox Linux, 2026-11-02 ~21:20 +07) — V8.3.3: sửa nhận diện legend  ← ĐỌC PHẦN NÀY TRƯỚC
 Phần "phiên Notion AI" bên dưới giữ nguyên làm lịch sử. Nhánh: `claude/autocaptcha-legend-v833`.
 

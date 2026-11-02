@@ -1,5 +1,5 @@
 ﻿// ============================================================================
-// NRO AUTO CAPTCHA V8.3.3 (5 & 6 SO) - TICH HOP TRUC TIEP VAO MOD-250-PC (100% C#)
+// NRO AUTO CAPTCHA V8.3.4 (5 & 6 SO) - TICH HOP TRUC TIEP VAO MOD-250-PC (100% C#)
 // Queue-only integration: native NroPort.Plugin submits answers on the game thread.
 // Recognition accuracy depends on input; no perfect-accuracy claim is made.
 // ============================================================================
@@ -94,6 +94,7 @@ namespace NroAutoCaptchaMod
         public string Cell;
         public string ColorName;
         public string Symbol;
+        public string RawSymbol;
         public string Digit;
         public double SymScore;
         public double DigScore;
@@ -1426,13 +1427,76 @@ namespace NroAutoCaptchaMod
             return cur;
         }
 
+        // V8.3.4: đường kẻ khác màu vẽ ĐÈ lên ký hiệu (thường làm đứt thân chữ l/I). Nếu trong một cột có pixel màu X ở trên và dưới,
+        // và phần giữa (<= maxGap hàng) toàn pixel của màu khác, coi là nét X bị che và nối lại.
+        private static Dictionary<string, int[,]> FillUnderOtherLines(Dictionary<string, int[,]> masks, int maxGap)
+        {
+            Dictionary<string, int[,]> res = new Dictionary<string, int[,]>();
+            int H = 0, W = 0;
+            foreach (KeyValuePair<string, int[,]> kv in masks) { H = kv.Value.GetLength(0); W = kv.Value.GetLength(1); break; }
+            int[,] anyMask = new int[H, W];
+            foreach (KeyValuePair<string, int[,]> kv in masks)
+                for (int y = 0; y < H; y++) for (int x = 0; x < W; x++) if (kv.Value[y, x] != 0) anyMask[y, x] = 1;
+            foreach (KeyValuePair<string, int[,]> kv in masks)
+            {
+                int[,] m = kv.Value;
+                int[,] o = (int[,])m.Clone();
+                for (int x = 0; x < W; x++)
+                {
+                    int lastOn = -1000;
+                    for (int y = 0; y < H; y++)
+                    {
+                        if (m[y, x] == 0) continue;
+                        int gap = y - lastOn - 1;
+                        if (gap >= 1 && gap <= maxGap)
+                        {
+                            bool allOther = true;
+                            for (int q = lastOn + 1; q < y; q++) if (anyMask[q, x] == 0) { allOther = false; break; }
+                            if (allOther) for (int q = lastOn + 1; q < y; q++) o[q, x] = 1;
+                        }
+                        lastOn = y;
+                    }
+                }
+                res[kv.Key] = o;
+            }
+            return res;
+        }
+
+        // V8.3.4: chạy trích bảng quy chiếu 2 lượt. Lượt 2 (nối nét bị đường kẻ khác màu che) CHỈ được dùng để cứu ký hiệu thân hẹp l/I:
+        // ô nào lượt 1 không phải "L" mà lượt 2 nhận ra "L" bằng luật thân hẹp thì lấy "L". Mọi ô khác giữ kết quả lượt 1
+        // (thử nối toàn cục làm 7/157 ký hiệu cũ sai thêm nên không dùng).
         private static List<LegendEntry> ExtractLegendEntries(byte[,,] rgb, int H, int W)
+        {
+            List<LegendEntry> first = ExtractLegendEntriesCore(rgb, H, W, false, null);
+            Dictionary<string, string> rescue = null;
+            bool anyNonL = false;
+            for (int i = 0; i < first.Count; i++) if (first[i].RawSymbol != "L") { anyNonL = true; break; }
+            if (!anyNonL) return first;
+            List<LegendEntry> second = ExtractLegendEntriesCore(rgb, H, W, true, null);
+            for (int i = 0; i < second.Count; i++)
+            {
+                if (second[i].RawSymbol != "L" || Math.Abs(second[i].SymScore - 0.92) > 1e-9) continue;
+                for (int j = 0; j < first.Count; j++)
+                {
+                    if (first[j].Cell == second[i].Cell && first[j].ColorName == second[i].ColorName && first[j].RawSymbol != "L")
+                    {
+                        if (rescue == null) rescue = new Dictionary<string, string>();
+                        rescue[first[j].Cell] = "L";
+                    }
+                }
+            }
+            if (rescue == null) return first;
+            return ExtractLegendEntriesCore(rgb, H, W, false, rescue);
+        }
+
+        private static List<LegendEntry> ExtractLegendEntriesCore(byte[,,] rgb, int H, int W, bool fillUnderLines, Dictionary<string, string> forceSym)
         {
             int y0Bot = (int)Math.Round(H * 135.0 / 256.0);
             int y1Bot = (int)Math.Round(H * 230.0 / 256.0);
             int hSlice = y1Bot - y0Bot;
 
             Dictionary<string, int[,]> rawMasks = BuildColorMasksPure(rgb, y0Bot, hSlice, W);
+            if (fillUnderLines) rawMasks = FillUnderOtherLines(rawMasks, 3);
             Dictionary<string, int[,]> openMasks = new Dictionary<string, int[,]>();
             Dictionary<string, int[,]> closeMasks = new Dictionary<string, int[,]>();
             for (int i = 0; i < ORDER.Length; i++)
@@ -1668,11 +1732,20 @@ namespace NroAutoCaptchaMod
                 double symScore;
                 Dictionary<string, double> allSymSc;
                 string symChar = ClassifyLegendSymbol(symPart, out symScore, out allSymSc);
+                string rawSymChar = symChar;
+                string forced;
+                if (forceSym != null && forceSym.TryGetValue(cellNames[ci], out forced))
+                {
+                    symChar = forced; symScore = 0.92;
+                    allSymSc = new Dictionary<string, double>();
+                    allSymSc["L"] = 0.92; allSymSc["I"] = 0.90;
+                }
 
                 LegendEntry le = new LegendEntry();
                 le.Cell = cellNames[ci];
                 le.ColorName = bestColor;
                 le.Symbol = symChar;
+                le.RawSymbol = rawSymChar;
                 le.Digit = "1";
                 le.SymScore = symScore;
                 le.AllDigScores = dScores;
@@ -2328,11 +2401,11 @@ namespace NroAutoCaptchaMod
             catch (Exception) { }
         }
 
-        // ===================== WORKER V8.3.3 (queue-only; solver legend V8.3.3) =====================
+        // ===================== WORKER V8.3.4 (queue-only; solver legend V8.3.4) =====================
         // - Giu nguyen PNG trong inbox/ (khong move/delete); trang thai luu bang marker solved/<sha>.txt, failed/<sha>.txt
         // - Doc jobs/<sha>.json chiu loi (file dang ghi do / bi khoa) va theo doi answerLength thay doi
         // - Ghi outbox/<sha>.alt.txt (dap an du phong cung do dai) truoc outbox/<sha>.txt
-        public const string WorkerVersion = "V8.3.3";
+        public const string WorkerVersion = "V8.3.4";
         private const double PngSettleMs = 150;      // cho plugin ghi xong PNG
         private const double JobWaitMs = 1500;       // cho toi da job JSON hop le truoc khi giai voi len=0
         private const double DecodeRetrySec = 10;    // PNG hong: thu lai toi da 10 s roi danh dau failed
