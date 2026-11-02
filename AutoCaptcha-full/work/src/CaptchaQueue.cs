@@ -1,5 +1,5 @@
 ﻿// ============================================================================
-// NRO AUTO CAPTCHA V8.3.2 (5 & 6 SO) - TICH HOP TRUC TIEP VAO MOD-250-PC (100% C#)
+// NRO AUTO CAPTCHA V8.3.3 (5 & 6 SO) - TICH HOP TRUC TIEP VAO MOD-250-PC (100% C#)
 // Queue-only integration: native NroPort.Plugin submits answers on the game thread.
 // Recognition accuracy depends on input; no perfect-accuracy claim is made.
 // ============================================================================
@@ -1332,6 +1332,100 @@ namespace NroAutoCaptchaMod
             return bestCh.ToUpperInvariant();
         }
 
+        // V8.3.3: tham số khôi phục nét ngang của ký hiệu legend (chọn theo 32 ảnh/157 ký hiệu có nhãn — IN-SAMPLE, chưa kiểm chứng ngoài tập).
+        private const int LEGEND_BRIDGE_MAX_GAP = 4;      // lấp khe ngang <= 4 px giữa hai pixel của mặt nạ "open" nếu pixel thô ở giữa đều bật
+        private const int LEGEND_LINE_MIN_SUPPORT = 90;   // số pixel tối thiểu (dải ±1) để coi một dải là đường kẻ cùng màu
+        private const int LEGEND_RECON_ITERS = 6;         // số bước mọc lại từ lõi "open" trong mặt nạ thô đã bỏ đường kẻ
+
+        // Tìm các đường kẻ thẳng (độ dốc |a| <= 0.7) trong mặt nạ thô một màu; xóa phần "mỏng" (run dọc <= 3) nằm trên đường.
+        private static int[,] RemoveLineBands(int[,] raw, int minSupport)
+        {
+            int H = raw.GetLength(0), W = raw.GetLength(1);
+            int[,] result = (int[,])raw.Clone();
+            List<int[]> pts = new List<int[]>();
+            for (int y = 0; y < H; y++) for (int x = 0; x < W; x++) if (raw[y, x] != 0) pts.Add(new int[] { y, x });
+            bool[] used = new bool[pts.Count];
+            int[,] runLen = new int[H, W];
+            for (int x = 0; x < W; x++)
+            {
+                int y = 0;
+                while (y < H)
+                {
+                    if (raw[y, x] == 0) { y++; continue; }
+                    int y2 = y;
+                    while (y2 < H && raw[y2, x] != 0) y2++;
+                    for (int q = y; q < y2; q++) runLen[q, x] = y2 - y;
+                    y = y2;
+                }
+            }
+            List<double[]> lines = new List<double[]>();
+            for (int iter = 0; iter < 8; iter++)
+            {
+                int bestCnt = 0; double bestA = 0, bestB = 0;
+                for (int ai = -70; ai <= 70; ai++)
+                {
+                    double a = ai / 100.0;
+                    int[] hist = new int[H + 2 * W + 8];
+                    int off = W + 4;
+                    for (int i = 0; i < pts.Count; i++)
+                    {
+                        if (used[i]) continue;
+                        int b = (int)Math.Round(pts[i][0] - a * pts[i][1]) + off;
+                        if (b >= 0 && b < hist.Length) hist[b]++;
+                    }
+                    for (int b = 1; b < hist.Length - 1; b++)
+                    {
+                        int cnt = hist[b - 1] + hist[b] + hist[b + 1];
+                        if (cnt > bestCnt) { bestCnt = cnt; bestA = a; bestB = b - off; }
+                    }
+                }
+                if (bestCnt < minSupport) break;
+                lines.Add(new double[] { bestA, bestB });
+                for (int i = 0; i < pts.Count; i++)
+                {
+                    double d = pts[i][0] - (bestA * pts[i][1] + bestB);
+                    if (Math.Abs(d) <= 1.6) used[i] = true;
+                }
+            }
+            for (int i = 0; i < pts.Count; i++)
+            {
+                int y = pts[i][0], x = pts[i][1];
+                for (int l = 0; l < lines.Count; l++)
+                {
+                    double d = y - (lines[l][0] * x + lines[l][1]);
+                    if (Math.Abs(d) <= 1.6 && runLen[y, x] <= 3) { result[y, x] = 0; break; }
+                }
+            }
+            return result;
+        }
+
+        // Mọc lại từ mặt nạ seed trong vùng allowed (lân cận 8, iters bước).
+        private static int[,] GeodesicGrow(int[,] seed, int[,] allowed, int iters)
+        {
+            int H = seed.GetLength(0), W = seed.GetLength(1);
+            int[,] cur = (int[,])seed.Clone();
+            for (int it = 0; it < iters; it++)
+            {
+                int[,] nxt = (int[,])cur.Clone();
+                for (int y = 0; y < H; y++)
+                    for (int x = 0; x < W; x++)
+                    {
+                        if (cur[y, x] != 0 || allowed[y, x] == 0) continue;
+                        bool nb = false;
+                        for (int dy = -1; dy <= 1 && !nb; dy++)
+                            for (int dx = -1; dx <= 1; dx++)
+                            {
+                                int yy = y + dy, xx = x + dx;
+                                if (yy < 0 || xx < 0 || yy >= H || xx >= W) continue;
+                                if (cur[yy, xx] != 0) { nb = true; break; }
+                            }
+                        if (nb) nxt[y, x] = 1;
+                    }
+                cur = nxt;
+            }
+            return cur;
+        }
+
         private static List<LegendEntry> ExtractLegendEntries(byte[,,] rgb, int H, int W)
         {
             int y0Bot = (int)Math.Round(H * 135.0 / 256.0);
@@ -1347,6 +1441,8 @@ namespace NroAutoCaptchaMod
                 openMasks[name] = MorphOpen(rawMasks[name], 1, 3);
                 closeMasks[name] = MorphClose(openMasks[name], 2, 6);
             }
+            Dictionary<string, int[,]> cleanMasks = new Dictionary<string, int[,]>();
+            for (int i = 0; i < ORDER.Length; i++) cleanMasks[ORDER[i]] = RemoveLineBands(rawMasks[ORDER[i]], LEGEND_LINE_MIN_SUPPORT);
 
             int[][] cellDefs = new int[][] {
                 new int[] { 5, 33, 16, Math.Min(96, W) },
@@ -1527,7 +1623,48 @@ namespace NroAutoCaptchaMod
                 for (int i = 0; i < sComps.Count; i++)
                     if (sComps[i].Area >= 15 && sComps[i].H > maxH) maxH = sComps[i].H;
 
+                // V8.3.3: MorphOpen(1,3) xóa nét ngang mỏng (cung @, thanh e/a...). Mọc lại từ lõi trong mặt nạ đã bỏ đường kẻ cùng màu.
+                {
+                    int[,] cleanCell = Crop2D(cleanMasks[bestColor], cy0, cy1, cx0, cx1);
+                    int[,] cleanSym = Crop2D(cleanCell, 0, ch, symX0, Math.Min(cw, symX0 + 24));
+                    int gy0, gy1, gx0, gx1;
+                    if (TightBbox(symPartOpen, out gy0, out gy1, out gx0, out gx1))
+                    {
+                        int[,] allowed = new int[ch, cleanSym.GetLength(1)];
+                        for (int yy = Math.Max(0, gy0 - 3); yy < Math.Min(ch, gy1 + 3); yy++)
+                            for (int xx = Math.Max(0, gx0 - 3); xx < Math.Min(cleanSym.GetLength(1), gx1 + 3); xx++)
+                                allowed[yy, xx] = cleanSym[yy, xx];
+                        symPartOpen = GeodesicGrow(symPartOpen, allowed, LEGEND_RECON_ITERS);
+                        sComps = ConnectedComponents(symPartOpen);
+                        maxH = 0;
+                        for (int i = 0; i < sComps.Count; i++)
+                            if (sComps[i].Area >= 15 && sComps[i].H > maxH) maxH = sComps[i].H;
+                    }
+                }
                 int[,] symPart = (maxH < 14) ? MorphClose(symPartOpen, 1, 4) : symPartOpen;
+                // V8.3.3: lấp khe ngang <= LEGEND_BRIDGE_MAX_GAP giữa hai pixel bật khi mọi pixel thô ở giữa đều bật.
+                {
+                    int[,] rawCell2 = Crop2D(rawMasks[bestColor], cy0, cy1, cx0, cx1);
+                    int sw = symPart.GetLength(1);
+                    int[,] filled = (int[,])symPart.Clone();
+                    for (int yy = 0; yy < ch; yy++)
+                    {
+                        int lastOn = -1000;
+                        for (int xx = 0; xx < sw; xx++)
+                        {
+                            if (symPart[yy, xx] == 0) continue;
+                            int gap = xx - lastOn - 1;
+                            if (gap >= 1 && gap <= LEGEND_BRIDGE_MAX_GAP)
+                            {
+                                bool allRaw = true;
+                                for (int q = lastOn + 1; q < xx; q++) if (rawCell2[yy, symX0 + q] == 0) { allRaw = false; break; }
+                                if (allRaw) for (int q = lastOn + 1; q < xx; q++) filled[yy, q] = 1;
+                            }
+                            lastOn = xx;
+                        }
+                    }
+                    symPart = filled;
+                }
                 double symScore;
                 Dictionary<string, double> allSymSc;
                 string symChar = ClassifyLegendSymbol(symPart, out symScore, out allSymSc);
@@ -2191,11 +2328,11 @@ namespace NroAutoCaptchaMod
             catch (Exception) { }
         }
 
-        // ===================== WORKER V8.3.2 (queue-only) =====================
+        // ===================== WORKER V8.3.3 (queue-only; solver legend V8.3.3) =====================
         // - Giu nguyen PNG trong inbox/ (khong move/delete); trang thai luu bang marker solved/<sha>.txt, failed/<sha>.txt
         // - Doc jobs/<sha>.json chiu loi (file dang ghi do / bi khoa) va theo doi answerLength thay doi
         // - Ghi outbox/<sha>.alt.txt (dap an du phong cung do dai) truoc outbox/<sha>.txt
-        public const string WorkerVersion = "V8.3.2";
+        public const string WorkerVersion = "V8.3.3";
         private const double PngSettleMs = 150;      // cho plugin ghi xong PNG
         private const double JobWaitMs = 1500;       // cho toi da job JSON hop le truoc khi giai voi len=0
         private const double DecodeRetrySec = 10;    // PNG hong: thu lai toi da 10 s roi danh dau failed

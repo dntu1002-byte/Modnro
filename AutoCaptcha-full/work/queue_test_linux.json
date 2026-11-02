@@ -32,7 +32,7 @@
  {
   "name": "BAD: corrupt PNG -> failed after ~10 s (not before 8 s)",
   "passed": true,
-  "extra": "10.3s"
+  "extra": "10.4s"
  },
  {
   "name": "P: partial job JSON -> not answered early, answered after complete",

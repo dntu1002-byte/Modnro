@@ -1,4 +1,49 @@
-# HANDOFF — AutoCaptcha (phiên Notion AI, sandbox Linux, bắt đầu 2026-11-02 19:14 +07)
+# HANDOFF — AutoCaptcha
+
+## PHIÊN 3 (Claude, sandbox Linux, 2026-11-02 ~21:20 +07) — V8.3.3: sửa nhận diện legend  ← ĐỌC PHẦN NÀY TRƯỚC
+Phần "phiên Notion AI" bên dưới giữ nguyên làm lịch sử. Nhánh: `claude/autocaptcha-legend-v833`.
+
+### Môi trường phiên này
+- `/data/...` không còn. .NET 8 cài bằng `apt-get install dotnet-sdk-8.0 dotnet-targeting-pack-8.0` (sandbox không truy cập được nuget.org/dot.net).
+- Build offline: `cd work/linux_build && dotnet build -c Release -o out --source /tmp/emptysrc` (thư mục rỗng để NuGet khỏi gọi mạng). `obj/` đã .gitignore.
+- Script `run_offline_linux.py` / `test_queue_linux.py` không còn cố định `/data/.dotnet`; `run_offline_linux.py [exe] [tên-file-json]`.
+
+### Đã làm
+1. Dựng lại baseline: build V8.3.2 → 32/32 ảnh trùng `run_linux.json` cũ (đã lưu thành `work/run_linux_v832.json`).
+2. Chẩn đoán lỗi legend bằng dump mặt nạ (không đoán):
+   - `@→M`: `MorphOpen(1,3)` xóa nét ngang mỏng (cung trên/dưới của `@`, thanh ngang của `e`/`a`) → còn 3 cột dọc giống `M`.
+   - `b↔h` (3CE6…): đường kẻ khác màu VẼ ĐÈ lên cung đáy của `b` → mất thông tin trong ảnh, không phục hồi được từ ảnh này. Chữ số 1/3 gán ĐÚNG; chỉ tên hai ô bị hoán đổi (cả hai ô trông như `h`).
+   - `u/F` (233A…): chữ số `5` bị đường kẻ cùng màu làm dày, điểm 3 và 5 gần hòa (0.68 vs 0.67) nên hoán đổi.
+3. Sửa trong `work/src/CaptchaQueue.cs` (V8.3.3, chỉ đụng nhận diện KÝ HIỆU legend; worker/queue không đổi):
+   - `RemoveLineBands`: dò đường kẻ thẳng cùng màu (Hough đơn giản, |dốc| ≤ 0.7, ≥ 90 pixel), bỏ phần mỏng (run dọc ≤ 3) nằm trên đường.
+   - `GeodesicGrow`: mọc lại tối đa 6 bước từ lõi "open" trong mặt nạ đã bỏ đường kẻ, giới hạn quanh ký hiệu.
+   - Lấp khe ngang ≤ 4 px nếu mặt nạ thô ở giữa bật hết.
+   - Hằng số `LEGEND_BRIDGE_MAX_GAP=4`, `LEGEND_LINE_MIN_SUPPORT=90`, `LEGEND_RECON_ITERS=6`.
+4. Công cụ đo mới: `work/scripts/compare_legend.py A.json B.json` (liệt kê ký hiệu mới đúng/mới sai theo nhãn legend; coi I≡L vì l/I giống hệt trong Arial Bold).
+
+### Kết quả (đo trên 32 ảnh / 157 ký hiệu nhãn bằng mắt — xem `work/legend_score_v833.txt`, `work/legend_compare_v832_vs_v833.txt`)
+| | V8.3.2 | V8.3.3 |
+|---|---|---|
+| Ký hiệu đúng TÊN (không tính số) | 128/157 | 135/157 |
+| Ký hiệu đúng tên + đúng số (I≡L) | 125/157 | 133/157 |
+| Ảnh legend đúng hoàn toàn | 13/32 | 17/32 |
+- Mới đúng 9, mới sai 1 (`v` ở E9CB… → đọc thành U). Quét tham số (rec 3–8, ngưỡng 60–120): vùng bằng phẳng, nhưng 3 tham số này CHỌN TRÊN CHÍNH 157 nhãn đó ⇒ số liệu là IN-SAMPLE, chưa có tập kiểm chứng độc lập; không suy ra độ chính xác ngoài tập.
+- `@` VẪN CHƯA ĐÚNG ở 5/7 ảnh có `@` (290B, 58EE, 5B25, 78F2, FBC8: giờ bị đọc thành `&`/`Q` thay vì `M`; chỉ 4A51 và BAB9 đúng). Chỉ kiểm ở 290B: sau các bước cắt trong `ClassifyLegendSymbol` crop còn rộng 17 (<19) nên `@` rơi khỏi nhóm ứng viên rộng; các ảnh còn lại CHƯA kiểm nguyên nhân.
+- Đáp án cuối (dải trên + legend) ĐỔI ở 12/32 ảnh so với V8.3.2 (danh sách: so `run_linux_v832.json` với `run_linux.json`). KHÔNG có ground truth cho đáp án cuối nên không biết đúng/sai; không tuyên bố cải thiện đáp án.
+- Test hàng đợi Linux: 20/20 PASS với bản V8.3.3 (`work/queue_test_linux.json`). Ảnh 71095CCA… vẫn ra 4 số → đánh dấu failed như cũ.
+
+### CHƯA kiểm chứng
+- Chưa build bằng `build.ps1`/csc trên Windows; `work/src/AutoCaptcha.exe` và `work/net48_check/out/*` là bản CŨ (V8.3.2), chưa build lại. Linux build dùng LangVersion 5 nên cú pháp tương thích C# 5, nhưng API .NET Framework 4.x chưa được biên dịch thật.
+- Chưa thử trong game; chưa biết server có chấp nhận đáp án V8.3.3 hay không.
+- Nhãn legend là nhãn bằng mắt của phiên trước, chưa kiểm chéo độc lập (tôi chỉ nhìn lại ~8 ô, khớp nhãn).
+
+### Việc tiếp theo gợi ý
+- Giữ `@` trong nhóm ứng viên rộng (hoặc chấm điểm bổ sung `@` trước các bước cắt), rồi đo lại bằng `compare_legend.py`.
+- Cần tập nhãn mới (ảnh ngoài 32 ảnh này) để kiểm chứng độc lập trước khi tin các tham số.
+- Build Windows: `work/src/build.ps1`, chạy `work/src/test_queue.py`, rồi thử trong game.
+
+---
+## PHIÊN 2 (Notion AI, sandbox Linux, bắt đầu 2026-11-02 19:14 +07) — lịch sử
 
 Đọc file này trước. Bản bàn giao Windows trước đó giữ nguyên ở `HANDOFF_prev_windows.md`.
 
