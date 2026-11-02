@@ -1,0 +1,6 @@
+2026-11-01T18:38:56.0377242Z [Info] [CaptchaQueue] hooked em.bbo (ghi nhan mau captcha khi nguoi dung gui).
+2026-11-01T18:38:56.0584818Z [Info] [CaptchaBlocker] hooked br.bdh (chan panel CAPTCHA).
+2026-11-01T18:39:25.6260439Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T18:39:30.6917828Z [Info] [CaptchaQueue] field mvd='13377' mve='13377' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T18:39:30.6917921Z [Info] [CaptchaQueue] publish 64704A83D9EA3520 5917B -> inbox/64704A83D9EA3520.png
+2026-11-01T18:39:33.2011675Z [Info] [CaptchaQueue] submit 57115 (lan 1)
