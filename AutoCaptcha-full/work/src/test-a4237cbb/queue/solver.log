@@ -1,0 +1,7 @@
+﻿[2026-11-02 18:54:09] SAN SANG V8.3.1 | mode=native_queue | C:\Users\Tuchuai\Downloads\AutoCaptcha-Handoff-Recreated-20261102\work\src\test-a4237cbb\queue
+[2026-11-02 18:54:09] SOLVED recover -> 35919 (93ms) | input=native_queue | top_chars=%LQVQ | sym_map={K->7, L->5, Q->9, %->3, V->1} | fallback=37919
+[2026-11-02 18:54:09] FAIL corrupt | Not a valid PNG file
+[2026-11-02 18:54:09] SOLVED first -> 35919 (34ms) | input=native_queue | top_chars=%LQVQ | sym_map={K->7, L->5, Q->9, %->3, V->1} | fallback=37919
+[2026-11-02 18:54:09] FAIL mismatch | Invalid answer/length: 35919 expected=6 | top_chars=%LQVQ | sym_map={K->7, L->5, Q->9, %->3, V->1} | fallback=37919
+[2026-11-02 18:54:09] SOLVED second -> 35919 (32ms) | input=native_queue | top_chars=%LQVQ | sym_map={K->7, L->5, Q->9, %->3, V->1} | fallback=37919
+[2026-11-02 18:54:10] SAN SANG V8.3.1 | mode=native_queue | C:\Users\Tuchuai\Downloads\AutoCaptcha-Handoff-Recreated-20261102\work\src\test-a4237cbb\queue

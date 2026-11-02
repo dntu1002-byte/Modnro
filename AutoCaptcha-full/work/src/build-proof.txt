@@ -1,0 +1,1 @@
+EXE Framework csc.exe: exit=0, errors=0; DLL Roslyn csc.dll with .NET 6 references: exit=0, errors=0

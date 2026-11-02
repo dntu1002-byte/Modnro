@@ -1,0 +1,38 @@
+[
+  {
+    "name": "all pending jobs processed with no game windows",
+    "passed": true
+  },
+  {
+    "name": "answer bytes contain no UTF-8 BOM",
+    "passed": true
+  },
+  {
+    "name": "corrupt PNG isolated and retained",
+    "passed": true
+  },
+  {
+    "name": "wrong answer length blocked",
+    "passed": true
+  },
+  {
+    "name": "successful input archived",
+    "passed": true
+  },
+  {
+    "name": "second worker exits without killing first",
+    "passed": true
+  },
+  {
+    "name": "independent Mod queue can run concurrently",
+    "passed": true
+  },
+  {
+    "name": "worker recovers abandoned mutex after forced exit",
+    "passed": true
+  },
+  {
+    "name": "no mouse injection API in installed source",
+    "passed": true
+  }
+]
