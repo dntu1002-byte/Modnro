@@ -1,0 +1,27 @@
+2026-11-01T05:11:06.6240058Z [Info] [CaptchaQueue] hooked em.bbo (ghi nhan mau captcha khi nguoi dung gui).
+2026-11-01T05:11:06.6443191Z [Info] [CaptchaBlocker] hooked br.bdh (chan panel CAPTCHA).
+2026-11-01T05:11:38.3278710Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T05:11:42.2267589Z [Info] [CaptchaQueue] field mvd='951515' mve='951515' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T05:11:42.2267764Z [Info] [CaptchaQueue] publish DD13F637588672E1 6023B -> inbox/DD13F637588672E1.png
+2026-11-01T05:11:50.3342606Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:12:02.2238154Z [Warning] [CaptchaQueue] 20s chưa có đáp án cho DD13F637588672E1 - panel vẫn mở, cần nhập tay.
+2026-11-01T05:12:02.8824597Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:12:15.4159305Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:12:28.5286287Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:12:40.5940786Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:13:19.0889736Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:13:31.1406797Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:13:43.2805889Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:13:55.7961471Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:14:07.9750557Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:14:20.6157563Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:14:32.6816247Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:14:45.1326697Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:14:57.5860785Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:15:10.3065120Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:15:22.3736826Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:15:34.6527721Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:15:46.8152147Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:15:58.9157608Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:16:11.3568973Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:16:23.8299839Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.

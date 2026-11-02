@@ -1,0 +1,16 @@
+2026-11-01T05:48:01.5857312Z [Info] [CaptchaQueue] hooked em.bbo (ghi nhan mau captcha khi nguoi dung gui).
+2026-11-01T05:48:01.6100484Z [Info] [CaptchaBlocker] hooked br.bdh (chan panel CAPTCHA).
+2026-11-01T05:48:32.5447632Z [Info] [CaptchaBlocker] đã chặn panel CAPTCHA; sẽ trả lời nền, không hiện lên màn hình.
+2026-11-01T05:48:37.3240373Z [Info] [CaptchaQueue] field mvd='955539' mve='955539' mvi='mua key api tại dungpham.com.vn' mvj='' mvf=500 mvg=0
+2026-11-01T05:48:37.3240544Z [Info] [CaptchaQueue] publish 557DA948AF62FE85 5814B -> inbox/557DA948AF62FE85.png
+2026-11-01T05:48:44.5530098Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:48:56.6439595Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:48:57.3277616Z [Warning] [CaptchaQueue] 20s chưa có đáp án cho 557DA948AF62FE85 - panel vẫn mở, cần nhập tay.
+2026-11-01T05:49:08.7763839Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:49:20.8113804Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:49:33.1978566Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:49:45.7390556Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:49:58.1333274Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:50:10.4583975Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:50:23.2959995Z [Warning] [CaptchaQueue] 12s chưa có đáp án - hiện lại panel CAPTCHA để nhập tay.
+2026-11-01T05:50:32.4111800Z [Info] [CaptchaQueue] submit 9773 (lan 1)
