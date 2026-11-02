@@ -32,6 +32,12 @@ Phần "phiên Notion AI" bên dưới giữ nguyên làm lịch sử. Nhánh: `
 - Đáp án cuối (dải trên + legend) ĐỔI ở 12/32 ảnh so với V8.3.2 (danh sách: so `run_linux_v832.json` với `run_linux.json`). KHÔNG có ground truth cho đáp án cuối nên không biết đúng/sai; không tuyên bố cải thiện đáp án.
 - Test hàng đợi Linux: 20/20 PASS với bản V8.3.3 (`work/queue_test_linux.json`). Ảnh 71095CCA… vẫn ra 4 số → đánh dấu failed như cũ.
 
+### Cập nhật cuối phiên 3 — đáp án chuẩn do người dùng cung cấp
+- Người dùng gửi bảng "KIỂM CHỨNG V8.3" và khẳng định: dòng `Top: … → đáp án` dưới mỗi ô là ĐÚNG; mã trong ô trắng là đáp án SAI của bản cũ (trước đó mình hiểu ngược). Điều này mình chưa tự xác minh.
+- Đã chép 12 đề Real vào `work/truth/real_truth.jsonl` (legend + dải trên + đáp án; mỗi dòng đã tự kiểm legend×dải trên = đáp án). 12 đề Adv là biến thể giả lập (cùng dải trên, legend đảo số) nên không đưa vào chuẩn.
+- 12 đề này KHÔNG nằm trong 32 ảnh của repo và chưa có PNG gốc → CHƯA chạy được. Cần người dùng đặt ảnh gốc (`inbox/<HASH>.png` của plugin) vào `work/truth/img/real01.png … real12.png`, rồi chạy `python3 work/scripts/score_truth.py`.
+- V8.3.3 chưa được chấm trên tập này; không có số liệu độ chính xác cho 12 đề Real.
+
 ### CHƯA kiểm chứng
 - Chưa build bằng `build.ps1`/csc trên Windows; `work/src/AutoCaptcha.exe` và `work/net48_check/out/*` là bản CŨ (V8.3.2), chưa build lại. Linux build dùng LangVersion 5 nên cú pháp tương thích C# 5, nhưng API .NET Framework 4.x chưa được biên dịch thật.
 - Chưa thử trong game; chưa biết server có chấp nhận đáp án V8.3.3 hay không.
