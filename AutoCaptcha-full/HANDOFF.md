@@ -15,6 +15,12 @@ Người dùng xác nhận đáp án đúng = **131391** (legend đọc bằng m
 - Còn sai: đáp án CHÍNH 111391 ≠ 131391 (ký tự thứ 2: `E` màu hồng bị đọc thành `L`; dải trên đọc LLLECL, đúng là LELECL). Đáp án THAY THẾ (`.alt.txt`) đúng, nên plugin sẽ đúng ở lần gửi thứ 2 — **chưa thử trong game**; nếu server tính số lần sai thì điều này có rủi ro.
 - Cỡ mẫu = 1 ảnh có đáp án chuẩn; không suy ra tỷ lệ đúng. 11 đề Real còn lại vẫn thiếu PNG.
 
+### Cập nhật 3c — `AutoCaptcha.exe` đã build lại từ V8.3.4 (nhưng CHƯA chạy trên Windows thật)
+- `work/src/AutoCaptcha.exe` (trước là bản cũ) nay build từ `CaptchaQueue.cs` V8.3.4 bằng `work/scripts/build_net48_roslyn.sh`: Roslyn (dotnet SDK 8, C# 5) biên dịch với reference assemblies .NET Framework 4.8 của mono-devel. Biên dịch 0 lỗi → không dùng API ngoài .NET 4.8. SHA256 `3bc6a361…ca4d`.
+- Đã chạy bằng Mono trên Linux: 32/32 ảnh trùng bản Linux .NET 8; `last_solved.png` → 111391, alt 131391; chế độ `--queue` ghi đúng `.txt` và `.alt.txt`. Mono ≠ Windows: chưa kiểm chứng trên .NET Framework thật, chưa kiểm SmartScreen/antivirus.
+- Phiên khác (Wine+Mono) báo exe cũ trong repo ra cùng kết quả trên Windows thật/Mono/Wine; đó là bản CŨ, không áp dụng cho bản V8.3.4.
+- Người dùng cuối chỉ cần file `AutoCaptcha.exe` (không Python, không cài thêm; Windows 10/11 có sẵn .NET Framework 4.8).
+
 ## PHIÊN 3 (Claude, sandbox Linux, 2026-11-02 ~21:20 +07) — V8.3.3: sửa nhận diện legend  ← ĐỌC PHẦN NÀY TRƯỚC
 Phần "phiên Notion AI" bên dưới giữ nguyên làm lịch sử. Nhánh: `claude/autocaptcha-legend-v833`.
 
