@@ -1,5 +1,14 @@
 # HANDOFF — AutoCaptcha
 
+## PHIÊN 4b — user03 (đáp án chuẩn 535113): V8.3.5 SAI, CHƯA SỬA
+Ảnh `work/truth/img/user03.png` (chụp màn hình 253×256; bản gốc người dùng upload ở `main`: `work/img/Screenshot 2026-11-03 194407.png`). Legend đọc bằng mắt: %→1, E→7, s→9, B→5, d→3. Đáp án người dùng xác nhận **535113**; dải trên suy ra `BDB%%D` (ký tự 4 đen và 5 đỏ là HAI dấu `%` chồng lên nhau).
+- V8.3.5: 535355 (`BDBDBB`, legend `T,S,D,E,B`), alt 935355 → SAI 3/6 chữ số. Điểm tin cậy dải trên chỉ 0.52–0.61 (ảnh user02: 0.93–1.0); 4/6 ký tự hơn ký tự xếp sau < 0.02.
+- Nguyên nhân đã chẩn đoán (dump mặt nạ, nhưng CHƯA có bản sửa):
+  1. Legend `%` (hồng) bị đọc `T`: đường kẻ đen chéo dày ~5 px cắt vòng tròn trái của `%`; sau `MorphOpen(1,3)` + loại thành phần nhỏ, mặt nạ chỉ còn nét chéo + vòng dưới (`symX0=11` đã mất vòng trái) → `%` không còn nằm trong các ứng viên (điểm T=0.625; `%` không có trong `AllSymScores`). Chữ số gán cho `%` vẫn đúng (1). Ép `T→%` thử nghiệm không đổi đáp án chính.
+  2. Dải trên: giả định "mỗi màu = một ký tự". Ở đây hai `%` KHÁC MÀU chồng lên nhau, mỗi màu chỉ giữ một mảnh (đen: nét chéo + vòng; đỏ: một vòng) → không có cách nào đọc đúng mà không ghép mảnh khác màu. Ký tự vàng (d) bị đọc B (0.587 vs D 0.546).
+- Hướng sửa (chưa làm, cần quyết định): so khớp mẫu có chú ý che khuất (chỉ tính điểm trên pixel không bị đường kẻ khác màu che) cho cả legend lẫn dải trên, và cho phép ghép các mảnh khác màu chồng nhau. Với 3 ảnh có đáp án chuẩn, mọi tham số mới đều dễ quá khớp → cần thêm ảnh chuẩn trước khi chỉnh.
+- Tập chuẩn có PNG hiện nay: user01 (sai chính, alt đúng), user02 (đúng), user03 (sai) → 1/3 đúng đáp án chính.
+
 ## PHIÊN 4 — V8.3.5: ảnh user02 (đáp án chuẩn 11175), sửa nhầm C↔D ở dải trên
 Nhánh `claude/autocaptcha-v835-user02` (tách từ `claude/autocaptcha-legend-v833`). LƯU Ý: `main` KHÔNG chứa công việc V8.3.3–V8.3.4 (main tách ra từ `b30693c`, chỉ nhận các commit "Add files via upload"); ảnh người dùng upload qua web nằm trên `main` (commit `827f338`, `work/img/Screenshot 2026-11-03 015539.png`) và được chép sang `work/truth/img/user02.png` ở nhánh này.
 
