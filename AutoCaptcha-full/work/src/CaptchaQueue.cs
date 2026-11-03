@@ -2422,8 +2422,16 @@ namespace NroAutoCaptchaMod
                 fallbackAnswer = fbSb.ToString();
             }
 
-            debugInfo = string.Format("top_chars={0} | sym_map={{{1}}} | fallback={2}",
-                charsSb.ToString(), mapSb.ToString(), fallbackAnswer ?? "none");
+            StringBuilder itemSb = new StringBuilder();
+            for (int i = 0; i < topItems.Count; i++)
+            {
+                TopDetectedItem t = topItems[i];
+                if (i > 0) itemSb.Append("; ");
+                itemSb.Append(string.Format(CultureInfo.InvariantCulture, "{0}:{1} x={2} {3}x{4} a={5} {6:0.000} alt {7} {8:0.000}",
+                    i, t.Color, t.X, t.W, t.H, t.Area, t.SymScore, t.AltSymbol, t.AltScore));
+            }
+            debugInfo = string.Format("top_chars={0} | sym_map={{{1}}} | fallback={2} | items=[{3}]",
+                charsSb.ToString(), mapSb.ToString(), fallbackAnswer ?? "none", itemSb.ToString());
             return ansSb.ToString();
         }
 
