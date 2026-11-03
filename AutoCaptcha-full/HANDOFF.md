@@ -1,5 +1,11 @@
 # HANDOFF — AutoCaptcha
 
+## PHIÊN 7 — công cụ nhìn ảnh đã bỏ phông + đường nhiễu; ảnh `215951` đáp án người dùng báo 37119 KHÔNG khớp
+- Hiện trạng pipeline (có sẵn từ trước): phông chữ xám bị loại vì phân loại màu (`BuildColorMasksPure`: chỉ nhận trắng/đen/6 màu bão hoà); dải trên bỏ đường kẻ ngang bằng lọc trung vị theo hàng (`RemoveHorizontalLinesPure`, cửa sổ 51); legend bỏ đường kẻ bằng `RemoveLineBands` + `FillUnderOtherLines` (lượt phụ). Đường kẻ vẽ ĐÈ LÊN ký tự nên bỏ đường = để lại khe trong nét; V8.3.6 bù bằng điểm "chỉ trên ô không bị che".
+- Mới: `AutoCaptcha.exe --dump-clean <in.png> <out.ppm>` xuất 3 khung (gốc / đã bỏ phông+đường / đã NỐI khe ≤4 hàng bị đường che). Ví dụ trong `work/clean/` (`clean_n6_215951.png`, `clean_user05_204012.png`). Chỉ để nhìn, không dùng trong `SolveImage`. Khung nối làm dải trên đọc được bằng mắt (user05: `A C e % H` rõ).
+- Thí nghiệm (không đưa vào bản chính): nối khe ≤3–4 hàng NGAY TRƯỚC khi phân loại, tập chuẩn bỏ user03 (4 ảnh): chỉ nối (w=0) → đúng user01, user02, user04 (3/4, không cần trọng số 0.6; sai user05); nối + pha 0.6 → 3/4; chỉ pha 0.6 không nối (V8.3.6) → 4/4; không nối, không pha → 1/4. Cỡ mẫu rất nhỏ, chưa kết luận.
+- Ảnh `215951` (`main` `de23d27`): V8.3.6 ra `AA#PAK` → 117915. Khung nối cho thấy dải trên: hồng `#`, trắng + đen chồng nhau (đen là `#`), đỏ `P`, vàng `A`, xanh dương `X`. Ô nhập đáp án trong ảnh có 5 gạch (5 ký tự). Người dùng báo đáp án 37119 ⇒ theo legend `p9 #7 k5 A1 X3` cần dải trên `X # A A p` (X đầu tiên, A hai lần) — KHÔNG khớp thứ tự trái→phải của ảnh (X nằm ngoài cùng bên phải, chỉ có 1 A). Chưa thêm vào `real_truth.jsonl`; cần người dùng kiểm lại đáp án / ảnh tương ứng.
+
 ## PHIÊN 6b — ảnh mới `Screenshot 2026-11-03 215951.png` (trên `main`, commit `de23d27`), CHƯA có đáp án chuẩn
 V8.3.6 (.NET 8 và exe net48/Mono cho kết quả giống nhau): legend `P->9, #->7, K->5, A->1, X->3` (khớp mắt: `p→9, #→7, k→5, A→1, X→3`); dải trên 6 ký tự `AA#PAK`, đáp án **117915**, alt 117911. Điểm sát: ký tự 1 `A` 0.643 vs `P` 0.612; ký tự 6 `K` 0.667 vs `A` 0.660.
 Đọc bằng mắt (KHÔNG phải ground truth, dải trên bị che nặng): hồng `#`, trắng `p`, đen `k`, đỏ `P`, vàng `A`, xanh dương `X` → `#pkPAX` = 795913. Nếu đúng thì solver sai ~4/6 ký tự (chỉ đỏ `P` và vàng `A` khớp). Chờ người dùng xác nhận trước khi thêm vào `real_truth.jsonl`.

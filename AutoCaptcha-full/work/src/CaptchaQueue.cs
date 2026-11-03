@@ -2798,8 +2798,94 @@ namespace NroAutoCaptchaMod
             }
         }
 
+        // Công cụ chẩn đoán: --dump-clean <in.png> <out.ppm>. Vẽ 3 khung chồng dọc (phóng 3x, nền xám):
+        // (1) ảnh gốc; (2) dải trên + legend sau khi bỏ phông chữ xám và đường kẻ ngang (ô bị đường kẻ che = xám tối);
+        // (3) như (2) nhưng đã NỐI các nét bị đường kẻ che (lấp khe <= 4 hàng khi cả trên và dưới khe có cùng màu).
+        // Chỉ để nhìn/kiểm tra, KHÔNG dùng trong SolveImage.
+        private static void DumpClean(string inPng, string outPpm)
+        {
+            int H, W;
+            byte[,,] rgb = DecodePngBytesPure(File.ReadAllBytes(inPng), out H, out W);
+            int yTop = Math.Min(66, (int)(H * 0.27));
+            int[,] fgLoc = RemoveHorizontalLinesPure(rgb, yTop, W, 51);
+            Dictionary<string, int[,]> raw = BuildColorMasksPure(rgb, 0, yTop, W);
+            int[,] any = new int[yTop, W];
+            for (int i = 0; i < ORDER.Length; i++) for (int y = 0; y < yTop; y++) for (int x = 0; x < W; x++) if (raw[ORDER[i]][y, x] != 0) any[y, x] = 1;
+            Dictionary<string, int[,]> loc = new Dictionary<string, int[,]>();
+            for (int i = 0; i < ORDER.Length; i++)
+            {
+                int[,] m = new int[yTop, W];
+                for (int y = 0; y < yTop; y++) for (int x = 24; x < Math.Min(235, W); x++) if (raw[ORDER[i]][y, x] != 0 && fgLoc[y, x] != 0) m[y, x] = 1;
+                loc[ORDER[i]] = m;
+            }
+            int y0Bot = (int)Math.Round(H * 135.0 / 256.0), y1Bot = (int)Math.Round(H * 230.0 / 256.0), hB = y1Bot - y0Bot;
+            Dictionary<string, int[,]> rawB = BuildColorMasksPure(rgb, y0Bot, hB, W);
+            Dictionary<string, int[,]> bridgedB = FillUnderOtherLines(rawB, 4);
+            Dictionary<string, int[,]> cleanB = new Dictionary<string, int[,]>(), cleanBb = new Dictionary<string, int[,]>();
+            for (int i = 0; i < ORDER.Length; i++)
+            {
+                cleanB[ORDER[i]] = RemoveLineBands(rawB[ORDER[i]], LEGEND_LINE_MIN_SUPPORT);
+                cleanBb[ORDER[i]] = RemoveLineBands(bridgedB[ORDER[i]], LEGEND_LINE_MIN_SUPPORT);
+            }
+            // bridged top
+            Dictionary<string, int[,]> brT = new Dictionary<string, int[,]>();
+            for (int i = 0; i < ORDER.Length; i++)
+            {
+                int[,] m = (int[,])loc[ORDER[i]].Clone();
+                for (int x = 24; x < Math.Min(235, W); x++)
+                {
+                    int y = 0;
+                    while (y < yTop)
+                    {
+                        if (loc[ORDER[i]][y, x] != 0 || any[y, x] == 0) { y++; continue; }
+                        int a = y; while (y < yTop && loc[ORDER[i]][y, x] == 0 && any[y, x] != 0) y++;
+                        int b = y; // [a,b) bị che
+                        if (b - a <= 4 && a > 0 && b < yTop && loc[ORDER[i]][a - 1, x] != 0 && loc[ORDER[i]][b, x] != 0)
+                            for (int q = a; q < b; q++) m[q, x] = 1;
+                    }
+                }
+                brT[ORDER[i]] = m;
+            }
+            byte[][] COL = new byte[][] { new byte[]{255,255,255}, new byte[]{0,0,0}, new byte[]{255,0,0}, new byte[]{255,255,0}, new byte[]{0,0,255}, new byte[]{0,255,0}, new byte[]{255,0,255} };
+            int panelH = yTop + hB;
+            int S = 3;
+            int totalH = 3 * panelH;
+            byte[,,] outImg = new byte[totalH, W, 3];
+            for (int y = 0; y < totalH; y++) for (int x = 0; x < W; x++) { outImg[y, x, 0] = 110; outImg[y, x, 1] = 110; outImg[y, x, 2] = 110; }
+            for (int y = 0; y < yTop; y++) for (int x = 0; x < W; x++) for (int c = 0; c < 3; c++) outImg[y, x, c] = rgb[y, x, c];
+            for (int y = 0; y < hB; y++) for (int x = 0; x < W; x++) for (int c = 0; c < 3; c++) outImg[yTop + y, x, c] = rgb[y0Bot + y, x, c];
+            for (int pass = 1; pass <= 2; pass++)
+            {
+                int oy = pass * panelH;
+                Dictionary<string, int[,]> top = (pass == 1) ? loc : brT;
+                Dictionary<string, int[,]> bot = (pass == 1) ? cleanB : cleanBb;
+                for (int y = 0; y < yTop; y++) for (int x = 0; x < W; x++)
+                {
+                    bool painted = false;
+                    for (int i = 0; i < ORDER.Length && !painted; i++)
+                        if (top[ORDER[i]][y, x] != 0) { for (int c = 0; c < 3; c++) outImg[oy + y, x, c] = COL[i][c]; painted = true; }
+                    if (!painted && any[y, x] != 0) { for (int c = 0; c < 3; c++) outImg[oy + y, x, c] = 60; }
+                }
+                for (int y = 0; y < hB; y++) for (int x = 0; x < W; x++)
+                    for (int i = 0; i < ORDER.Length; i++)
+                        if (bot[ORDER[i]][y, x] != 0) { for (int c = 0; c < 3; c++) outImg[oy + yTop + y, x, c] = COL[i][c]; break; }
+            }
+            using (FileStream fs = new FileStream(outPpm, FileMode.Create))
+            {
+                byte[] hdr = Encoding.ASCII.GetBytes("P6\n" + (W * S) + " " + (totalH * S) + "\n255\n");
+                fs.Write(hdr, 0, hdr.Length);
+                byte[] line = new byte[W * S * 3];
+                for (int y = 0; y < totalH; y++)
+                {
+                    for (int x = 0; x < W; x++) for (int k = 0; k < S; k++) { line[(x * S + k) * 3] = outImg[y, x, 0]; line[(x * S + k) * 3 + 1] = outImg[y, x, 1]; line[(x * S + k) * 3 + 2] = outImg[y, x, 2]; }
+                    for (int k = 0; k < S; k++) fs.Write(line, 0, line.Length);
+                }
+            }
+        }
+
         public static void Main(string[] args)
         {
+            if (args != null && args.Length >= 3 && args[0] == "--dump-clean") { DumpClean(args[1], args[2]); return; }
             if (args != null && args.Length >= 1 && args[0].EndsWith(".png", StringComparison.OrdinalIgnoreCase))
             {
                 Stopwatch sw = Stopwatch.StartNew();
