@@ -1,5 +1,5 @@
 ﻿// ============================================================================
-// NRO AUTO CAPTCHA V8.3.4 (5 & 6 SO) - TICH HOP TRUC TIEP VAO MOD-250-PC (100% C#)
+// NRO AUTO CAPTCHA V8.3.5 (5 & 6 SO) - TICH HOP TRUC TIEP VAO MOD-250-PC (100% C#)
 // Queue-only integration: native NroPort.Plugin submits answers on the game thread.
 // Recognition accuracy depends on input; no perfect-accuracy claim is made.
 // ============================================================================
@@ -1824,7 +1824,35 @@ namespace NroAutoCaptchaMod
             }
         }
 
-        private static string ClassifyTopGlyph(int[,] subRaw, int[,] subLoc, List<string> allowedSymbols, out double outScore, out string outAltSym, out double outAltScore)
+        // V8.3.5: "hở phải có xác nhận". Một dải hàng ở giữa ký tự mà vùng bên phải HOÀN TOÀN là nền (không có pixel của bất kỳ màu nào,
+        // kể cả đường kẻ) thì nét phải của ký tự thật sự đứt ở đó => không phải D/O/B/Q khép kín. Đường kẻ che nét thì có pixel màu nên không tính.
+        // Chọn theo 1 ảnh có đáp án chuẩn (user02) => CHƯA kiểm chứng rộng.
+        private static bool HasConfirmedRightGap(int[,] subAny, int[,] subRaw)
+        {
+            if (subAny == null || subRaw == null) return false;
+            int h = subAny.GetLength(0), w = subAny.GetLength(1);
+            if (h < 20 || w < 14) return false;
+            int c0 = (int)(0.70 * w);
+            int r0 = (int)(0.25 * h), r1 = (int)(0.80 * h);
+            int run = 0, best = 0, bestEnd = -1;
+            for (int r = r0; r < r1; r++)
+            {
+                bool empty = true;
+                for (int c = c0; c < w && empty; c++) if (subAny[r, c] != 0) empty = false;
+                if (empty) { run++; if (run > best) { best = run; bestEnd = r; } } else run = 0;
+            }
+            if (best < Math.Max(4, (int)(0.18 * h))) return false;
+            // Phải có nét của CHÍNH ký tự (màu của nó) ở bên phải cả phía trên lẫn phía dưới khe: kiểu C/D hở, loại L/chữ chỉ có chân dưới.
+            int gapStart = bestEnd - best + 1;
+            bool above = false, below = false;
+            for (int r = 0; r < gapStart && !above; r++)
+                for (int c = c0; c < w; c++) if (subRaw[r, c] != 0) { above = true; break; }
+            for (int r = bestEnd + 1; r < h && !below; r++)
+                for (int c = c0; c < w; c++) if (subRaw[r, c] != 0) { below = true; break; }
+            return above && below;
+        }
+
+        private static string ClassifyTopGlyph(int[,] subRaw, int[,] subLoc, int[,] subAny, List<string> allowedSymbols, out double outScore, out string outAltSym, out double outAltScore)
         {
             int[,] bRaw = MorphClose(subRaw, 2, 5);
             int hRaw = subRaw.GetLength(0), wRaw = subRaw.GetLength(1);
@@ -1889,6 +1917,7 @@ namespace NroAutoCaptchaMod
             for (int r = 10; r < 14; r++) for (int c = 11; c < 15; c++) lowRightWallLoc += normLoc[r, c];
             double topArchLoc = sumTALoc / 24.0;
             bool midRightEmptyLoc = (midRightEmptySum == 0);
+            bool rightGapConfirmed = HasConfirmedRightGap(subAny, subRaw);
             bool lowRightWallOk = (lowRightWallLoc >= 6);
 
             int legL12 = 0, legR12 = 0;
@@ -2072,7 +2101,12 @@ namespace NroAutoCaptchaMod
                     else if (symKey == "$" || symKey == "&" || symKey == "P" || symKey == "H") symScore -= 0.12;
                 }
 
-                if (midRightEmptyLoc && lowRightWallOk)
+                if (rightGapConfirmed)
+                {
+                    if ("DOQB0".IndexOf(symKey, StringComparison.Ordinal) >= 0) symScore -= 0.15;
+                    else if (symKey == "C") symScore += 0.15;
+                }
+                else if (midRightEmptyLoc && lowRightWallOk)
                 {
                     if (symKey == "D") symScore += 0.18;
                     else if (symKey == "E" || symKey == "&") symScore -= 0.18;
@@ -2188,6 +2222,14 @@ namespace NroAutoCaptchaMod
             int yTop = Math.Min(66, (int)(H * 0.27));
             int[,] fgLoc = RemoveHorizontalLinesPure(rgb, yTop, W, 51);
             Dictionary<string, int[,]> rawMasks = BuildColorMasksPure(rgb, 0, yTop, W);
+            int[,] anyMask = new int[yTop, W];
+            for (int mi = 0; mi < ORDER.Length; mi++)
+            {
+                int[,] mm = rawMasks[ORDER[mi]];
+                for (int y = 0; y < yTop; y++)
+                    for (int x = 0; x < W; x++)
+                        if (mm[y, x] != 0) anyMask[y, x] = 1;
+            }
 
             List<string> allowedSymbols = new List<string>();
             for (int i = 0; i < legendEntries.Count; i++)
@@ -2288,9 +2330,10 @@ namespace NroAutoCaptchaMod
                     }
                     int[,] subRawSingle = Crop2D(rawM, y0, y1, x0, x1);
                     int[,] subLocSingle = Crop2D(locM, y0, y1, x0, x1);
+                    int[,] subAnySingle = Crop2D(anyMask, y0, y1, x0, x1);
                     double symSc, altSc;
                     string altSym;
-                    string symPred = ClassifyTopGlyph(subRawSingle, subLocSingle, allowedSymbols, out symSc, out altSym, out altSc);
+                    string symPred = ClassifyTopGlyph(subRawSingle, subLocSingle, subAnySingle, allowedSymbols, out symSc, out altSym, out altSc);
                     TopDetectedItem item = new TopDetectedItem();
                     item.X = Math.Round(k.XMean, 1); item.Color = colorName; item.Symbol = symPred;
                     item.SymScore = symSc; item.AltSymbol = altSym; item.AltScore = altSc;
@@ -2405,7 +2448,7 @@ namespace NroAutoCaptchaMod
         // - Giu nguyen PNG trong inbox/ (khong move/delete); trang thai luu bang marker solved/<sha>.txt, failed/<sha>.txt
         // - Doc jobs/<sha>.json chiu loi (file dang ghi do / bi khoa) va theo doi answerLength thay doi
         // - Ghi outbox/<sha>.alt.txt (dap an du phong cung do dai) truoc outbox/<sha>.txt
-        public const string WorkerVersion = "V8.3.4";
+        public const string WorkerVersion = "V8.3.5";
         private const double PngSettleMs = 150;      // cho plugin ghi xong PNG
         private const double JobWaitMs = 1500;       // cho toi da job JSON hop le truoc khi giai voi len=0
         private const double DecodeRetrySec = 10;    // PNG hong: thu lai toi da 10 s roi danh dau failed
