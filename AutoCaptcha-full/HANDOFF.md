@@ -1,5 +1,9 @@
 # HANDOFF — AutoCaptcha
 
+## PHIÊN 6b — ảnh mới `Screenshot 2026-11-03 215951.png` (trên `main`, commit `de23d27`), CHƯA có đáp án chuẩn
+V8.3.6 (.NET 8 và exe net48/Mono cho kết quả giống nhau): legend `P->9, #->7, K->5, A->1, X->3` (khớp mắt: `p→9, #→7, k→5, A→1, X→3`); dải trên 6 ký tự `AA#PAK`, đáp án **117915**, alt 117911. Điểm sát: ký tự 1 `A` 0.643 vs `P` 0.612; ký tự 6 `K` 0.667 vs `A` 0.660.
+Đọc bằng mắt (KHÔNG phải ground truth, dải trên bị che nặng): hồng `#`, trắng `p`, đen `k`, đỏ `P`, vàng `A`, xanh dương `X` → `#pkPAX` = 795913. Nếu đúng thì solver sai ~4/6 ký tự (chỉ đỏ `P` và vàng `A` khớp). Chờ người dùng xác nhận trước khi thêm vào `real_truth.jsonl`.
+
 ## PHIÊN 6 — V8.3.6: chấm điểm CÓ CHÚ Ý CHE KHUẤT cho dải trên (user04 = 59971, user05 = 35197)
 Nhánh `claude/autocaptcha-v836-next`. Đáp án chuẩn người dùng xác nhận: ảnh `201155` = **59971** (`user04`), ảnh `204012` = **35197** (`user05`, dải trên `ACE%H`, e thường); cả hai đã vào `work/truth/`. V8.3.5 sai cả hai (59991; 75997).
 - Nguyên nhân (đã chẩn đoán bằng số liệu): mẫu khớp nguyên khối phạt cả những ô glyph bị đường kẻ màu khác đè → ký tự còn mảnh (Z xanh lá ở user04, A xanh dương và e hồng ở user05) thua `@`/`H`/`%`.
