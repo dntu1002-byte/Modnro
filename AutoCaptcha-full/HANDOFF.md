@@ -1,5 +1,12 @@
 # HANDOFF — AutoCaptcha
 
+## PHIÊN 5 — chạy bản mới nhất (V8.3.5) trên ảnh người dùng vừa upload (`Screenshot 2026-11-03 201155.png`)
+Nhánh `claude/autocaptcha-v836-next` (tách từ `claude/autocaptcha-v835-user02`; ảnh mới lấy từ `main`, commit `3245107`). Chạy `work/src/AutoCaptcha.exe` (V8.3.5, net48) bằng Mono 6 trên Linux — KHÔNG phải Windows thật, KHÔNG phải trong game.
+- Ảnh mới (255×256): legend đọc bằng mắt `l->5, &->1, z->7, %->3, @->9`. Solver: legend ĐÚNG hoàn toàn (`L->5, Z->7, @->9, &->1, %->3`; L≡l/I trong font).
+- Dải trên solver đọc `L@@@&`, đáp án chính **59991**, alt/fallback `53991`. Dải trên bị đường kẻ che nặng (mắt chỉ chắc ký tự đỏ đầu tiên là `l`/`L`; ký tự xanh lá chỉ còn mảnh hình nêm, ký tự hồng cuối chưa phân biệt được `%`/`&` bằng mắt) nên **CHƯA có ground truth, chưa biết đúng/sai**. Chưa thêm vào `real_truth.jsonl` cho tới khi người dùng xác nhận đáp án.
+- Chấm lại tập chuẩn hiện có (`score_truth.py`, exe V8.3.5 qua Mono): user01 SAI chính (111391 vs 131391; alt đúng), user02 ĐÚNG, user03 SAI (535355 vs 535113) → 1/3 đáp án chính; legend đúng 2/3. Không đổi so với phiên 4b; không có sửa mã trong phiên này.
+- Chưa kiểm chứng: Windows thật, plugin đọc `.alt.txt`, server chấp nhận đáp án.
+
 ## PHIÊN 4b — user03 (đáp án chuẩn 535113): V8.3.5 SAI, CHƯA SỬA
 Ảnh `work/truth/img/user03.png` (chụp màn hình 253×256; bản gốc người dùng upload ở `main`: `work/img/Screenshot 2026-11-03 194407.png`). Legend đọc bằng mắt: %→1, E→7, s→9, B→5, d→3. Đáp án người dùng xác nhận **535113**; dải trên suy ra `BDB%%D` (ký tự 4 đen và 5 đỏ là HAI dấu `%` chồng lên nhau).
 - V8.3.5: 535355 (`BDBDBB`, legend `T,S,D,E,B`), alt 935355 → SAI 3/6 chữ số. Điểm tin cậy dải trên chỉ 0.52–0.61 (ảnh user02: 0.93–1.0); 4/6 ký tự hơn ký tự xếp sau < 0.02.
