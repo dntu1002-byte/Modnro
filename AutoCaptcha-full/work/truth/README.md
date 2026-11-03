@@ -13,3 +13,4 @@
 
 - `user04` = `truth/img/user04.png` (ảnh chụp màn hình 255×256, không phải PNG gốc), đáp án 59971 do người dùng xác nhận; dải trên `L@@Z&` suy ra từ đáp án + legend (`l→5, &→1, z→7, %→3, @→9`).
 - `user05` = `truth/img/user05.png` (ảnh chụp màn hình 253×248), đáp án 35197 do người dùng xác nhận; dải trên `ACE%H` (e thường, chữ hoa/thường không phân biệt) suy ra từ đáp án + legend (`%→9, h→7, e→1, C→5, A→3`).
+- `user06` = `truth/img/user06.png` (253×255), đáp án 57333; `user07` = `truth/img/user07.png` (258×256), đáp án 57759 (dải trên suy ra `PAAPF`: p a a p F). Cả hai do người dùng xác nhận.

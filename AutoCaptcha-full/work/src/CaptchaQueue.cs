@@ -2499,8 +2499,20 @@ namespace NroAutoCaptchaMod
                 itemSb.Append(string.Format(CultureInfo.InvariantCulture, "{0}:{1} x={2} {3}x{4} a={5} {6:0.000} alt {7} {8:0.000}",
                     i, t.Color, t.X, t.W, t.H, t.Area, t.SymScore, t.AltSymbol, t.AltScore));
             }
-            debugInfo = string.Format("top_chars={0} | sym_map={{{1}}} | fallback={2} | items=[{3}]",
-                charsSb.ToString(), mapSb.ToString(), fallbackAnswer ?? "none", itemSb.ToString());
+            StringBuilder legSb = new StringBuilder();
+            for (int i = 0; i < legend.Count; i++)
+            {
+                if (i > 0) legSb.Append("; ");
+                legSb.Append(legend[i].Digit).Append(':').Append(legend[i].ColorName);
+                if (legend[i].AllSymScores != null)
+                {
+                    List<KeyValuePair<string, double>> kv = new List<KeyValuePair<string, double>>(legend[i].AllSymScores);
+                    kv.Sort(delegate(KeyValuePair<string, double> a, KeyValuePair<string, double> b) { return b.Value.CompareTo(a.Value); });
+                    for (int k = 0; k < kv.Count && k < 5; k++) legSb.Append(string.Format(CultureInfo.InvariantCulture, " {0}={1:0.00}", kv[k].Key, kv[k].Value));
+                }
+            }
+            debugInfo = string.Format("top_chars={0} | sym_map={{{1}}} | fallback={2} | items=[{3}] | legend_alts=[{4}]",
+                charsSb.ToString(), mapSb.ToString(), fallbackAnswer ?? "none", itemSb.ToString(), legSb.ToString());
             return ansSb.ToString();
         }
 

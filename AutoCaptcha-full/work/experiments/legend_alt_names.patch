@@ -1,0 +1,82 @@
+--- work/src/CaptchaQueue.cs	2026-11-03 17:11:03.035295264 +0000
++++ /tmp/CQ.altexp.cs	2026-11-03 17:11:03.020441099 +0000
+@@ -100,6 +100,7 @@
+         public double DigScore;
+         public Dictionary<string, double> AllDigScores;
+         public Dictionary<string, double> AllSymScores;
++        public List<string> AltNames;   // V8.3.7: tên ký hiệu thay thế có điểm sát tên đã chọn (dải trên cũng được thử các tên này)
+     }
+ 
+     public class TopDetectedItem
+@@ -1878,6 +1879,7 @@
+         // V8.3.5: "hở phải có xác nhận". Một dải hàng ở giữa ký tự mà vùng bên phải HOÀN TOÀN là nền (không có pixel của bất kỳ màu nào,
+         // kể cả đường kẻ) thì nét phải của ký tự thật sự đứt ở đó => không phải D/O/B/Q khép kín. Đường kẻ che nét thì có pixel màu nên không tính.
+         // Chọn theo 1 ảnh có đáp án chuẩn (user02) => CHƯA kiểm chứng rộng.
++        private static Dictionary<string, double> _altPenalty = new Dictionary<string, double>();
+         private static int[,] MakeOcc(int[,] any, int[,] raw)
+         {
+             int h = any.GetLength(0), w = any.GetLength(1);
+@@ -2198,6 +2200,8 @@
+ 
+                 // V8.3.6: pha điểm có chú ý che khuất (chỉ so trên ô KHÔNG bị đường kẻ màu khác đè) với trọng số 0.6; chỉ khi ký tự thực sự có ô bị che.
+                 if (occCells > 0 && occBest > -1.0) symScore = 0.4 * symScore + 0.6 * occBest;
++                double altPen;
++                if (_altPenalty.TryGetValue(symKey.ToUpperInvariant(), out altPen)) symScore -= altPen;
+ 
+                 if (symScore > bestScore)
+                 {
+@@ -2307,6 +2311,12 @@
+                 if (!string.IsNullOrEmpty(s) && s != "?" && !allowedSymbols.Contains(s))
+                     allowedSymbols.Add(s);
+             }
++            for (int i = 0; i < legendEntries.Count; i++)
++            {
++                if (legendEntries[i].AltNames == null) continue;
++                for (int a = 0; a < legendEntries[i].AltNames.Count; a++)
++                    if (!allowedSymbols.Contains(legendEntries[i].AltNames[a])) allowedSymbols.Add(legendEntries[i].AltNames[a]);
++            }
+ 
+             List<TopDetectedItem> items = new List<TopDetectedItem>();
+             for (int ci = 0; ci < ORDER.Length; ci++)
+@@ -2452,6 +2462,41 @@
+                 if (i > 0) mapSb.Append(", ");
+                 mapSb.Append(le.Symbol).Append("->").Append(le.Digit);
+             }
++            // V8.3.7: tên legend hay hòa điểm (@/&, F/I, P/G, F/P...). Ký hiệu có điểm legend trong khoảng ALT_MARGIN so với tên đã chọn
++            // (tối đa 2 tên phụ) được thêm làm ứng viên cho dải trên; ký tự dải trên khớp tên phụ nào thì lấy chữ số của dòng legend đó.
++            double altMargin = double.Parse(Environment.GetEnvironmentVariable("AC_MARGIN") ?? "0.10", CultureInfo.InvariantCulture);
++            _altPenalty.Clear();
++            if (altMargin > 0)
++            {
++                Dictionary<string, double> altBest = new Dictionary<string, double>();
++                for (int i = 0; i < legend.Count; i++)
++                {
++                    LegendEntry le = legend[i];
++                    le.AltNames = new List<string>();
++                    if (le.AllSymScores == null || string.IsNullOrEmpty(le.Symbol) || le.Symbol == "?") continue;
++                    double chosen;
++                    if (!le.AllSymScores.TryGetValue(le.Symbol.ToUpperInvariant(), out chosen)) continue;
++                    List<KeyValuePair<string, double>> kv = new List<KeyValuePair<string, double>>(le.AllSymScores);
++                    kv.Sort(delegate(KeyValuePair<string, double> a, KeyValuePair<string, double> b) { return b.Value.CompareTo(a.Value); });
++                    for (int k = 0; k < kv.Count && le.AltNames.Count < 2; k++)
++                    {
++                        string nm = kv[k].Key;
++                        if (nm == le.Symbol.ToUpperInvariant() || symToDigit.ContainsKey(nm)) continue;
++                        if (chosen - kv[k].Value > altMargin) break;
++                        le.AltNames.Add(nm);
++                        double dlt = double.Parse(Environment.GetEnvironmentVariable("AC_DELTA") ?? "0", CultureInfo.InvariantCulture);
++                        double kap = double.Parse(Environment.GetEnvironmentVariable("AC_KAPPA") ?? "0", CultureInfo.InvariantCulture);
++                        _altPenalty[nm] = dlt + kap * Math.Max(0.0, chosen - kv[k].Value);
++                        double prev;
++                        if (!altBest.TryGetValue(nm, out prev) || kv[k].Value > prev) { altBest[nm] = kv[k].Value; symToDigit[nm] = le.Digit; }
++                    }
++                }
++                for (int i = 0; i < legend.Count; i++)
++                {
++                    if (legend[i].AltNames == null) continue;
++                    legend[i].AltNames.RemoveAll(delegate(string n) { return symToDigit[n] != legend[i].Digit; });
++                }
++            }
+ 
+             List<TopDetectedItem> topItems = ExtractTopItems(rgb, H, W, legend);
+             StringBuilder ansSb = new StringBuilder();

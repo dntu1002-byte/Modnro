@@ -1,5 +1,14 @@
 # HANDOFF — AutoCaptcha
 
+## PHIÊN 8 — user06 (57333) và user07 (57759): V8.3.6 SAI cả hai; nguyên nhân khác nhau
+Người dùng xác nhận: ảnh `220924` = **57333** (`user06`, dải trên `TB@@@`), ảnh `232156` = **57759** (`user07`, dải trên suy ra `PAAPF` = p a a p F; lần đọc bằng mắt trước đó "t a ? Z F" là SAI — màu ký tự trên dải trên không trùng màu dòng legend). Cả hai đã vào `work/truth/`. Ảnh `215951` vẫn chưa có đáp án (37119 người dùng báo không khớp legend của ảnh đó; không khớp cả hai ảnh mới).
+- Tập chuẩn hiện 7 ảnh (user01–07), V8.3.6: đáp án chính đúng **4/7** (user01, 02, 04, 05); sai user03, 06, 07. Tất cả ảnh này đều là tập đã dùng để chỉnh luật → KHÔNG phải độ chính xác tổng thể.
+- user06 (V8.3.6 → 57777, `TBBBB`): lỗi do TÊN legend. Điểm legend hòa: `@` 0.71 vs `&` 0.72 (chọn `&`), `F` 0.78 vs `I` 0.78 (chọn `I`). Dải trên chỉ được thử các tên có trong legend nên ba `@` bị đọc thành `B`.
+- user07 (→ 97779, `PAAAP`): legend `P` (dòng p→5) 0.68 vs `G` 0.67; `P` (dòng F→9) 0.86 vs `F` 0.84 — hai dòng cùng muốn tên `P`, hòa điểm. Ngoài ra dải trên đọc sai ký tự đen (`A` thay vì `P`) và đỏ (`P` thay vì `F`) dù đã có điểm "ô không bị che".
+- Thí nghiệm (KHÔNG đưa vào bản chính; patch ở `work/experiments/legend_alt_names.patch`): thêm tối đa 2 tên phụ có điểm legend sát (≤ margin) làm ứng viên cho dải trên và lấy chữ số theo dòng legend gốc, phạt `κ·(điểm tên chọn − điểm tên phụ)`. Quét: margin 0.1 + κ=1 → user06 đúng (5/7), user07 vẫn sai, 6/32 ảnh cũ đổi đáp án; không phạt (δ=κ=0) làm hỏng user04 (4/7 nhưng thay user04 bằng user06). Chỉ có MỘT ảnh được cứu và tham số chọn theo chính ảnh đó → bỏ, chờ thêm ảnh chuẩn.
+- Thêm vào debug: `legend_alts=[...]` (5 tên điểm cao nhất mỗi dòng legend; lưu ý điểm này TRƯỚC các bước đổi tên sau cùng nên có thể khác `sym_map`). Hành vi giải không đổi; test hàng đợi 20/20; một-lần 32 ảnh không đổi so với V8.3.6.
+- Việc tiếp (cần quyết định): (a) chọn tên legend + ký tự dải trên CÙNG LÚC (gán chung, tên khác nhau giữa các dòng); (b) phân loại ký tự dải trên bị che nặng (user07 p/F); (c) cần thêm ảnh có đáp án chuẩn để kiểm định độc lập.
+
 ## PHIÊN 7 — công cụ nhìn ảnh đã bỏ phông + đường nhiễu; ảnh `215951` đáp án người dùng báo 37119 KHÔNG khớp
 - Hiện trạng pipeline (có sẵn từ trước): phông chữ xám bị loại vì phân loại màu (`BuildColorMasksPure`: chỉ nhận trắng/đen/6 màu bão hoà); dải trên bỏ đường kẻ ngang bằng lọc trung vị theo hàng (`RemoveHorizontalLinesPure`, cửa sổ 51); legend bỏ đường kẻ bằng `RemoveLineBands` + `FillUnderOtherLines` (lượt phụ). Đường kẻ vẽ ĐÈ LÊN ký tự nên bỏ đường = để lại khe trong nét; V8.3.6 bù bằng điểm "chỉ trên ô không bị che".
 - Mới: `AutoCaptcha.exe --dump-clean <in.png> <out.ppm>` xuất 3 khung (gốc / đã bỏ phông+đường / đã NỐI khe ≤4 hàng bị đường che). Ví dụ trong `work/clean/` (`clean_n6_215951.png`, `clean_user05_204012.png`). Chỉ để nhìn, không dùng trong `SolveImage`. Khung nối làm dải trên đọc được bằng mắt (user05: `A C e % H` rõ).
