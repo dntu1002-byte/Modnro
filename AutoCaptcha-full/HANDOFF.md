@@ -1,5 +1,25 @@
 # HANDOFF — AutoCaptcha
 
+## PHIÊN 4b — user03 (đáp án chuẩn 535113): V8.3.5 SAI, CHƯA SỬA
+Ảnh `work/truth/img/user03.png` (chụp màn hình 253×256; bản gốc người dùng upload ở `main`: `work/img/Screenshot 2026-11-03 194407.png`). Legend đọc bằng mắt: %→1, E→7, s→9, B→5, d→3. Đáp án người dùng xác nhận **535113**; dải trên suy ra `BDB%%D` (ký tự 4 đen và 5 đỏ là HAI dấu `%` chồng lên nhau).
+- V8.3.5: 535355 (`BDBDBB`, legend `T,S,D,E,B`), alt 935355 → SAI 3/6 chữ số. Điểm tin cậy dải trên chỉ 0.52–0.61 (ảnh user02: 0.93–1.0); 4/6 ký tự hơn ký tự xếp sau < 0.02.
+- Nguyên nhân đã chẩn đoán (dump mặt nạ, nhưng CHƯA có bản sửa):
+  1. Legend `%` (hồng) bị đọc `T`: đường kẻ đen chéo dày ~5 px cắt vòng tròn trái của `%`; sau `MorphOpen(1,3)` + loại thành phần nhỏ, mặt nạ chỉ còn nét chéo + vòng dưới (`symX0=11` đã mất vòng trái) → `%` không còn nằm trong các ứng viên (điểm T=0.625; `%` không có trong `AllSymScores`). Chữ số gán cho `%` vẫn đúng (1). Ép `T→%` thử nghiệm không đổi đáp án chính.
+  2. Dải trên: giả định "mỗi màu = một ký tự". Ở đây hai `%` KHÁC MÀU chồng lên nhau, mỗi màu chỉ giữ một mảnh (đen: nét chéo + vòng; đỏ: một vòng) → không có cách nào đọc đúng mà không ghép mảnh khác màu. Ký tự vàng (d) bị đọc B (0.587 vs D 0.546).
+- Hướng sửa (chưa làm, cần quyết định): so khớp mẫu có chú ý che khuất (chỉ tính điểm trên pixel không bị đường kẻ khác màu che) cho cả legend lẫn dải trên, và cho phép ghép các mảnh khác màu chồng nhau. Với 3 ảnh có đáp án chuẩn, mọi tham số mới đều dễ quá khớp → cần thêm ảnh chuẩn trước khi chỉnh.
+- Tập chuẩn có PNG hiện nay: user01 (sai chính, alt đúng), user02 (đúng), user03 (sai) → 1/3 đúng đáp án chính.
+
+## PHIÊN 4 — V8.3.5: ảnh user02 (đáp án chuẩn 11175), sửa nhầm C↔D ở dải trên
+Nhánh `claude/autocaptcha-v835-user02` (tách từ `claude/autocaptcha-legend-v833`). LƯU Ý: `main` KHÔNG chứa công việc V8.3.3–V8.3.4 (main tách ra từ `b30693c`, chỉ nhận các commit "Add files via upload"); ảnh người dùng upload qua web nằm trên `main` (commit `827f338`, `work/img/Screenshot 2026-11-03 015539.png`) và được chép sang `work/truth/img/user02.png` ở nhánh này.
+
+- Ảnh: chụp màn hình cả khung 255×253 (không phải PNG gốc 256×256). Legend đọc bằng mắt: b→1, D→3, w→9, C→5, $→7 (trùng 5/5 với solver). Đáp án người dùng xác nhận: **11175** (dải trên suy ra: `BBB$C`).
+- V8.3.4 cho **11173** (dải trên `BBB$D`), alt `19173` → cả hai SAI. Nguyên nhân (dump mặt nạ, không đoán): ký tự xanh lá thật là `C` nhưng nét phải giữa bị đứt; luật cũ `midRightEmptyLoc && lowRightWallOk` cộng +0.18 cho `D` (giả định nét phải bị đường kẻ che) → D 0.663 > C 0.397.
+- Sửa (V8.3.5, chỉ `ClassifyTopGlyph`): `HasConfirmedRightGap` — nếu ở 70% phải của ký tự có một dải hàng liên tiếp (≥ max(4, 18% chiều cao), trong 25–80% chiều cao) mà KHÔNG có pixel của bất kỳ màu nào (không phải đường kẻ, không phải ký tự → là nền thật) VÀ ký tự có nét cùng màu bên phải cả phía trên lẫn phía dưới khe, thì D/O/Q/B/0 −0.15, C +0.15 và bỏ luật +0.18 cho D. Đường kẻ che nét thì có pixel màu nên không kích hoạt. Điều kiện "có nét trên và dưới khe" thêm sau khi bản đầu làm `user01` hỏng (L bị đọc thành C).
+- Kết quả (Linux; .NET 8 và exe net48 chạy bằng Mono): user02 → **11175 ĐÚNG** (alt 19175); 32 ảnh cũ: đáp án 32/32 trùng V8.3.3/V8.3.4; `user01` giữ nguyên (chính 111391, alt 131391 đúng); test hàng đợi 20/20 (`test_queue_linux.py` dùng `linux_build/out/AutoCaptcha`, đã build lại từ nguồn V8.3.5).
+- **Cảnh báo quá khớp:** quy tắc chọn dựa trên đúng 1 ảnh (user02), kiểm hồi quy chỉ trên 33 ảnh còn lại KHÔNG có đáp án chuẩn dải trên (trừ user01) → "không đổi" chỉ chứng minh không đổi hành vi, không chứng minh đúng. Không suy ra độ chính xác. Tập chuẩn hiện: 2 ảnh có PNG (user01 sai đáp án chính nhưng alt đúng; user02 đúng), 12 đề Real vẫn thiếu PNG.
+- Còn sai: user01 (đáp án chính 111391, ký tự thứ 2 `E` hồng bị đọc `L`); ký tự đỏ ở user02 điểm sát nút (B 0.634 vs W 0.618) — đúng nhưng mong manh.
+- `src/AutoCaptcha.exe` build lại từ V8.3.5 bằng `scripts/build_net48_roslyn.sh` (Roslyn + ref assemblies 4.8). CHƯA chạy trên Windows thật, chưa thử trong game, chưa kiểm server chấp nhận.
+
 ## PHIÊN 3b — V8.3.4: ảnh thật đầu tiên có đáp án chuẩn (`work/truth/img/last_solved.png`, hash 7B465EFF2AD22518)
 Người dùng xác nhận đáp án đúng = **131391** (legend đọc bằng mắt: v→7, l→1, x→5, E→3, C→9; dải trên l E l E C l). Đã thêm vào `work/truth/real_truth.jsonl` (id `user01`).
 

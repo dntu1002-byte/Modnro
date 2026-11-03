@@ -1,12 +1,12 @@
-﻿[2026-11-02 15:41:12] RECOVER leg0000000000001.png processing -> inbox
-[2026-11-02 15:41:12] SAN SANG V8.3.4 | mode=native_queue | keep_inbox=true | alt=true | /tmp/qtest-668386/q
-[2026-11-02 15:41:12] FAIL bbbb000000000006 | Invalid answer/length: 35919 alt=37919 expected=6 | top_chars=%LQVQ | sym_map={K->7, L->5, Q->9, %->3, V->1} | fallback=37919
-[2026-11-02 15:41:12] SOLVED aaaa000000000001 -> 35919 alt=37919 len=0 (152ms) | input=native_queue | top_chars=%LQVQ | sym_map={K->7, L->5, Q->9, %->3, V->1} | fallback=37919
-[2026-11-02 15:41:14] SOLVED leg0000000000001 -> 35919 alt=37919 len=0 (95ms) | input=native_queue | top_chars=%LQVQ | sym_map={K->7, L->5, Q->9, %->3, V->1} | fallback=37919
-[2026-11-02 15:41:22] FAIL cccc0000000000bd | InvalidDataException: Not a valid PNG file
-[2026-11-02 15:41:23] SOLVED dddd000000000005 -> 35919 alt=37919 len=5 (69ms) | input=native_queue | top_chars=%LQVQ | sym_map={K->7, L->5, Q->9, %->3, V->1} | fallback=37919
-[2026-11-02 15:41:25] SOLVED eeee000000000007 -> 35919 alt=37919 len=0 (69ms) | input=native_queue | top_chars=%LQVQ | sym_map={K->7, L->5, Q->9, %->3, V->1} | fallback=37919
-[2026-11-02 15:41:25] SOLVED ffff000000000009 -> 571719 alt=771719 len=0 (101ms) | input=native_queue | top_chars=UN#N#D | sym_map={U->5, N->7, #->1, P->3, D->9} | fallback=771719
-[2026-11-02 15:41:25] LEN_MISMATCH ffff000000000009 answerLength=5 nhung dap an=571719 alt=771719 -> plugin se cho nhap tay
-[2026-11-02 15:41:26] LEN ffff000000000009 answerLength=6 khop dap an hien tai
-[2026-11-02 15:41:26] SAN SANG V8.3.4 | mode=native_queue | keep_inbox=true | alt=true | /tmp/qtest-668386/q
+﻿[2026-11-03 06:42:59] RECOVER leg0000000000001.png processing -> inbox
+[2026-11-03 06:42:59] SAN SANG V8.3.5 | mode=native_queue | keep_inbox=true | alt=true | /tmp/qtest-2a238e/q
+[2026-11-03 06:42:59] FAIL bbbb000000000006 | Invalid answer/length: 35919 alt=37919 expected=6 | top_chars=%LQVQ | sym_map={K->7, L->5, Q->9, %->3, V->1} | fallback=37919
+[2026-11-03 06:42:59] SOLVED aaaa000000000001 -> 35919 alt=37919 len=0 (167ms) | input=native_queue | top_chars=%LQVQ | sym_map={K->7, L->5, Q->9, %->3, V->1} | fallback=37919
+[2026-11-03 06:43:01] SOLVED leg0000000000001 -> 35919 alt=37919 len=0 (120ms) | input=native_queue | top_chars=%LQVQ | sym_map={K->7, L->5, Q->9, %->3, V->1} | fallback=37919
+[2026-11-03 06:43:09] FAIL cccc0000000000bd | InvalidDataException: Not a valid PNG file
+[2026-11-03 06:43:10] SOLVED dddd000000000005 -> 35919 alt=37919 len=5 (55ms) | input=native_queue | top_chars=%LQVQ | sym_map={K->7, L->5, Q->9, %->3, V->1} | fallback=37919
+[2026-11-03 06:43:12] SOLVED eeee000000000007 -> 35919 alt=37919 len=0 (81ms) | input=native_queue | top_chars=%LQVQ | sym_map={K->7, L->5, Q->9, %->3, V->1} | fallback=37919
+[2026-11-03 06:43:12] SOLVED ffff000000000009 -> 571719 alt=771719 len=0 (107ms) | input=native_queue | top_chars=UN#N#D | sym_map={U->5, N->7, #->1, P->3, D->9} | fallback=771719
+[2026-11-03 06:43:12] LEN_MISMATCH ffff000000000009 answerLength=5 nhung dap an=571719 alt=771719 -> plugin se cho nhap tay
+[2026-11-03 06:43:13] LEN ffff000000000009 answerLength=6 khop dap an hien tai
+[2026-11-03 06:43:13] SAN SANG V8.3.5 | mode=native_queue | keep_inbox=true | alt=true | /tmp/qtest-2a238e/q
