@@ -7,3 +7,5 @@
 - 12 đề "Adv" trong bảng là biến thể giả lập của 12 đề Real (cùng dải trên, legend đảo số) nên không đưa vào làm chuẩn độc lập.
 
 - `user01` = `truth/img/last_solved.png` (hash 7B465EFF2AD22518), đáp án 131391 do người dùng xác nhận; đây là ảnh duy nhất hiện có PNG. 12 đề `real01…12` vẫn thiếu PNG.
+
+- `user02` = `truth/img/user02.png` (ảnh chụp màn hình cả khung 255×253, KHÔNG phải PNG gốc 256×256 của plugin), đáp án 11175 do người dùng xác nhận. Chuỗi dải trên `BBB$C` suy ra từ đáp án + legend.
