@@ -1,5 +1,9 @@
 # HANDOFF — AutoCaptcha
 
+## PHIÊN 5c — ảnh mới `Screenshot 2026-11-03 204012.png` (trên `main`, commit `0e662a7`), CHƯA có đáp án chuẩn
+V8.3.5 (exe, Mono/Linux, không đổi mã): legend đọc `%->9, H->7, E->1, C->5, A->3` (khớp mắt: `%→9, h→7, e→1, C→5, A→3`); dải trên `HC%%H`, đáp án **75997**, alt 75977. Điểm ký tự 1 (xanh dương) `H` 0.799 vs `A` 0.656; ký tự 3 (hồng) `%` 0.540 vs `E` 0.494.
+Đọc bằng mắt (KHÔNG phải ground truth): xanh dương trông là `A` to rõ, xanh lá `C`, hồng giống cung `C`, trắng `%`, đen giống `h` → có thể `ACC%h` = 35597; nếu đúng thì solver sai ≥ 2–3/5. Chờ người dùng xác nhận trước khi thêm vào `real_truth.jsonl`.
+
 ## PHIÊN 5 — chạy bản mới nhất (V8.3.5) trên ảnh người dùng vừa upload (`Screenshot 2026-11-03 201155.png`)
 Nhánh `claude/autocaptcha-v836-next` (tách từ `claude/autocaptcha-v835-user02`; ảnh mới lấy từ `main`, commit `3245107`). Chạy `work/src/AutoCaptcha.exe` (V8.3.5, net48) bằng Mono 6 trên Linux — KHÔNG phải Windows thật, KHÔNG phải trong game.
 - Ảnh mới (255×256): legend đọc bằng mắt `l->5, &->1, z->7, %->3, @->9`. Solver: legend ĐÚNG hoàn toàn (`L->5, Z->7, @->9, &->1, %->3`; L≡l/I trong font).
