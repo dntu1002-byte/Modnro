@@ -1,5 +1,5 @@
 ﻿// ============================================================================
-// NRO AUTO CAPTCHA V8.3.5 (5 & 6 SO) - TICH HOP TRUC TIEP VAO MOD-250-PC (100% C#)
+// NRO AUTO CAPTCHA V8.3.6 (5 & 6 SO) - TICH HOP TRUC TIEP VAO MOD-250-PC (100% C#)
 // Queue-only integration: native NroPort.Plugin submits answers on the game thread.
 // Recognition accuracy depends on input; no perfect-accuracy claim is made.
 // ============================================================================
@@ -775,6 +775,57 @@ namespace NroAutoCaptchaMod
                 for (int c = 0; c < newW; c++)
                     canvas[cy0 + r, cx0 + c] = resized[r, c];
             return canvas;
+        }
+
+        // V8.3.6 (thử nghiệm): chuẩn hoá ký hiệu cùng phép biến đổi như NormalizeSymbol16 nhưng kèm bản đồ "bị che" (pixel của màu khác đè lên).
+        private static int[,] NormalizeSymbol16Occ(int[,] cropMask, int[,] occ, out int[,] occNorm)
+        {
+            occNorm = new int[16, 16];
+            int y0, y1, x0, x1;
+            if (occ == null || !TightBbox(cropMask, out y0, out y1, out x0, out x1)) return NormalizeSymbol16(cropMask);
+            int[,] sub = Crop2D(cropMask, y0, y1, x0, x1);
+            int[,] subOcc = Crop2D(occ, y0, y1, x0, x1);
+            int h = y1 - y0, w = x1 - x0;
+            if (h <= 0 || w <= 0) return new int[16, 16];
+            double aspect = (double)w / h;
+            int newH = 14;
+            int newW;
+            if (aspect < 0.45) newW = Math.Max(2, (int)Math.Round(newH * aspect, MidpointRounding.AwayFromZero));
+            else newW = Math.Min(14, Math.Max(8, (int)Math.Round(newH * Math.Min(aspect, 1.25), MidpointRounding.AwayFromZero)));
+            int[,] resized = ResizeAreaBinary(sub, newW, newH, 0.32);
+            int[,] resizedOcc = ResizeAreaBinary(subOcc, newW, newH, 0.5);
+            int[,] canvas = new int[16, 16];
+            int cy0 = (16 - newH) / 2, cx0 = (16 - newW) / 2;
+            for (int r = 0; r < newH; r++)
+                for (int c = 0; c < newW; c++)
+                {
+                    canvas[cy0 + r, cx0 + c] = resized[r, c];
+                    occNorm[cy0 + r, cx0 + c] = (resizedOcc[r, c] != 0 && resized[r, c] == 0) ? 1 : 0;
+                }
+            return canvas;
+        }
+
+        private static double ScoreBinary2DVisible(int[,] a, int[,] b, int[,] hidden)
+        {
+            int H = a.GetLength(0), W = a.GetLength(1);
+            int n = 0, sumA = 0, sumB = 0, inter = 0;
+            for (int r = 0; r < H; r++)
+                for (int c = 0; c < W; c++)
+                {
+                    if (hidden[r, c] != 0) continue;
+                    n++;
+                    int va = a[r, c], vb = b[r, c];
+                    if (va != 0) sumA++;
+                    if (vb != 0) sumB++;
+                    if (va != 0 && vb != 0) inter++;
+                }
+            if (n == 0 || sumA == 0 || sumB == 0) return 0.0;
+            double dice = (2.0 * inter) / (sumA + sumB + 1e-5);
+            double meanA = sumA / (double)n, meanB = sumB / (double)n;
+            double cov = inter - n * meanA * meanB;
+            double varA = sumA * (1.0 - meanA), varB = sumB * (1.0 - meanB);
+            double ncc = cov / (Math.Sqrt(Math.Max(0.0, varA * varB)) + 1e-5);
+            return 0.55 * ncc + 0.45 * dice;
         }
 
         private static double ScoreBinary2D(int[,] a, int[,] b)
@@ -1827,6 +1878,14 @@ namespace NroAutoCaptchaMod
         // V8.3.5: "hở phải có xác nhận". Một dải hàng ở giữa ký tự mà vùng bên phải HOÀN TOÀN là nền (không có pixel của bất kỳ màu nào,
         // kể cả đường kẻ) thì nét phải của ký tự thật sự đứt ở đó => không phải D/O/B/Q khép kín. Đường kẻ che nét thì có pixel màu nên không tính.
         // Chọn theo 1 ảnh có đáp án chuẩn (user02) => CHƯA kiểm chứng rộng.
+        private static int[,] MakeOcc(int[,] any, int[,] raw)
+        {
+            int h = any.GetLength(0), w = any.GetLength(1);
+            int[,] o = new int[h, w];
+            for (int r = 0; r < h; r++) for (int c = 0; c < w; c++) o[r, c] = (any[r, c] != 0 && raw[r, c] == 0) ? 1 : 0;
+            return o;
+        }
+
         private static bool HasConfirmedRightGap(int[,] subAny, int[,] subRaw)
         {
             if (subAny == null || subRaw == null) return false;
@@ -1852,7 +1911,7 @@ namespace NroAutoCaptchaMod
             return above && below;
         }
 
-        private static string ClassifyTopGlyph(int[,] subRaw, int[,] subLoc, int[,] subAny, List<string> allowedSymbols, out double outScore, out string outAltSym, out double outAltScore)
+        private static string ClassifyTopGlyph(int[,] subRaw, int[,] subLoc, int[,] subAny, int[,] subOcc, List<string> allowedSymbols, out double outScore, out string outAltSym, out double outAltScore)
         {
             int[,] bRaw = MorphClose(subRaw, 2, 5);
             int hRaw = subRaw.GetLength(0), wRaw = subRaw.GetLength(1);
@@ -1871,6 +1930,10 @@ namespace NroAutoCaptchaMod
             int[,] normRaw = NormalizeSymbol16(bRaw);
             int[,] normOpen = NormalizeSymbol16(bOpen);
             int[,] normLoc = NormalizeSymbol16(bLoc);
+            int[,] occNorm;
+            int[,] normRawOcc = NormalizeSymbol16Occ(bRaw, subOcc, out occNorm);
+            int occCells = 0;
+            for (int r = 0; r < 16; r++) for (int c = 0; c < 16; c++) occCells += occNorm[r, c];
 
             int sumML = 0, sumMR = 0, sumUML = 0, sumCR = 0;
             for (int r = 5; r < 12; r++)
@@ -2004,6 +2067,7 @@ namespace NroAutoCaptchaMod
                 if (char.IsLetter(symKey[0])) variants.Add(symKey.ToLowerInvariant());
 
                 double symScore = -1.0;
+                double occBest = -1.0;
                 for (int v = 0; v < variants.Count; v++)
                 {
                     List<int[,]> tmpls;
@@ -2012,6 +2076,8 @@ namespace NroAutoCaptchaMod
                     {
                         double sRaw = ScoreBinary2D(normRaw, tmpls[t]);
                         double sOpen = ScoreBinary2D(normOpen, tmpls[t]);
+                        double sOcc = ScoreBinary2DVisible(normRawOcc, tmpls[t], occNorm);
+                        if (sOcc > occBest) occBest = sOcc;
                         double s;
                         if (symKey == "@" || symKey == "%" || symKey == "$")
                             s = Math.Max(sRaw, 0.55 * sOpen + 0.45 * sRaw);
@@ -2129,6 +2195,9 @@ namespace NroAutoCaptchaMod
                     if (symKey == "H") symScore += 0.22;
                     else if (symKey == "Z" || symKey == "F" || symKey == "D" || symKey == "L") symScore -= 0.18;
                 }
+
+                // V8.3.6: pha điểm có chú ý che khuất (chỉ so trên ô KHÔNG bị đường kẻ màu khác đè) với trọng số 0.6; chỉ khi ký tự thực sự có ô bị che.
+                if (occCells > 0 && occBest > -1.0) symScore = 0.4 * symScore + 0.6 * occBest;
 
                 if (symScore > bestScore)
                 {
@@ -2333,7 +2402,7 @@ namespace NroAutoCaptchaMod
                     int[,] subAnySingle = Crop2D(anyMask, y0, y1, x0, x1);
                     double symSc, altSc;
                     string altSym;
-                    string symPred = ClassifyTopGlyph(subRawSingle, subLocSingle, subAnySingle, allowedSymbols, out symSc, out altSym, out altSc);
+                    string symPred = ClassifyTopGlyph(subRawSingle, subLocSingle, subAnySingle, MakeOcc(subAnySingle, subRawSingle), allowedSymbols, out symSc, out altSym, out altSc);
                     TopDetectedItem item = new TopDetectedItem();
                     item.X = Math.Round(k.XMean, 1); item.Color = colorName; item.Symbol = symPred;
                     item.SymScore = symSc; item.AltSymbol = altSym; item.AltScore = altSc;
@@ -2456,7 +2525,7 @@ namespace NroAutoCaptchaMod
         // - Giu nguyen PNG trong inbox/ (khong move/delete); trang thai luu bang marker solved/<sha>.txt, failed/<sha>.txt
         // - Doc jobs/<sha>.json chiu loi (file dang ghi do / bi khoa) va theo doi answerLength thay doi
         // - Ghi outbox/<sha>.alt.txt (dap an du phong cung do dai) truoc outbox/<sha>.txt
-        public const string WorkerVersion = "V8.3.5";
+        public const string WorkerVersion = "V8.3.6";
         private const double PngSettleMs = 150;      // cho plugin ghi xong PNG
         private const double JobWaitMs = 1500;       // cho toi da job JSON hop le truoc khi giai voi len=0
         private const double DecodeRetrySec = 10;    // PNG hong: thu lai toi da 10 s roi danh dau failed

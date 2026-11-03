@@ -1,194 +1,194 @@
 {
  "064937887D4981B0": {
-  "answer": "35919",
+  "answer": "35319",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/064937887D4981B0.png\", \"time_ms\": 275, \"answer\": \"35919\", \"details\": \"top_chars=%LQVQ | sym_map={K->7, L->5, Q->9, %->3, V->1} | fallback=37919\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/064937887D4981B0.png\", \"time_ms\": 187, \"answer\": \"35319\", \"details\": \"top_chars=%L%VQ | sym_map={K->7, L->5, Q->9, %->3, V->1} | fallback=37319 | items=[0:M x=70.6 29x29 a=365 0.643 alt Q 0.479; 1:W x=87 26x35 a=306 0.721 alt K 0.715; 2:K x=115.7 31x34 a=438 0.466 alt K 0.450; 3:R x=149.6 29x34 a=462 0.765 alt Q 0.642; 4:Y x=180.1 35x40 a=583 0.743 alt % 0.531]\"}",
   "stderr": ""
  },
  "06683D7C4400ED5D": {
-  "answer": "75139",
+  "answer": "77939",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/06683D7C4400ED5D.png\", \"time_ms\": 241, \"answer\": \"75139\", \"details\": \"top_chars=CDKHP | sym_map={H->3, D->5, C->7, K->1, P->9} | fallback=75939\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/06683D7C4400ED5D.png\", \"time_ms\": 195, \"answer\": \"77939\", \"details\": \"top_chars=CCPHP | sym_map={H->3, D->5, C->7, K->1, P->9} | fallback=77139 | items=[0:Y x=81.1 27x22 a=173 0.757 alt K 0.566; 1:B x=108.7 22x22 a=244 0.642 alt D 0.608; 2:G x=127.7 25x27 a=254 0.602 alt K 0.593; 3:M x=165 26x27 a=278 0.789 alt D 0.551; 4:W x=204.4 29x32 a=315 0.707 alt D 0.641]\"}",
   "stderr": ""
  },
  "0760890DE5F18892": {
   "answer": "57779",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/0760890DE5F18892.png\", \"time_ms\": 240, \"answer\": \"57779\", \"details\": \"top_chars=PHHHE | sym_map={&->1, P->5, L->3, E->9, H->7} | fallback=57771\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/0760890DE5F18892.png\", \"time_ms\": 187, \"answer\": \"57779\", \"details\": \"top_chars=PHHHE | sym_map={&->1, P->5, L->3, E->9, H->7} | fallback=57771 | items=[0:M x=66.3 25x30 a=314 0.698 alt H 0.626; 1:W x=103.4 32x38 a=434 0.886 alt P 0.633; 2:K x=131.2 32x38 a=532 0.843 alt P 0.597; 3:R x=166.5 33x37 a=258 0.697 alt E 0.566; 4:Y x=193.9 24x33 a=467 0.647 alt & 0.615]\"}",
   "stderr": ""
  },
  "233AEA7A19420FEC": {
   "answer": "571719",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/233AEA7A19420FEC.png\", \"time_ms\": 275, \"answer\": \"571719\", \"details\": \"top_chars=UN#N#D | sym_map={U->5, N->7, #->1, P->3, D->9} | fallback=771719\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/233AEA7A19420FEC.png\", \"time_ms\": 193, \"answer\": \"571719\", \"details\": \"top_chars=UN#N#D | sym_map={U->5, N->7, #->1, P->3, D->9} | fallback=771719 | items=[0:K x=64.9 32x35 a=379 0.675 alt N 0.668; 1:R x=92.7 30x34 a=393 0.582 alt D 0.470; 2:Y x=116.6 22x25 a=327 0.880 alt N 0.615; 3:B x=141.8 28x30 a=298 0.651 alt U 0.643; 4:G x=165.9 23x34 a=335 0.880 alt D 0.680; 5:M x=198.9 29x33 a=391 0.792 alt U 0.710]\"}",
   "stderr": ""
  },
  "290B690468814790": {
   "answer": "379993",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/290B690468814790.png\", \"time_ms\": 321, \"answer\": \"379993\", \"details\": \"top_chars=B$###B | sym_map={&->5, %->1, #->9, $->7, B->3} | fallback=379997\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/290B690468814790.png\", \"time_ms\": 187, \"answer\": \"379993\", \"details\": \"top_chars=B$###B | sym_map={&->5, %->1, #->9, $->7, B->3} | fallback=379995 | items=[0:Y x=52.5 31x38 a=450 0.773 alt $ 0.662; 1:B x=85.5 29x42 a=433 0.843 alt B 0.616; 2:G x=113.7 30x28 a=398 0.880 alt B 0.598; 3:M x=142.6 23x30 a=407 0.880 alt $ 0.683; 4:W x=184 35x37 a=423 0.880 alt # 0.469; 5:K x=213.7 33x38 a=489 0.803 alt & 0.714]\"}",
   "stderr": ""
  },
  "2C1915D587ECE2EA": {
   "answer": "11317",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/2C1915D587ECE2EA.png\", \"time_ms\": 318, \"answer\": \"11317\", \"details\": \"top_chars=FFVFE | sym_map={E->7, V->3, U->5, F->1, G->9} | fallback=11377\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/2C1915D587ECE2EA.png\", \"time_ms\": 185, \"answer\": \"11317\", \"details\": \"top_chars=FFVFE | sym_map={E->7, V->3, U->5, F->1, G->9} | fallback=11377 | items=[0:Y x=73.8 21x29 a=137 0.862 alt E 0.760; 1:B x=112.6 22x35 a=268 0.709 alt G 0.635; 2:G x=133.9 28x38 a=492 0.749 alt G 0.708; 3:M x=167.7 22x34 a=384 0.737 alt E 0.702; 4:W x=203 28x32 a=340 0.693 alt G 0.563]\"}",
   "stderr": ""
  },
  "35BA9D6B23FEEDB7": {
   "answer": "51535",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/35BA9D6B23FEEDB7.png\", \"time_ms\": 217, \"answer\": \"51535\", \"details\": \"top_chars=AUARA | sym_map={R->3, P->7, U->1, A->5, S->9} | fallback=51575\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/35BA9D6B23FEEDB7.png\", \"time_ms\": 185, \"answer\": \"51535\", \"details\": \"top_chars=AUARA | sym_map={R->3, P->7, U->1, A->5, S->9} | fallback=51135 | items=[0:B x=82.5 28x35 a=356 0.758 alt S 0.514; 1:G x=104.6 27x26 a=291 0.704 alt R 0.508; 2:M x=141.9 31x32 a=361 0.640 alt U 0.619; 3:W x=154.1 25x25 a=227 0.576 alt S 0.553; 4:K x=196.6 30x32 a=425 0.742 alt P 0.686]\"}",
   "stderr": ""
  },
  "382DA88D0F735323": {
-  "answer": "757937",
+  "answer": "757137",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/382DA88D0F735323.png\", \"time_ms\": 290, \"answer\": \"757937\", \"details\": \"top_chars=B$B&%B | sym_map={&->9, $->5, %->3, L->1, B->7} | fallback=757537\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/382DA88D0F735323.png\", \"time_ms\": 190, \"answer\": \"757137\", \"details\": \"top_chars=B$BL%B | sym_map={&->9, $->5, %->3, L->1, B->7} | fallback=757537 | items=[0:G x=64.7 26x31 a=288 0.856 alt & 0.522; 1:M x=90.8 28x40 a=551 0.888 alt B 0.702; 2:W x=116.5 31x34 a=488 0.768 alt % 0.558; 3:K x=149.6 22x35 a=299 0.635 alt $ 0.620; 4:R x=174.4 33x33 a=237 0.584 alt B 0.504; 5:Y x=204.3 29x32 a=314 0.735 alt % 0.582]\"}",
   "stderr": ""
  },
  "3A6BCE1653597781": {
-  "answer": "75393",
+  "answer": "71393",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/3A6BCE1653597781.png\", \"time_ms\": 244, \"answer\": \"75393\", \"details\": \"top_chars=&%W$W | sym_map={%->5, $->9, &->7, B->1, W->3} | fallback=75395\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/3A6BCE1653597781.png\", \"time_ms\": 183, \"answer\": \"71393\", \"details\": \"top_chars=&BW$W | sym_map={%->5, $->9, &->7, B->1, W->3} | fallback=75393 | items=[0:W x=60.1 25x32 a=365 0.845 alt B 0.760; 1:K x=94 31x39 a=345 0.665 alt % 0.649; 2:R x=116.5 35x33 a=324 0.700 alt % 0.466; 3:Y x=153.3 31x43 a=633 0.677 alt W 0.635; 4:B x=184.5 35x39 a=510 0.656 alt % 0.608]\"}",
   "stderr": ""
  },
  "3CE6F705C9A0DD26": {
   "answer": "117739",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/3CE6F705C9A0DD26.png\", \"time_ms\": 307, \"answer\": \"117739\", \"details\": \"top_chars=HHZZBV | sym_map={H->1, B->3, Z->7, V->9, A->5} | fallback=117719\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/3CE6F705C9A0DD26.png\", \"time_ms\": 201, \"answer\": \"117739\", \"details\": \"top_chars=HHZZBV | sym_map={H->1, B->3, Z->7, V->9, A->5} | fallback=117719 | items=[0:R x=66.2 26x27 a=206 0.769 alt A 0.495; 1:Y x=103.5 34x40 a=399 0.710 alt B 0.600; 2:B x=123.7 29x31 a=259 0.623 alt A 0.536; 3:G x=149.4 31x34 a=449 0.742 alt A 0.649; 4:M x=185.1 28x32 a=394 0.756 alt H 0.709; 5:W x=207.9 29x36 a=471 0.866 alt H 0.660]\"}",
   "stderr": ""
  },
  "4A51FC6575834794": {
-  "answer": "53535",
+  "answer": "93535",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/4A51FC6575834794.png\", \"time_ms\": 277, \"answer\": \"53535\", \"details\": \"top_chars=F$F$F | sym_map={P->9, $->3, E->7, @->1, F->5} | fallback=93535\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/4A51FC6575834794.png\", \"time_ms\": 192, \"answer\": \"93535\", \"details\": \"top_chars=P$F$F | sym_map={P->9, $->3, E->7, @->1, F->5} | fallback=53535 | items=[0:G x=83.6 24x27 a=296 0.706 alt F 0.668; 1:M x=114.5 22x35 a=380 0.806 alt F 0.647; 2:W x=134.1 22x29 a=221 0.729 alt P 0.599; 3:K x=165.3 21x33 a=348 0.730 alt F 0.582; 4:R x=194.7 23x35 a=381 0.736 alt P 0.684]\"}",
   "stderr": ""
  },
  "4D3B17F176FBF7D7": {
   "answer": "999991",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/4D3B17F176FBF7D7.png\", \"time_ms\": 291, \"answer\": \"999991\", \"details\": \"top_chars=BBBBB% | sym_map={&->7, A->5, %->1, B->9, E->3} | fallback=999999\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/4D3B17F176FBF7D7.png\", \"time_ms\": 182, \"answer\": \"999991\", \"details\": \"top_chars=BBBBB% | sym_map={&->7, A->5, %->1, B->9, E->3} | fallback=999591 | items=[0:W x=50.1 27x29 a=271 0.655 alt A 0.589; 1:K x=82.5 28x30 a=188 0.576 alt % 0.531; 2:R x=113.6 32x37 a=322 0.663 alt E 0.617; 3:Y x=135.8 24x31 a=175 0.712 alt A 0.705; 4:B x=169.3 29x31 a=216 0.521 alt % 0.464; 5:G x=195.3 31x32 a=272 0.643 alt B 0.619]\"}",
   "stderr": ""
  },
  "4FE9EF4DD23499C7": {
-  "answer": "999937",
+  "answer": "919937",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/4FE9EF4DD23499C7.png\", \"time_ms\": 258, \"answer\": \"999937\", \"details\": \"top_chars=VVVVSK | sym_map={&->5, N->1, K->7, V->9, S->3} | fallback=979937\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/4FE9EF4DD23499C7.png\", \"time_ms\": 200, \"answer\": \"919937\", \"details\": \"top_chars=VNVVSK | sym_map={&->5, N->1, K->7, V->9, S->3} | fallback=999937 | items=[0:W x=70.5 28x36 a=362 0.733 alt S 0.601; 1:K x=97.7 22x20 a=204 0.684 alt V 0.679; 2:R x=118.7 28x38 a=331 0.725 alt K 0.667; 3:Y x=152.9 29x36 a=474 0.843 alt N 0.692; 4:B x=176.3 27x29 a=314 0.652 alt N 0.573; 5:G x=220.8 30x43 a=433 0.704 alt N 0.641]\"}",
   "stderr": ""
  },
  "58EECCFC239586FD": {
   "answer": "335193",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/58EECCFC239586FD.png\", \"time_ms\": 294, \"answer\": \"335193\", \"details\": \"top_chars=XXQHDX | sym_map={U->7, Q->5, X->3, D->9, H->1} | fallback=315193\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/58EECCFC239586FD.png\", \"time_ms\": 196, \"answer\": \"335193\", \"details\": \"top_chars=XXQHDX | sym_map={U->7, Q->5, X->3, D->9, H->1} | fallback=339193 | items=[0:M x=65.6 32x34 a=467 0.882 alt H 0.452; 1:W x=94.6 29x33 a=367 0.660 alt H 0.606; 2:K x=125.7 32x40 a=690 0.603 alt D 0.579; 3:R x=146 31x29 a=340 0.670 alt U 0.611; 4:Y x=176.4 31x36 a=357 0.609 alt Q 0.571; 5:B x=201.4 30x33 a=333 0.706 alt D 0.528]\"}",
   "stderr": ""
  },
  "5B2513E856BDF317": {
   "answer": "37759",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/5B2513E856BDF317.png\", \"time_ms\": 254, \"answer\": \"37759\", \"details\": \"top_chars=NHHCQ | sym_map={T->1, N->3, C->5, Q->9, H->7} | fallback=97759\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/5B2513E856BDF317.png\", \"time_ms\": 217, \"answer\": \"37759\", \"details\": \"top_chars=NHHCQ | sym_map={T->1, N->3, C->5, Q->9, H->7} | fallback=37755 | items=[0:W x=60.3 32x39 a=548 0.654 alt Q 0.634; 1:K x=90.3 35x31 a=585 0.748 alt N 0.640; 2:R x=118.4 31x31 a=275 0.681 alt N 0.653; 3:Y x=154.5 28x30 a=247 0.769 alt Q 0.515; 4:B x=182.5 35x39 a=721 0.535 alt C 0.519]\"}",
   "stderr": ""
  },
  "625440ACA3EA988D": {
-  "answer": "537377",
+  "answer": "577377",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/625440ACA3EA988D.png\", \"time_ms\": 267, \"answer\": \"537377\", \"details\": \"top_chars=Z$A$AA | sym_map={A->7, $->3, P->9, Z->5, &->1} | fallback=537317\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/625440ACA3EA988D.png\", \"time_ms\": 197, \"answer\": \"577377\", \"details\": \"top_chars=ZAA$AA | sym_map={A->7, $->3, P->9, Z->5, &->1} | fallback=537377 | items=[0:G x=58.6 33x33 a=389 0.609 alt A 0.580; 1:M x=97 24x33 a=365 0.722 alt $ 0.707; 2:W x=116.2 33x34 a=388 0.662 alt P 0.544; 3:K x=152.6 23x34 a=408 0.794 alt & 0.641; 4:R x=176.7 24x27 a=321 0.683 alt & 0.643; 5:Y x=204.6 27x35 a=442 0.739 alt P 0.652]\"}",
   "stderr": ""
  },
  "71095CCA36086268": {
   "answer": "5357",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/71095CCA36086268.png\", \"time_ms\": 245, \"answer\": \"5357\", \"details\": \"top_chars=ACA# | sym_map={#->7, C->3, D->1, A->5, E->9} | fallback=1357\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/71095CCA36086268.png\", \"time_ms\": 189, \"answer\": \"5357\", \"details\": \"top_chars=ACA# | sym_map={#->7, C->3, D->1, A->5, E->9} | fallback=1357 | items=[0:K x=104.5 28x29 a=486 0.789 alt D 0.639; 1:R x=135 25x20 a=157 0.682 alt E 0.528; 2:Y x=159.5 27x32 a=362 0.832 alt D 0.535; 3:B x=195.3 32x35 a=387 0.880 alt A 0.663]\"}",
   "stderr": ""
  },
  "78F28A05EAED1D11": {
-  "answer": "311117",
+  "answer": "311115",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/78F28A05EAED1D11.png\", \"time_ms\": 256, \"answer\": \"311117\", \"details\": \"top_chars=VHHHH& | sym_map={V->3, H->1, &->7, Q->5, $->9} | fallback=311119\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/78F28A05EAED1D11.png\", \"time_ms\": 204, \"answer\": \"311115\", \"details\": \"top_chars=VHHHHQ | sym_map={V->3, H->1, &->7, Q->5, $->9} | fallback=311117 | items=[0:R x=44.4 26x30 a=216 0.777 alt Q 0.578; 1:Y x=76.7 27x32 a=178 0.660 alt Q 0.602; 2:B x=98.9 34x27 a=378 0.742 alt Q 0.621; 3:G x=133.5 35x34 a=479 0.553 alt V 0.483; 4:M x=169.7 33x38 a=599 0.829 alt Q 0.654; 5:W x=198.6 35x39 a=617 0.502 alt & 0.465]\"}",
   "stderr": ""
  },
  "82143FC8B60E0826": {
-  "answer": "13711",
+  "answer": "13713",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/82143FC8B60E0826.png\", \"time_ms\": 219, \"answer\": \"13711\", \"details\": \"top_chars=$EX$$ | sym_map={$->1, E->3, U->9, L->5, X->7} | fallback=17711\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/82143FC8B60E0826.png\", \"time_ms\": 182, \"answer\": \"13713\", \"details\": \"top_chars=$EX$E | sym_map={$->1, E->3, U->9, L->5, X->7} | fallback=13711 | items=[0:G x=86.5 30x40 a=556 0.742 alt X 0.655; 1:M x=110.1 26x32 a=438 0.669 alt L 0.530; 2:W x=133.8 30x33 a=278 0.647 alt $ 0.578; 3:K x=174.3 23x37 a=171 0.683 alt X 0.657; 4:R x=201.5 28x40 a=475 0.733 alt $ 0.711]\"}",
   "stderr": ""
  },
  "83DC31D6898414E2": {
-  "answer": "391399",
+  "answer": "397399",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/83DC31D6898414E2.png\", \"time_ms\": 216, \"answer\": \"391399\", \"details\": \"top_chars=TPNTPP | sym_map={N->1, T->3, &->5, W->7, P->9} | fallback=397399\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/83DC31D6898414E2.png\", \"time_ms\": 180, \"answer\": \"397399\", \"details\": \"top_chars=TPWTPP | sym_map={N->1, T->3, &->5, W->7, P->9} | fallback=397319 | items=[0:Y x=68.4 28x33 a=340 0.686 alt W 0.604; 1:B x=95.6 27x34 a=483 0.730 alt W 0.604; 2:G x=134.3 23x32 a=324 0.648 alt N 0.643; 3:M x=160.8 22x32 a=131 0.731 alt P 0.628; 4:W x=190.2 27x31 a=391 0.708 alt N 0.704; 5:K x=215.2 27x30 a=491 0.751 alt W 0.668]\"}",
   "stderr": ""
  },
  "8CA52E707D438E11": {
   "answer": "999531",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/8CA52E707D438E11.png\", \"time_ms\": 237, \"answer\": \"999531\", \"details\": \"top_chars=NNNADW | sym_map={D->3, A->5, W->1, N->9, L->7} | fallback=199531\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/8CA52E707D438E11.png\", \"time_ms\": 189, \"answer\": \"999531\", \"details\": \"top_chars=NNNADW | sym_map={D->3, A->5, W->1, N->9, L->7} | fallback=999591 | items=[0:B x=57.3 28x33 a=433 0.724 alt A 0.667; 1:G x=82.5 35x40 a=604 0.787 alt A 0.691; 2:M x=117 30x37 a=458 0.741 alt A 0.678; 3:W x=137.2 28x38 a=526 0.809 alt N 0.662; 4:K x=172.1 30x34 a=552 0.748 alt N 0.720; 5:R x=206.1 35x39 a=546 0.727 alt A 0.617]\"}",
   "stderr": ""
  },
  "9BC81C31E0A8907F": {
-  "answer": "95139",
+  "answer": "75139",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/9BC81C31E0A8907F.png\", \"time_ms\": 262, \"answer\": \"95139\", \"details\": \"top_chars=P&ZSP | sym_map={N->7, S->3, P->9, Z->1, &->5} | fallback=75139\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/9BC81C31E0A8907F.png\", \"time_ms\": 181, \"answer\": \"75139\", \"details\": \"top_chars=N&ZSP | sym_map={N->7, S->3, P->9, Z->1, &->5} | fallback=75179 | items=[0:W x=73.9 34x39 a=316 0.698 alt S 0.668; 1:K x=111.8 25x33 a=434 0.660 alt S 0.630; 2:R x=131.1 32x37 a=388 0.851 alt & 0.700; 3:Y x=163.6 28x35 a=424 0.695 alt N 0.680; 4:B x=192.6 25x31 a=305 0.708 alt N 0.584]\"}",
   "stderr": ""
  },
  "A050AC80BA625E7E": {
   "answer": "31553",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/A050AC80BA625E7E.png\", \"time_ms\": 241, \"answer\": \"31553\", \"details\": \"top_chars=APVVA | sym_map={Z->7, V->5, F->9, A->3, P->1} | fallback=31551\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/A050AC80BA625E7E.png\", \"time_ms\": 186, \"answer\": \"31553\", \"details\": \"top_chars=APVVA | sym_map={Z->7, V->5, F->9, A->3, P->1} | fallback=31551 | items=[0:G x=79.6 30x36 a=506 0.770 alt P 0.676; 1:M x=105.7 25x35 a=466 0.812 alt F 0.745; 2:W x=132.4 25x30 a=249 0.735 alt A 0.518; 3:K x=170.3 25x34 a=264 0.787 alt P 0.702; 4:R x=197.9 26x29 a=302 0.757 alt P 0.728]\"}",
   "stderr": ""
  },
  "A6A21D431DFD8016": {
   "answer": "335731",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/A6A21D431DFD8016.png\", \"time_ms\": 266, \"answer\": \"335731\", \"details\": \"top_chars=##%K#I | sym_map={#->3, %->5, K->7, I->1, W->9} | fallback=335931\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/A6A21D431DFD8016.png\", \"time_ms\": 195, \"answer\": \"335731\", \"details\": \"top_chars=##%K#I | sym_map={#->3, %->5, K->7, I->1, W->9} | fallback=335931 | items=[0:B x=62.9 31x40 a=663 0.880 alt K 0.634; 1:G x=87.9 30x35 a=344 0.880 alt W 0.568; 2:M x=133.1 35x47 a=614 0.608 alt K 0.571; 3:W x=134.1 31x37 a=358 0.676 alt W 0.674; 4:K x=174 28x28 a=358 0.880 alt W 0.574; 5:R x=199.5 21x36 a=236 0.578 alt K 0.532]\"}",
   "stderr": ""
  },
  "B59DF4E4877A5FF6": {
   "answer": "19193",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/B59DF4E4877A5FF6.png\", \"time_ms\": 240, \"answer\": \"19193\", \"details\": \"top_chars=BTBT# | sym_map={V->7, T->9, #->3, P->5, B->1} | fallback=11193\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/B59DF4E4877A5FF6.png\", \"time_ms\": 190, \"answer\": \"19193\", \"details\": \"top_chars=BTBT# | sym_map={V->7, T->9, #->3, P->5, B->1} | fallback=11193 | items=[0:K x=81.2 28x32 a=375 0.779 alt P 0.658; 1:R x=103.3 24x29 a=214 0.705 alt B 0.657; 2:Y x=142.6 29x32 a=482 0.727 alt P 0.626; 3:B x=159.7 28x37 a=363 0.791 alt # 0.574; 4:G x=185.7 23x32 a=360 0.880 alt B 0.682]\"}",
   "stderr": ""
  },
  "B89C59238F033DC3": {
-  "answer": "33317",
+  "answer": "33377",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/B89C59238F033DC3.png\", \"time_ms\": 230, \"answer\": \"33317\", \"details\": \"top_chars=NNNTK | sym_map={L->5, X->9, T->1, N->3, K->7} | fallback=33377\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/B89C59238F033DC3.png\", \"time_ms\": 182, \"answer\": \"33377\", \"details\": \"top_chars=NNNKK | sym_map={L->5, X->9, T->1, N->3, K->7} | fallback=33337 | items=[0:W x=82.3 34x40 a=577 0.799 alt K 0.655; 1:K x=107.2 31x32 a=340 0.684 alt T 0.571; 2:R x=128.4 29x36 a=396 0.780 alt K 0.653; 3:Y x=164.4 27x33 a=301 0.595 alt N 0.574; 4:B x=187.4 33x34 a=536 0.760 alt N 0.712]\"}",
   "stderr": ""
  },
  "BAB943E053D41402": {
   "answer": "571999",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/BAB943E053D41402.png\", \"time_ms\": 254, \"answer\": \"571999\", \"details\": \"top_chars=CHSZZZ | sym_map={S->1, H->7, @->3, C->5, Z->9} | fallback=571993\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/BAB943E053D41402.png\", \"time_ms\": 193, \"answer\": \"571999\", \"details\": \"top_chars=CHSZZZ | sym_map={S->1, H->7, @->3, C->5, Z->9} | fallback=577999 | items=[0:M x=71.7 25x29 a=303 0.982 alt S 0.559; 1:W x=97.8 33x36 a=488 0.797 alt S 0.581; 2:K x=129.1 29x34 a=447 0.678 alt H 0.544; 3:R x=145.3 28x37 a=316 0.792 alt S 0.594; 4:Y x=174.7 29x36 a=270 0.811 alt S 0.579; 5:B x=217.3 31x36 a=462 0.744 alt @ 0.557]\"}",
   "stderr": ""
  },
  "D4EE1D49C25ABA1F": {
-  "answer": "159791",
+  "answer": "759751",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/D4EE1D49C25ABA1F.png\", \"time_ms\": 204, \"answer\": \"159791\", \"details\": \"top_chars=BPHAHB | sym_map={H->9, P->5, S->3, A->7, B->1} | fallback=159711\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/D4EE1D49C25ABA1F.png\", \"time_ms\": 194, \"answer\": \"759751\", \"details\": \"top_chars=APHAPB | sym_map={H->9, P->5, S->3, A->7, B->1} | fallback=159751 | items=[0:G x=74.8 27x29 a=225 0.642 alt B 0.638; 1:M x=97.1 26x33 a=367 0.761 alt B 0.658; 2:W x=128 34x40 a=366 0.844 alt B 0.805; 3:K x=161.4 22x34 a=267 0.735 alt P 0.612; 4:R x=180.8 24x27 a=249 0.596 alt H 0.577; 5:Y x=210.1 25x30 a=327 0.849 alt S 0.778]\"}",
   "stderr": ""
  },
  "E29687E7FFC25C33": {
-  "answer": "53137",
+  "answer": "53117",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/E29687E7FFC25C33.png\", \"time_ms\": 255, \"answer\": \"53137\", \"details\": \"top_chars=D$V$# | sym_map={#->7, D->5, V->1, $->3, N->9} | fallback=53117\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/E29687E7FFC25C33.png\", \"time_ms\": 190, \"answer\": \"53117\", \"details\": \"top_chars=D$VV# | sym_map={#->7, D->5, V->1, $->3, N->9} | fallback=53317 | items=[0:M x=74.1 33x34 a=562 0.755 alt N 0.520; 1:W x=108.6 29x38 a=415 0.653 alt # 0.584; 2:K x=140 23x34 a=296 0.738 alt $ 0.678; 3:R x=160.1 28x38 a=469 0.807 alt $ 0.722; 4:Y x=187.7 30x38 a=522 0.880 alt V 0.634]\"}",
   "stderr": ""
  },
  "E9CB04066B876F27": {
   "answer": "77993",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/E9CB04066B876F27.png\", \"time_ms\": 250, \"answer\": \"77993\", \"details\": \"top_chars=ZZPPW | sym_map={U->5, Z->7, O->1, W->3, P->9} | fallback=77991\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/E9CB04066B876F27.png\", \"time_ms\": 182, \"answer\": \"77993\", \"details\": \"top_chars=ZZPPW | sym_map={U->5, Z->7, O->1, W->3, P->9} | fallback=77991 | items=[0:Y x=81.8 31x33 a=240 0.654 alt P 0.579; 1:B x=98.9 31x35 a=332 0.666 alt W 0.581; 2:G x=136 30x35 a=502 0.681 alt W 0.600; 3:M x=171.7 27x37 a=478 0.703 alt U 0.581; 4:W x=201.1 27x31 a=379 0.621 alt O 0.565]\"}",
   "stderr": ""
  },
  "F139E30763B42BE4": {
-  "answer": "335373",
+  "answer": "335377",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/F139E30763B42BE4.png\", \"time_ms\": 250, \"answer\": \"335373\", \"details\": \"top_chars=WWCWUW | sym_map={E->9, W->3, C->5, #->1, U->7} | fallback=335377\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/F139E30763B42BE4.png\", \"time_ms\": 184, \"answer\": \"335377\", \"details\": \"top_chars=WWCWUU | sym_map={E->9, W->3, C->5, #->1, U->7} | fallback=339377 | items=[0:W x=50.1 35x38 a=554 0.701 alt # 0.484; 1:K x=89.6 27x31 a=402 0.625 alt # 0.594; 2:R x=111.8 26x35 a=324 0.719 alt E 0.703; 3:Y x=142 35x38 a=577 0.663 alt E 0.584; 4:B x=166.1 27x29 a=214 0.630 alt C 0.610; 5:G x=202.5 27x27 a=316 0.660 alt W 0.575]\"}",
   "stderr": ""
  },
  "FBC83B9FA176E3F0": {
-  "answer": "779913",
+  "answer": "719913",
   "exit": 0,
-  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/FBC83B9FA176E3F0.png\", \"time_ms\": 267, \"answer\": \"779913\", \"details\": \"top_chars=HHNN%O | sym_map={Q->5, H->7, %->1, N->9, O->3} | fallback=773913\"}",
+  "details": "{\"file\": \"/workspace/Modnro/AutoCaptcha-full/work/img/FBC83B9FA176E3F0.png\", \"time_ms\": 188, \"answer\": \"719913\", \"details\": \"top_chars=H%NN%O | sym_map={Q->5, H->7, %->1, N->9, O->3} | fallback=713913 | items=[0:B x=35.9 26x34 a=324 0.517 alt % 0.485; 1:G x=71.9 28x32 a=374 0.634 alt N 0.589; 2:M x=100.8 33x37 a=722 0.620 alt O 0.599; 3:W x=126.2 30x36 a=313 0.585 alt H 0.559; 4:K x=152.9 33x32 a=400 0.721 alt Q 0.604; 5:R x=180.7 26x29 a=211 0.637 alt N 0.525]\"}",
   "stderr": ""
  }
 }

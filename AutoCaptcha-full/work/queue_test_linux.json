@@ -2,7 +2,7 @@
  {
   "name": "A: solved, outbox == expected",
   "passed": true,
-  "extra": "35919"
+  "extra": "35319"
  },
  {
   "name": "A: no BOM / no newline problems (ASCII only)",
@@ -32,7 +32,7 @@
  {
   "name": "BAD: corrupt PNG -> failed after ~10 s (not before 8 s)",
   "passed": true,
-  "extra": "10.4s"
+  "extra": "10.3s"
  },
  {
   "name": "P: partial job JSON -> not answered early, answered after complete",

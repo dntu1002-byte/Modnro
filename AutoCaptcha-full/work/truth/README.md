@@ -12,3 +12,4 @@
 - `user03` = `truth/img/user03.png` (ảnh chụp màn hình 253×256, không phải PNG gốc), đáp án 535113 do người dùng xác nhận; dải trên `BDB%%D` suy ra từ đáp án + legend (2 ký tự `%` chồng lên nhau: đen + đỏ).
 
 - `user04` = `truth/img/user04.png` (ảnh chụp màn hình 255×256, không phải PNG gốc), đáp án 59971 do người dùng xác nhận; dải trên `L@@Z&` suy ra từ đáp án + legend (`l→5, &→1, z→7, %→3, @→9`).
+- `user05` = `truth/img/user05.png` (ảnh chụp màn hình 253×248), đáp án 35197 do người dùng xác nhận; dải trên `ACE%H` (e thường, chữ hoa/thường không phân biệt) suy ra từ đáp án + legend (`%→9, h→7, e→1, C→5, A→3`).
